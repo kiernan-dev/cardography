@@ -27,6 +27,7 @@
           "keyCharacteristics": ["Handcrafted quality", "Medieval inspiration", "Natural motifs"],
           "corePrinciples": ["Truth to materials", "Honest craftsmanship", "Unity of all arts"],
           "colorPalette": ["#8B4513", "#556B2F", "#CD853F", "#6B8E23"],
+          "colorFamily": "Brown",
           "typography": ["Golden Type", "Jenson", "Venetian"],
           "influences": ["Medieval manuscripts", "Gothic revival"],
           "relatedMovements": ["Art Nouveau", "Prairie School"],
@@ -62,6 +63,7 @@
           "keyCharacteristics": ["Whiplash curves", "Natural forms", "Asymmetry"],
           "corePrinciples": ["Total work of art", "Nature as inspiration", "Ornamental unity"],
           "colorPalette": ["#8FBC8F", "#DA70D6", "#F0E68C", "#CD5C5C"],
+          "colorFamily": "Green",
           "typography": ["Arnold Böcklin", "Eckmann", "Auriol"],
           "influences": ["Japanese woodblocks", "Celtic art"],
           "relatedMovements": ["Arts & Crafts", "Vienna Secession"],
@@ -97,6 +99,7 @@
           "keyCharacteristics": ["Form follows function", "Geometric purity", "Primary colors"],
           "corePrinciples": ["Unity of art/technology", "Minimal ornamentation", "Rational design"],
           "colorPalette": ["#FF0000", "#FFFF00", "#0000FF", "#FFFFFF"],
+          "colorFamily": "Red",
           "typography": ["Universal", "Futura", "Akzidenz-Grotesk"],
           "influences": ["De Stijl", "Constructivism"],
           "relatedMovements": ["International Style", "Swiss Design"],
@@ -132,6 +135,7 @@
           "keyCharacteristics": ["Primary colors", "Orthogonal lines", "Asymmetrical balance"],
           "corePrinciples": ["Elementarism", "Universal harmony", "Geometric abstraction"],
           "colorPalette": ["#FF0000", "#0000FF", "#FFFF00", "#000000"],
+          "colorFamily": "Red",
           "typography": ["Architype Van Doesburg", "De Stijl", "Geometric Sans"],
           "influences": ["Cubism", "Neo-Plasticism"],
           "relatedMovements": ["Bauhaus", "Constructivism"],
@@ -167,6 +171,7 @@
           "keyCharacteristics": ["Industrial materials", "Geometric forms", "Political messaging"],
           "corePrinciples": ["Art as social practice", "Technological progress", "Visual engineering"],
           "colorPalette": ["#FF0000", "#000000", "#FFFFFF", "#FFFF00"],
+          "colorFamily": "Red",
           "typography": ["Rodchenko", "Lissitzky", "Bauhaus Bold"],
           "influences": ["Cubism", "Futurism"],
           "relatedMovements": ["De Stijl", "Bauhaus"],
@@ -203,6 +208,7 @@
           "keyCharacteristics": ["Dynamic motion", "Technological themes", "Energetic compositions"],
           "corePrinciples": ["Machine aesthetics", "Velocity", "Modernity worship"],
           "colorPalette": ["#C0C0C0", "#FF4500", "#000000", "#4169E1"],
+          "colorFamily": "Orange",
           "typography": ["Parole", "Futura Black", "Dynamo"],
           "influences": ["Cubism", "Divisionism"],
           "relatedMovements": ["Vorticism", "Rayonism"],
@@ -238,6 +244,7 @@
           "keyCharacteristics": ["Nonsensical", "Collage", "Anti-bourgeois"],
           "corePrinciples": ["Artistic anarchy", "Chance operations", "Cultural subversion"],
           "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#00FF00"],
+          "colorFamily": "Red",
           "typography": ["Cut-and-paste", "Wood Type", "Found Typography"],
           "influences": ["Cubist collage", "Expressionism"],
           "relatedMovements": ["Surrealism", "Fluxus"],
@@ -273,6 +280,7 @@
           "keyCharacteristics": ["Geometric ornament", "Streamlined forms", "Luxury materials"],
           "corePrinciples": ["Modern classicism", "Technological progress", "Decorative elegance"],
           "colorPalette": ["#000000", "#D4AF37", "#C0C0C0", "#B22234"],
+          "colorFamily": "Black",
           "typography": ["Broadway", "Bifur", "Avenir"],
           "influences": ["Cubism", "Ancient Egypt"],
           "relatedMovements": ["Streamline Moderne", "Jazz Age"],
@@ -308,6 +316,7 @@
           "keyCharacteristics": ["Geometric harmony", "Mosaic patterns", "Synthetic forms"],
           "corePrinciples": ["Gesamtkunstwerk", "Stylized naturalism", "Geometric purity"],
           "colorPalette": ["#F5F5DC", "#8B4513", "#556B2F", "#000000"],
+          "colorFamily": "Brown",
           "typography": ["Ver Sacrum", "Koloman Moser", "Jugendstil"],
           "influences": ["Arts & Crafts", "Art Nouveau"],
           "relatedMovements": ["Wiener Werkstätte", "Expressionism"],
@@ -343,6 +352,7 @@
           "keyCharacteristics": ["Basic geometric forms", "Limited color palette", "Non-objective"],
           "corePrinciples": ["Pure feeling", "Non-representational", "Spiritual geometry"],
           "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#0000FF"],
+          "colorFamily": "Red",
           "typography": ["Malevich", "Geometric Abstraction", "Bauhaus"],
           "influences": ["Cubism", "Futurism"],
           "relatedMovements": ["Constructivism", "De Stijl"],
@@ -378,6 +388,7 @@
           "keyCharacteristics": ["Distorted forms", "Intense colors", "Emotional rawness"],
           "corePrinciples": ["Subjective perspective", "Emotional experience", "Social criticism"],
           "colorPalette": ["#8B0000", "#4B0082", "#FF8C00", "#2F4F4F"],
+          "colorFamily": "Red",
           "typography": ["Expressionist", "Woodcut", "Handwritten"],
           "influences": ["Fauvism", "Symbolism"],
           "relatedMovements": ["Abstract Expressionism", "Neo-Expressionism"],
@@ -413,6 +424,7 @@
           "keyCharacteristics": ["Horizontal lines", "Nautical elements", "Sleek curves"],
           "corePrinciples": ["Aerodynamic efficiency", "Technological optimism", "Sleek functionality"],
           "colorPalette": ["#FFFFFF", "#C0C0C0", "#4682B4", "#000000"],
+          "colorFamily": "Blue",
           "typography": ["Futura", "Kabel", "Metro"],
           "influences": ["Art Deco", "Industrial Design"],
           "relatedMovements": ["Googie", "Mid-Century Modern"],
@@ -448,6 +460,7 @@
           "keyCharacteristics": ["Geometric fragmentation", "Multiple perspectives", "Monochrome palette"],
           "corePrinciples": ["Deconstruction of form", "Simultaneity of vision", "Abstract representation"],
           "colorPalette": ["#808080", "#000000", "#FFFFFF", "#696969"],
+          "colorFamily": "Gray",
           "typography": ["Cubist", "Geometric", "Collage"],
           "influences": ["African sculpture", "Post-Impressionism"],
           "relatedMovements": ["Futurism", "Constructivism"],
@@ -483,6 +496,7 @@
           "keyCharacteristics": ["Bold colors", "Simplified forms", "Expressive brushwork"],
           "corePrinciples": ["Color autonomy", "Emotional intensity", "Decorative surfaces"],
           "colorPalette": ["#FF0000", "#00FF00", "#0000FF", "#FFFF00"],
+          "colorFamily": "Red",
           "typography": ["Wild Type", "Brush Script", "Expressive"],
           "influences": ["Post-Impressionism", "African art"],
           "relatedMovements": ["Expressionism", "Orphism"],
@@ -518,6 +532,7 @@
           "keyCharacteristics": ["Spiritual abstraction", "Symbolic color", "Synthetic forms"],
           "corePrinciples": ["Inner necessity", "Synthesis of arts", "Spiritual in art"],
           "colorPalette": ["#0000FF", "#FFFF00", "#FF0000", "#FFFFFF"],
+          "colorFamily": "Blue",
           "typography": ["Expressionist", "Handwritten", "Woodcut"],
           "influences": ["Folk art", "Medieval art"],
           "relatedMovements": ["Expressionism", "Abstract Art"],
@@ -573,6 +588,7 @@
             "#556B2F",
             "#4682B4"
           ],
+          "colorFamily": "Brown",
           "typography": [
             "Futura",
             "Gill Sans",
@@ -640,6 +656,7 @@
             "#FFFFFF",
             "#808080"
           ],
+          "colorFamily": "Red",
           "typography": [
             "Helvetica",
             "Univers",
@@ -707,6 +724,7 @@
             "#FFFF00",
             "#000000"
           ],
+          "colorFamily": "Red",
           "typography": [
             "House Industries Neutra",
             "Futura Black",
@@ -774,6 +792,7 @@
             "#00BFFF",
             "#FFFFFF"
           ],
+          "colorFamily": "Red",
           "typography": [
             "Eurostile",
             "Microgramma",
@@ -841,6 +860,7 @@
             "#FFFFFF",
             "#8B4513"
           ],
+          "colorFamily": "Brown",
           "typography": [
             "Futura",
             "Gill Sans",
@@ -908,6 +928,7 @@
             "#00CED1",
             "#FFFFFF"
           ],
+          "colorFamily": "Yellow",
           "typography": [
             "Futura Bold",
             "House Industries Champagne",
@@ -975,6 +996,7 @@
             "#FFFFFF",
             "#000000"
           ],
+          "colorFamily": "Gray",
           "typography": [
             "Univers Bold",
             "Helvetica Compressed",
@@ -1042,6 +1064,7 @@
             "#FF4500",
             "#FFD700"
           ],
+          "colorFamily": "Green",
           "typography": [
             "Aloha",
             "Tiki Type",
@@ -1109,6 +1132,7 @@
             "#000000",
             "#FFFFFF"
           ],
+          "colorFamily": "Red",
           "typography": [
             "Neue Haas Grotesk",
             "Helvetica",
@@ -1176,6 +1200,7 @@
             "#FFFFFF",
             "#556B2F"
           ],
+          "colorFamily": "Orange",
           "typography": [
             "Futura",
             "Neutraface",
@@ -1243,6 +1268,7 @@
             "#D10000",
             "#000000"
           ],
+          "colorFamily": "Blue",
           "typography": [
             "Microgramma",
             "Eurostile",
@@ -1310,6 +1336,7 @@
             "#000000",
             "#FFFFFF"
           ],
+          "colorFamily": "Red",
           "typography": [
             "Futura Bold",
             "Microgramma",
@@ -1377,6 +1404,7 @@
             "#8B4513",
             "#2F4F4F"
           ],
+          "colorFamily": "White",
           "typography": [
             "Futura",
             "Gill Sans",
@@ -1444,6 +1472,7 @@
             "#B22234",
             "#FFFFFF"
           ],
+          "colorFamily": "Black",
           "typography": [
             "Bodoni",
             "Futura",
@@ -1511,6 +1540,7 @@
             "#B22234",
             "#8B4513"
           ],
+          "colorFamily": "Black",
           "typography": [
             "Helvetica",
             "Gothic",
@@ -1578,6 +1608,7 @@
             "#0066CC",
             "#808080"
           ],
+          "colorFamily": "Blue",
           "typography": [
             "Helvetica",
             "Univers",
@@ -1645,6 +1676,7 @@
             "#FFFFFF",
             "#4682B4"
           ],
+          "colorFamily": "Gray",
           "typography": [
             "Univers",
             "Helvetica",
