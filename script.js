@@ -1,7 +1,6 @@
 // State management
 let sectionStates = {};
 let themeData = null;
-let activeFilters = new Set();
 
 let allCardsFlipped = false;
 let allSectionsExpanded = false;
@@ -89,40 +88,34 @@ function initializeFilters() {
         });
     });
 
-    const dropdown = document.getElementById('filterDropdown');
+    const select = document.getElementById('colorFilterSelect');
+    select.innerHTML = '<option value="all">All Colors</option>';
+
     allColorFamilies.forEach(family => {
-        const label = document.createElement('label');
-        label.innerHTML = `<input type="checkbox" value="${family}" class="mr-2">${family}`;
-        dropdown.appendChild(label);
+        const option = document.createElement('option');
+        option.value = family;
+        option.textContent = family;
+        select.appendChild(option);
     });
 
-    document.getElementById('filterButton').addEventListener('click', () => {
-        dropdown.classList.toggle('show');
-    });
-
-    dropdown.addEventListener('change', (e) => {
-        if (e.target.type === 'checkbox') {
-            if (e.target.checked) {
-                activeFilters.add(e.target.value);
-            } else {
-                activeFilters.delete(e.target.value);
-            }
-            applyFilters();
-        }
+    select.addEventListener('change', () => {
+        applyFilters();
     });
 }
 
 function applyFilters() {
+    const select = document.getElementById('colorFilterSelect');
+    const selectedColor = select.value;
+
     const allCards = document.querySelectorAll('.flip-card');
     allCards.forEach(card => {
         const themeId = card.querySelector('.flip-card-front').dataset.theme;
         const theme = findThemeById(themeId);
-        
-        if (activeFilters.size === 0) {
+
+        if (selectedColor === 'all' || theme.colorFamily === selectedColor) {
             card.style.display = 'block';
         } else {
-            const hasColorFamily = activeFilters.has(theme.colorFamily);
-            card.style.display = hasColorFamily ? 'block' : 'none';
+            card.style.display = 'none';
         }
     });
     updateCardCount();
@@ -248,17 +241,14 @@ function renderThemeSections() {
 
 // Update card count
 function updateCardCount() {
-    const allCards = document.querySelectorAll('.flip-card');
-    let visibleCount = 0;
-    allCards.forEach(card => {
-        if (card.style.display !== 'none') {
-            visibleCount++;
-        }
-    });
-    
-    if (activeFilters.size > 0) {
-        document.getElementById('totalCardCount').textContent = `${visibleCount} / ${allCards.length}`;
+    const totalCards = themeData.categories.flatMap(c => c.themes).length;
+    const visibleCards = document.querySelectorAll('.flip-card:not([style*="display: none"])').length;
+    const select = document.getElementById('colorFilterSelect');
+    const isFiltered = select.value !== 'all';
+
+    if (isFiltered) {
+        document.getElementById('totalCardCount').textContent = `${visibleCards} / ${totalCards}`;
     } else {
-        document.getElementById('totalCardCount').textContent = allCards.length;
+        document.getElementById('totalCardCount').textContent = totalCards;
     }
 }
