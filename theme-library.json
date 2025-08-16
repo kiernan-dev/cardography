@@ -1,0 +1,1982 @@
+{
+  "sections": [
+    {
+      "id": "core",
+      "title": "Core Web Design Themes",
+      "themes": [
+        {
+          "id": "vaporwave",
+          "name": "VAPORWAVE ◊ AESTHETIC ◊ ◢ ◣ ◤ ◥",
+          "displayName": "Vaporwave",
+          "vibe": "Retro-futuristic, neon gradients, glitch effects",
+          "colors": "Purples, pinks, cyans, grid overlays",
+          "tagline": "Digital nostalgia meets neon dreams",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff006e, #8338ec, #3a86ff)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff006e"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff006e", "#8338ec", "#3a86ff", "#06ffa5"],
+              "backgroundGradient": "linear-gradient(135deg, #1a0033, #330066, #000033)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff006e, #8338ec)",
+                "border": "2px solid #06ffa5",
+                "textTransform": "uppercase"
+              }
+            }
+          }
+        },
+        {
+          "id": "neumorphism",
+          "name": "Neumorphism",
+          "displayName": "Neumorphism",
+          "vibe": "Soft UI, tactile, minimal shadows",
+          "colors": "Light grays, pastels, subtle shadows",
+          "tagline": "Soft, tactile interfaces that emerge from their background",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #e0e0e0, #f5f5f5)",
+            "textColor": "#333333",
+            "accentColor": "#6c63ff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#e0e0e0", "#f5f5f5", "#6c63ff", "#4CAF50"],
+              "backgroundGradient": "linear-gradient(135deg, #e0e0e0, #f5f5f5)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#e0e0e0",
+                "boxShadow": "8px 8px 16px #bebebe, -8px -8px 16px #ffffff",
+                "border": "none"
+              }
+            }
+          }
+        },
+        {
+          "id": "glassmorphism",
+          "name": "Glassmorphism",
+          "displayName": "Glassmorphism",
+          "vibe": "Frosted glass, blur effects, translucency",
+          "colors": "White overlays, soft backgrounds, accent hues",
+          "tagline": "Frosted glass transparency with sophisticated layering",
+          "frontCard": {
+            "backgroundColor": "rgba(255, 255, 255, 0.1)",
+            "textColor": "#ffffff",
+            "accentColor": "#00d4ff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["rgba(255, 255, 255, 0.1)", "#00d4ff", "#ff6b6b", "#4ecdc4"],
+              "backgroundGradient": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+              "fontPrimary": "'Poppins', sans-serif",
+              "fontSecondary": "'Nunito', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "rgba(255, 255, 255, 0.2)",
+                "backdropFilter": "blur(20px)",
+                "border": "1px solid rgba(255, 255, 255, 0.3)"
+              }
+            }
+          }
+        },
+        {
+          "id": "cyberpunk",
+          "name": "> CYBERPUNK_ DYSTOPIAN.FUTURE.AESTHETIC [ NEON_REBELLION ]",
+          "displayName": "Cyberpunk",
+          "vibe": "High-contrast, electric, urban night",
+          "colors": "Deep blacks, neon magenta, electric blue, yellow accents",
+          "tagline": "Digital rebellion in neon-soaked streets",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #ff0080, #00ffff)",
+            "textColor": "#00ffff",
+            "accentColor": "#ff0080"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#ff0080", "#00ffff", "#ffff00"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #1a0033)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff0080, #00ffff)",
+                "border": "2px solid #ffff00",
+                "textTransform": "uppercase"
+              }
+            }
+          }
+        },
+        {
+          "id": "brutalism",
+          "name": "BRUTALISM RAW. BOLD. UNCOMPROMISING.",
+          "displayName": "Brutalism (Refined)",
+          "vibe": "Oversized typography, stark color blocks, deliberate rawness",
+          "colors": "Black & white, primary pops, minimal gradients",
+          "tagline": "Unapologetic boldness in digital concrete",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#ffffff",
+            "accentColor": "#ff0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#ffffff", "#ff0000", "#0000ff"],
+              "backgroundGradient": "linear-gradient(0deg, #000000, #333333)",
+              "fontPrimary": "'Arial Black', sans-serif",
+              "fontSecondary": "'Helvetica', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ff0000",
+                "border": "none",
+                "fontWeight": "900"
+              }
+            }
+          }
+        },
+        {
+          "id": "minimal_luxe",
+          "name": "Minimal Luxe",
+          "displayName": "Minimal Luxe",
+          "vibe": "Elegant, whitespace-driven, understated luxury",
+          "colors": "Bone, gold, black, slate, navy",
+          "tagline": "Sophisticated restraint & refined elegance",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f8f6f0, #d4af37)",
+            "textColor": "#2c2c2c",
+            "accentColor": "#d4af37"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f8f6f0", "#d4af37", "#2c2c2c", "#708090"],
+              "backgroundGradient": "linear-gradient(135deg, #f8f6f0, #ffffff)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "2px solid #d4af37",
+                "color": "#d4af37"
+              }
+            }
+          }
+        },
+        {
+          "id": "editorial_new_wave",
+          "name": "Editorial New Wave",
+          "displayName": "Editorial New Wave",
+          "vibe": "High-contrast pairings, overlapping text/photos, dynamic scrolling",
+          "colors": "Black & white, muted editorial tones",
+          "tagline": "Contemporary magazine design meets digital innovation",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #ffffff)",
+            "textColor": "#000000",
+            "accentColor": "#ff4757"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#ffffff", "#ff4757", "#2f3542"],
+              "backgroundGradient": "linear-gradient(135deg, #ffffff, #f1f2f6)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Source Sans Pro', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ff4757",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark_mode",
+          "name": "Dark Mode",
+          "displayName": "Dark Mode",
+          "vibe": "Sleek, modern, easy on the eyes",
+          "colors": "Deep grays, charcoals, accent brights",
+          "tagline": "Professional dark interfaces for modern experiences",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #1e1e1e, #2d3748)",
+            "textColor": "#ffffff",
+            "accentColor": "#4299e1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1e1e1e", "#2d3748", "#4299e1", "#48bb78"],
+              "backgroundGradient": "linear-gradient(135deg, #1e1e1e, #2d3748)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#4299e1",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "pastel_futurism",
+          "name": "Pastel Futurism",
+          "displayName": "Pastel Futurism",
+          "vibe": "Soft, optimistic, future-inspired",
+          "colors": "Pastel gradients, light pink, mint, baby blue",
+          "tagline": "Optimistic visions of accessible technology",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffeaa7, #fab1a0, #74b9ff)",
+            "textColor": "#2d3436",
+            "accentColor": "#fd79a8"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffeaa7", "#fab1a0", "#74b9ff", "#fd79a8"],
+              "backgroundGradient": "linear-gradient(135deg, #ffeaa7, #fab1a0)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #fd79a8, #74b9ff)",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "swiss_style",
+          "name": "Swiss Style",
+          "displayName": "Swiss/International Style",
+          "vibe": "Grid-based, typographic discipline, clarity",
+          "colors": "Red, white, black, gray, clean lines",
+          "tagline": "Timeless clarity through grid-based design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffffff, #ff0000)",
+            "textColor": "#000000",
+            "accentColor": "#ff0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffffff", "#ff0000", "#000000", "#808080"],
+              "backgroundGradient": "linear-gradient(135deg, #ffffff, #f5f5f5)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Arial', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ff0000",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "contemporary",
+      "title": "Contemporary & Specialized Themes",
+      "themes": [
+        {
+          "id": "techno_futuristic",
+          "name": "Techno-Futuristic",
+          "displayName": "Techno-Futuristic",
+          "vibe": "Bold gradients, animated lines, interactive 3D elements",
+          "colors": "Vibrant, futuristic tones with holographic effects",
+          "tagline": "Building tomorrow, today",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #667eea, #764ba2, #f093fb)",
+            "textColor": "#ffffff",
+            "accentColor": "#00d4ff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#667eea", "#764ba2", "#f093fb", "#00d4ff"],
+              "backgroundGradient": "linear-gradient(135deg, #667eea, #764ba2)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Exo 2', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00d4ff, #f093fb)",
+                "border": "none",
+                "boxShadow": "0 0 20px rgba(0, 212, 255, 0.5)"
+              }
+            }
+          }
+        },
+        {
+          "id": "organic_soft_ui",
+          "name": "Organic UI",
+          "displayName": "Organic/Soft UI",
+          "vibe": "Soft curves, warm neutrals, pastel gradients",
+          "colors": "Warm neutrals, pastels, earth tones",
+          "tagline": "Soft, calming, naturally inviting",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffecd2, #fcb69f, #c7ecee)",
+            "textColor": "#5d4e75",
+            "accentColor": "#ff9a8b"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffecd2", "#fcb69f", "#c7ecee", "#ff9a8b"],
+              "backgroundGradient": "linear-gradient(135deg, #ffecd2, #fcb69f)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff9a8b, #ffecd2)",
+                "border": "none",
+                "borderRadius": "25px"
+              }
+            }
+          }
+        },
+        {
+          "id": "bauhaus_revival",
+          "name": "BAUHAUS",
+          "displayName": "Bauhaus Revival",
+          "vibe": "Geometric shapes, primary colors, modular layouts",
+          "colors": "Primary colors with bold geometric applications",
+          "tagline": "Form follows function, color follows emotion",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff0000, #ffff00, #0000ff)",
+            "textColor": "#000000",
+            "accentColor": "#ff0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff0000", "#ffff00", "#0000ff", "#000000"],
+              "backgroundGradient": "linear-gradient(135deg, #ffffff, #f0f0f0)",
+              "fontPrimary": "'Futura', sans-serif",
+              "fontSecondary": "'Helvetica', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ff0000",
+                "border": "none",
+                "transform": "rotate(45deg)"
+              }
+            }
+          }
+        },
+        {
+          "id": "art_deco_digital",
+          "name": "Art Deco Digital",
+          "displayName": "Art Deco Digital",
+          "vibe": "Gold lines, symmetrical patterns, luxurious digital textures",
+          "colors": "Gold metallics, sophisticated symmetrical palettes",
+          "tagline": "Golden age glamour meets digital sophistication",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #d4af37, #ffffff)",
+            "textColor": "#d4af37",
+            "accentColor": "#d4af37"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#d4af37", "#ffffff", "#8b4513"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #1a1a1a)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #d4af37, #ffd700)",
+                "border": "2px solid #d4af37",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "cinematic_ui",
+          "name": "Cinematic UI",
+          "displayName": "Cinematic UI",
+          "vibe": "Movie title sequence inspiration, dramatic typography",
+          "colors": "High contrast, cinematic drama",
+          "tagline": "Dramatic storytelling through interface design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #ff4757, #ffffff)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff4757"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#ff4757", "#ffffff", "#2f3542"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #2f3542)",
+              "fontPrimary": "'Cinzel', serif",
+              "fontSecondary": "'Oswald', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ff4757",
+                "border": "none",
+                "textTransform": "uppercase",
+                "letterSpacing": "2px"
+              }
+            }
+          }
+        },
+        {
+          "id": "nordic_cool",
+          "name": "Nordic Cool",
+          "displayName": "Nordic Cool",
+          "vibe": "Soft, muted palettes, clean sans-serifs, honest minimalism",
+          "colors": "Muted hygge-inspired tones",
+          "tagline": "Minimalism with warmth and hygge",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f7f1e3, #8e9aaf, #cbc0d3)",
+            "textColor": "#2c3e50",
+            "accentColor": "#8e9aaf"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f7f1e3", "#8e9aaf", "#cbc0d3", "#2c3e50"],
+              "backgroundGradient": "linear-gradient(135deg, #f7f1e3, #ffffff)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#8e9aaf",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "gradient_futurism",
+          "name": "Gradient Futurism",
+          "displayName": "Gradient Futurism",
+          "vibe": "Multi-color gradients, iridescent overlays, soft glows",
+          "colors": "Multi-gradient, iridescent, Apple-inspired",
+          "tagline": "Innovation through color and light",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #667eea, #764ba2, #f093fb, #f5576c)",
+            "textColor": "#ffffff",
+            "accentColor": "#00d4ff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#667eea", "#764ba2", "#f093fb", "#f5576c"],
+              "backgroundGradient": "linear-gradient(135deg, #667eea, #764ba2, #f093fb)",
+              "fontPrimary": "'SF Pro Display', sans-serif",
+              "fontSecondary": "'Helvetica Neue', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #f093fb, #f5576c)",
+                "border": "none",
+                "boxShadow": "0 10px 30px rgba(240, 147, 251, 0.3)"
+              }
+            }
+          }
+        },
+        {
+          "id": "corporate_memphis",
+          "name": "Corporate Memphis",
+          "displayName": "Corporate Memphis",
+          "vibe": "Playful 2D shapes, friendly illustrations, approachable",
+          "colors": "Pastels, playful brights",
+          "tagline": "Business-friendly with human touch",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffeaa7, #fab1a0, #74b9ff, #fd79a8)",
+            "textColor": "#2d3436",
+            "accentColor": "#fd79a8"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffeaa7", "#fab1a0", "#74b9ff", "#fd79a8"],
+              "backgroundGradient": "linear-gradient(135deg, #ffeaa7, #fab1a0)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#fd79a8",
+                "border": "none",
+                "borderRadius": "20px"
+              }
+            }
+          }
+        },
+        {
+          "id": "environmental_organic",
+          "name": "Environmental",
+          "displayName": "Environmental Organic",
+          "vibe": "Earthy tones, hand-drawn elements, natural textures",
+          "colors": "Earth tones, natural pigments",
+          "tagline": "Connecting with nature and authenticity",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #8b5a2b, #228b22, #daa520)",
+            "textColor": "#ffffff",
+            "accentColor": "#228b22"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#8b5a2b", "#228b22", "#daa520", "#654321"],
+              "backgroundGradient": "linear-gradient(135deg, #8b5a2b, #228b22)",
+              "fontPrimary": "'Merriweather', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#228b22",
+                "border": "2px solid #8b5a2b",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "hyper_functional",
+          "name": "Hyper-Functional",
+          "displayName": "Hyper-Functional Minimalism",
+          "vibe": "Extreme utility, no distractions, maximized usability",
+          "colors": "Minimal, functional palette",
+          "tagline": "Maximizing utility through design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffffff, #f0f0f0, #e0e0e0)",
+            "textColor": "#000000",
+            "accentColor": "#0066cc"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffffff", "#f0f0f0", "#e0e0e0", "#0066cc"],
+              "backgroundGradient": "linear-gradient(135deg, #ffffff, #f0f0f0)",
+              "fontPrimary": "'Roboto', sans-serif",
+              "fontSecondary": "'Arial', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#0066cc",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "micro_trends",
+      "title": "Micro-Trends & Specialty Styles",
+      "themes": [
+        {
+          "id": "claymorphism",
+          "name": "Claymorphism",
+          "displayName": "3D/Claymorphism",
+          "vibe": "Subtle 3D icons, tactile buttons, playful shadows",
+          "colors": "Soft clay-like textures and shadows",
+          "tagline": "Tactile interfaces with subtle depth",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffeaa7, #fab1a0, #fd79a8)",
+            "textColor": "#2d3436",
+            "accentColor": "#fd79a8"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffeaa7", "#fab1a0", "#fd79a8", "#2d3436"],
+              "backgroundGradient": "linear-gradient(135deg, #ffeaa7, #fab1a0)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(145deg, #fd79a8, #fab1a0)",
+                "borderRadius": "15px",
+                "boxShadow": "5px 5px 10px #d6336c, -5px -5px 10px #ff85c4"
+              }
+            }
+          }
+        },
+        {
+          "id": "liquid_ui",
+          "name": "Liquid UI",
+          "displayName": "Liquid UI",
+          "vibe": "Fluid animations, morphing shapes, water-inspired transitions",
+          "colors": "Flowing, gradient-based",
+          "tagline": "Interfaces that flow like water",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #667eea, #764ba2, #4facfe)",
+            "textColor": "#ffffff",
+            "accentColor": "#4facfe"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#667eea", "#764ba2", "#4facfe", "#00f2fe"],
+              "backgroundGradient": "linear-gradient(135deg, #667eea, #764ba2)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #4facfe, #00f2fe)",
+                "border": "none",
+                "borderRadius": "50px"
+              }
+            }
+          }
+        },
+        {
+          "id": "analog_revival",
+          "name": "Analog Revival",
+          "displayName": "Analog Revival",
+          "vibe": "Tape textures, typewriter fonts, grain for authenticity",
+          "colors": "Vintage, worn textures",
+          "tagline": "Embracing imperfection and handmade qualities",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #8b4513, #daa520, #f4a460)",
+            "textColor": "#2f1b14",
+            "accentColor": "#8b4513"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#8b4513", "#daa520", "#f4a460", "#2f1b14"],
+              "backgroundGradient": "linear-gradient(135deg, #8b4513, #daa520)",
+              "fontPrimary": "'Courier New', monospace",
+              "fontSecondary": "'Typewriter', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#8b4513",
+                "border": "2px solid #daa520",
+                "color": "#f4a460"
+              }
+            }
+          }
+        },
+        {
+          "id": "transparent_ui",
+          "name": "Transparent UI",
+          "displayName": "Transparent UI",
+          "vibe": "Layered panels, see-through navs, soft overlays",
+          "colors": "Translucent overlays with depth",
+          "tagline": "Sophisticated spatial relationships",
+          "frontCard": {
+            "backgroundColor": "rgba(255, 255, 255, 0.1)",
+            "textColor": "#ffffff",
+            "accentColor": "#4facfe"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["rgba(255, 255, 255, 0.1)", "#4facfe", "#667eea", "#764ba2"],
+              "backgroundGradient": "linear-gradient(135deg, #667eea, #764ba2)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "rgba(255, 255, 255, 0.2)",
+                "backdropFilter": "blur(10px)",
+                "border": "1px solid rgba(255, 255, 255, 0.3)"
+              }
+            }
+          }
+        },
+        {
+          "id": "zen_digital",
+          "name": "禅 Zen Digital",
+          "displayName": "Japanese Zen Digital",
+          "vibe": "Wabi-sabi, intentional imperfections, mindful whitespace",
+          "colors": "Natural, contemplative earth tones",
+          "tagline": "Contemplative beauty through imperfection",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f7f1e3, #d4af37, #8b4513)",
+            "textColor": "#2c3e50",
+            "accentColor": "#d4af37"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f7f1e3", "#d4af37", "#8b4513", "#2c3e50"],
+              "backgroundGradient": "linear-gradient(135deg, #f7f1e3, #ffffff)",
+              "fontPrimary": "'Noto Serif JP', serif",
+              "fontSecondary": "'Noto Sans JP', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "1px solid #d4af37",
+                "color": "#d4af37"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "next_gen",
+      "title": "Next-Gen & Experimental Themes",
+      "themes": [
+        {
+          "id": "psychedelic_ux",
+          "name": "◊ Psychedelic UX ◊",
+          "displayName": "Psychedelic UX",
+          "vibe": "Pulsating gradients, liquid morphs, color-shifting shadows",
+          "colors": "Dynamic, shifting, hallucinogenic palettes",
+          "tagline": "Digital hallucination meets design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00, #ff0080)",
+            "textColor": "#ffffff",
+            "accentColor": "#00ffff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff0080", "#00ffff", "#ffff00", "#8000ff"],
+              "backgroundGradient": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff0080, #00ffff, #ffff00)",
+                "border": "none",
+                "animation": "pulse 2s infinite"
+              }
+            }
+          }
+        },
+        {
+          "id": "quantum_ui",
+          "name": "Quantum UI",
+          "displayName": "Quantum UI",
+          "vibe": "Elements with dynamic context, multiple simultaneous states",
+          "colors": "Shifting, unpredictable yet controlled",
+          "tagline": "Interfaces that exist in multiple states",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #667eea, #764ba2, #f093fb, #667eea)",
+            "textColor": "#ffffff",
+            "accentColor": "#00d4ff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#667eea", "#764ba2", "#f093fb", "#00d4ff"],
+              "backgroundGradient": "linear-gradient(135deg, #667eea, #764ba2, #f093fb)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Exo 2', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00d4ff, #f093fb)",
+                "border": "none",
+                "transform": "scale(1.05)"
+              }
+            }
+          }
+        },
+        {
+          "id": "ai_native",
+          "name": "AI-Native Design",
+          "displayName": "AI-Native Design",
+          "vibe": "ML/generative elements, adaptive layouts, conversational UI patterns",
+          "colors": "Neural network blues, algorithmic gradients, data-driven palettes",
+          "tagline": "Interfaces that think and adapt",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #4facfe, #00f2fe, #667eea)",
+            "textColor": "#ffffff",
+            "accentColor": "#00f2fe"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4facfe", "#00f2fe", "#667eea", "#764ba2"],
+              "backgroundGradient": "linear-gradient(135deg, #4facfe, #00f2fe)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto Mono', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00f2fe, #667eea)",
+                "border": "none",
+                "boxShadow": "0 0 20px rgba(0, 242, 254, 0.3)"
+              }
+            }
+          }
+        },
+        {
+          "id": "y3k_futurism",
+          "name": "Y3K Futurism",
+          "displayName": "Y3K Futurism",
+          "vibe": "Post-digital minimalism, holographic textures, beyond-screen thinking",
+          "colors": "Holographic shifts, prismatic effects, light-based palettes",
+          "tagline": "Beyond the screen, beyond the digital",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff006e, #8338ec, #3a86ff, #06ffa5)",
+            "textColor": "#ffffff",
+            "accentColor": "#06ffa5"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff006e", "#8338ec", "#3a86ff", "#06ffa5"],
+              "backgroundGradient": "linear-gradient(135deg, #ff006e, #8338ec, #3a86ff)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Exo 2', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #06ffa5, #3a86ff)",
+                "border": "none",
+                "filter": "hue-rotate(180deg)"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "professional",
+      "title": "Additional Professional Themes",
+      "themes": [
+        {
+          "id": "monochrome",
+          "name": "MONOCHROME",
+          "displayName": "Monochrome (Pure)",
+          "vibe": "Single-color focus, disciplined, dramatic",
+          "colors": "Shades of one color, high contrast",
+          "tagline": "Pure discipline through single-color mastery",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #808080, #ffffff)",
+            "textColor": "#ffffff",
+            "accentColor": "#808080"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#808080", "#ffffff", "#404040"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #808080)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Arial', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#808080",
+                "border": "2px solid #ffffff",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "luxury_black",
+          "name": "Luxury Black",
+          "displayName": "Luxury Black",
+          "vibe": "Premium, exclusive, dark palette, gold/silver accents",
+          "colors": "Matte black, metallics, deep jewel tones",
+          "tagline": "Premium exclusivity through darkness",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #d4af37, #c0c0c0)",
+            "textColor": "#d4af37",
+            "accentColor": "#d4af37"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#d4af37", "#c0c0c0", "#1a1a1a"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #1a1a1a)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #d4af37, #c0c0c0)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "tech_minimal",
+          "name": "Tech Minimal",
+          "displayName": "Tech Minimal",
+          "vibe": "Utilitarian, ultra-clean, focus on function",
+          "colors": "White, gray, blue, occasional accent",
+          "tagline": "Function-first design philosophy",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffffff, #f0f0f0, #4299e1)",
+            "textColor": "#2d3748",
+            "accentColor": "#4299e1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffffff", "#f0f0f0", "#4299e1", "#2d3748"],
+              "backgroundGradient": "linear-gradient(135deg, #ffffff, #f0f0f0)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#4299e1",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "retro_tech",
+          "name": "RETRO_TECH.EXE",
+          "displayName": "Retro Tech (Original)",
+          "vibe": "80s/90s inspired, nostalgic interfaces",
+          "colors": "Beige, teal, salmon, pixel art, skeuomorphism",
+          "tagline": "Authentic computing nostalgia",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f5f5dc, #008080, #fa8072)",
+            "textColor": "#2f4f4f",
+            "accentColor": "#008080"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f5f5dc", "#008080", "#fa8072", "#2f4f4f"],
+              "backgroundGradient": "linear-gradient(135deg, #f5f5dc, #008080)",
+              "fontPrimary": "'Courier New', monospace",
+              "fontSecondary": "'MS Sans Serif', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#008080",
+                "border": "2px outset #008080",
+                "color": "#f5f5dc"
+              }
+            }
+          }
+        },
+        {
+          "id": "post_modern_max",
+          "name": "POST-MODERN",
+          "displayName": "Post-Modern Maximalism",
+          "vibe": "Controlled explosion of pattern and color",
+          "colors": "Varied, maximal palette",
+          "tagline": "Intentional chaos meets design discipline",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00, #ff0000)",
+            "textColor": "#000000",
+            "accentColor": "#ff0080"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff0080", "#00ffff", "#ffff00", "#ff0000"],
+              "backgroundGradient": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00)",
+              "fontPrimary": "'Impact', sans-serif",
+              "fontSecondary": "'Arial Black', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff0080, #00ffff)",
+                "border": "3px solid #ffff00",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "high_contrast",
+          "name": "HIGH CONTRAST PURE. STARK. CONFIDENT.",
+          "displayName": "High-Contrast Black & White",
+          "vibe": "Pure contrast, crisp lines, high-impact typography",
+          "colors": "Strict black & white only",
+          "tagline": "Absolute clarity through contrast",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #ffffff)",
+            "textColor": "#ffffff",
+            "accentColor": "#ffffff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#ffffff"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #ffffff)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Arial Black', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ffffff",
+                "border": "2px solid #000000",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "retro_futurism",
+          "name": "RETRO//FUTURE",
+          "displayName": "Retro-Futurism",
+          "vibe": "80s/90s optimism: neon, chrome, pixel fonts",
+          "colors": "Neon, chrome, grid backgrounds",
+          "tagline": "Yesterday's vision of tomorrow",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00)",
+            "textColor": "#ffffff",
+            "accentColor": "#00ffff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff0080", "#00ffff", "#ffff00", "#8000ff"],
+              "backgroundGradient": "linear-gradient(135deg, #ff0080, #00ffff)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00ffff, #ffff00)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "editorial_luxe",
+          "name": "Editorial Luxe",
+          "displayName": "Editorial Luxe",
+          "vibe": "Oversized serif headlines, generous margins, full-bleed images",
+          "colors": "Editorial, muted luxury tones",
+          "tagline": "High-end magazine meets digital",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f8f6f0, #2c3e50, #d4af37)",
+            "textColor": "#2c3e50",
+            "accentColor": "#d4af37"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f8f6f0", "#2c3e50", "#d4af37", "#34495e"],
+              "backgroundGradient": "linear-gradient(135deg, #f8f6f0, #ffffff)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "2px solid #d4af37",
+                "color": "#d4af37"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark_academia",
+          "name": "Dark Academia",
+          "displayName": "Dark Academia",
+          "vibe": "Rich burgundies, forest greens, serif typography",
+          "colors": "Rich burgundies, forest greens, deep blues",
+          "tagline": "Scholarly sophistication & intellectual authority",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #800020, #228b22, #191970)",
+            "textColor": "#f8f6f0",
+            "accentColor": "#daa520"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#800020", "#228b22", "#191970", "#daa520"],
+              "backgroundGradient": "linear-gradient(135deg, #800020, #228b22)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Crimson Text', serif"
+            },
+            "components": {
+              "button": {
+                "background": "#daa520",
+                "border": "2px solid #800020",
+                "color": "#800020"
+              }
+            }
+          }
+        },
+        {
+          "id": "industrial_chic",
+          "name": "INDUSTRIAL",
+          "displayName": "Industrial Chic",
+          "vibe": "Exposed digital elements, monospace fonts, raw materials",
+          "colors": "Industrial grays, muted metallics",
+          "tagline": "Raw materials meet digital authenticity",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #2c3e50, #95a5a6, #34495e)",
+            "textColor": "#ecf0f1",
+            "accentColor": "#e74c3c"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#2c3e50", "#95a5a6", "#34495e", "#e74c3c"],
+              "backgroundGradient": "linear-gradient(135deg, #2c3e50, #95a5a6)",
+              "fontPrimary": "'Roboto Mono', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#e74c3c",
+                "border": "2px solid #95a5a6",
+                "color": "#ecf0f1"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "emerging_trends",
+      "title": "Emerging 2024-2025 Trends",
+      "themes": [
+        {
+          "id": "solarpunk",
+          "name": "Solarpunk Aesthetic",
+          "displayName": "Solarpunk Aesthetic",
+          "vibe": "Optimistic eco-futurism, green tech, sustainable materials",
+          "colors": "Bright nature-inspired palettes, solar yellows, plant greens",
+          "tagline": "Sustainable futures through design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #228b22, #ffd700, #32cd32)",
+            "textColor": "#006400",
+            "accentColor": "#ffd700"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#228b22", "#ffd700", "#32cd32", "#006400"],
+              "backgroundGradient": "linear-gradient(135deg, #228b22, #ffd700)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #32cd32, #ffd700)",
+                "border": "none",
+                "color": "#006400"
+              }
+            }
+          }
+        },
+        {
+          "id": "dopamine_design",
+          "name": "Dopamine Design",
+          "displayName": "Dopamine Design",
+          "vibe": "Intentionally joyful, endorphin-triggering color explosions",
+          "colors": "Bright, saturated, happiness-inducing color combinations",
+          "tagline": "Pure joy through color and interaction",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff69b4, #00ffff, #ffff00, #ff4500)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff69b4"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff69b4", "#00ffff", "#ffff00", "#ff4500"],
+              "backgroundGradient": "linear-gradient(135deg, #ff69b4, #00ffff, #ffff00)",
+              "fontPrimary": "'Fredoka One', cursive",
+              "fontSecondary": "'Nunito', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff69b4, #00ffff)",
+                "border": "none",
+                "animation": "bounce 1s infinite"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "industry_specific",
+      "title": "Industry-Specific Themes",
+      "themes": [
+        {
+          "id": "medical_healthcare",
+          "name": "Medical/Healthcare UI",
+          "displayName": "Medical/Healthcare UI",
+          "vibe": "Clean, accessible, trust-building design patterns",
+          "colors": "Medical blues, calming greens, trustworthy whites",
+          "tagline": "Healing through thoughtful design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #4169e1, #20b2aa, #ffffff)",
+            "textColor": "#2c3e50",
+            "accentColor": "#4169e1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4169e1", "#20b2aa", "#ffffff", "#2c3e50"],
+              "backgroundGradient": "linear-gradient(135deg, #4169e1, #20b2aa)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#4169e1",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "financial_fintech",
+          "name": "Financial/Fintech",
+          "displayName": "Financial/Fintech",
+          "vibe": "Security-focused, data-dense, professional aesthetics",
+          "colors": "Trust-building blues, secure greens, professional grays",
+          "tagline": "Security and trust through design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #1e3a8a, #059669, #374151)",
+            "textColor": "#f9fafb",
+            "accentColor": "#10b981"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1e3a8a", "#059669", "#374151", "#f9fafb"],
+              "backgroundGradient": "linear-gradient(135deg, #1e3a8a, #059669)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto Mono', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#10b981",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "gaming_hud",
+          "name": "Gaming UI/HUD",
+          "displayName": "Gaming UI/HUD",
+          "vibe": "Immersive overlays, fantasy/sci-fi elements, competitive design",
+          "colors": "Electric blues, energy oranges, warning reds, HUD greens",
+          "tagline": "Immersive experiences through interface",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #0066ff, #ff6600, #ff0000)",
+            "textColor": "#ffffff",
+            "accentColor": "#00ff00"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#0066ff", "#ff6600", "#ff0000", "#00ff00"],
+              "backgroundGradient": "linear-gradient(135deg, #0066ff, #ff6600)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Exo 2', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00ff00, #0066ff)",
+                "border": "2px solid #ff6600",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "crypto_web3",
+          "name": "Crypto/Web3 Native",
+          "displayName": "Crypto/Web3 Native",
+          "vibe": "Blockchain-inspired, decentralized aesthetics, token economics",
+          "colors": "Crypto golds, blockchain blues, decentralized purples",
+          "tagline": "Decentralized design for the new web",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f7931a, #627eea, #8b5cf6)",
+            "textColor": "#ffffff",
+            "accentColor": "#f7931a"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f7931a", "#627eea", "#8b5cf6", "#1f2937"],
+              "backgroundGradient": "linear-gradient(135deg, #f7931a, #627eea)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto Mono', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #f7931a, #8b5cf6)",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "scientific_technical",
+          "name": "Scientific/Technical",
+          "displayName": "Scientific/Technical",
+          "vibe": "Blueprint aesthetics, diagrams, technical drawing precision",
+          "colors": "Blueprint blues, technical grays, precision whites",
+          "tagline": "Precision and clarity through technical design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #1e40af, #6b7280, #f3f4f6)",
+            "textColor": "#f3f4f6",
+            "accentColor": "#60a5fa"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1e40af", "#6b7280", "#f3f4f6", "#60a5fa"],
+              "backgroundGradient": "linear-gradient(135deg, #1e40af, #6b7280)",
+              "fontPrimary": "'Roboto Mono', monospace",
+              "fontSecondary": "'Inter', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#60a5fa",
+                "border": "2px solid #1e40af",
+                "color": "#1e40af"
+              }
+            }
+          }
+        },
+        {
+          "id": "luxury_automotive",
+          "name": "Luxury Automotive",
+          "displayName": "Luxury Automotive",
+          "vibe": "Chrome finishes, leather textures, precision engineering elegance",
+          "colors": "Chrome silvers, leather browns, precision blacks",
+          "tagline": "Engineering excellence meets luxury design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #c0c0c0, #8b4513, #000000)",
+            "textColor": "#ffffff",
+            "accentColor": "#c0c0c0"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#c0c0c0", "#8b4513", "#000000", "#ff4500"],
+              "backgroundGradient": "linear-gradient(135deg, #c0c0c0, #8b4513)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #c0c0c0, #8b4513)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "cultural_movements",
+      "title": "Cultural & Aesthetic Movements",
+      "themes": [
+        {
+          "id": "afrofuturism",
+          "name": "Afrofuturism",
+          "displayName": "Afrofuturism",
+          "vibe": "Cultural futurism with African diaspora aesthetics",
+          "colors": "Rich golds, deep purples, earth tones, vibrant patterns",
+          "tagline": "Future through the lens of African heritage",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffd700, #8b008b, #8b4513)",
+            "textColor": "#ffffff",
+            "accentColor": "#ffd700"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffd700", "#8b008b", "#8b4513", "#ff4500"],
+              "backgroundGradient": "linear-gradient(135deg, #ffd700, #8b008b)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ffd700, #8b008b)",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "cottagecore_digital",
+          "name": "Cottagecore Digital",
+          "displayName": "Cottagecore Digital",
+          "vibe": "Cozy, handmade, rural aesthetic translated to digital",
+          "colors": "Soft creams, sage greens, warm browns, floral accents",
+          "tagline": "Digital warmth inspired by cottage living",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #f5f5dc, #9acd32, #8b4513)",
+            "textColor": "#556b2f",
+            "accentColor": "#9acd32"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#f5f5dc", "#9acd32", "#8b4513", "#dda0dd"],
+              "backgroundGradient": "linear-gradient(135deg, #f5f5dc, #9acd32)",
+              "fontPrimary": "'Merriweather', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#9acd32",
+                "border": "2px solid #8b4513",
+                "color": "#556b2f"
+              }
+            }
+          }
+        },
+        {
+          "id": "kawaii_cute",
+          "name": "Kawaii/Cute Culture",
+          "displayName": "Kawaii/Cute Culture",
+          "vibe": "Japanese cute culture, soft rounded forms, playful interactions",
+          "colors": "Pastel pinks, baby blues, mint greens, sunshine yellows",
+          "tagline": "Cuteness as a design philosophy",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ffb6c1, #87ceeb, #98fb98)",
+            "textColor": "#ff1493",
+            "accentColor": "#ffb6c1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ffb6c1", "#87ceeb", "#98fb98", "#ffff00"],
+              "backgroundGradient": "linear-gradient(135deg, #ffb6c1, #87ceeb)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ffb6c1, #87ceeb)",
+                "border": "none",
+                "borderRadius": "25px"
+              }
+            }
+          }
+        },
+        {
+          "id": "steampunk_ui",
+          "name": "Steampunk UI",
+          "displayName": "Steampunk UI",
+          "vibe": "Victorian machinery, brass, copper, gears, industrial elegance",
+          "colors": "Brass golds, copper browns, steam grays, mechanical silvers",
+          "tagline": "Victorian elegance meets mechanical precision",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #b8860b, #cd853f, #708090)",
+            "textColor": "#2f4f4f",
+            "accentColor": "#b8860b"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#b8860b", "#cd853f", "#708090", "#2f4f4f"],
+              "backgroundGradient": "linear-gradient(135deg, #b8860b, #cd853f)",
+              "fontPrimary": "'Cinzel', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #b8860b, #cd853f)",
+                "border": "2px solid #708090",
+                "color": "#2f4f4f"
+              }
+            }
+          }
+        },
+        {
+          "id": "gothic_revival",
+          "name": "Gothic Revival",
+          "displayName": "Gothic Revival",
+          "vibe": "Dark, ornate, cathedral-inspired, dramatic typography",
+          "colors": "Deep purples, midnight blacks, cathedral grays, stained glass accents",
+          "tagline": "Cathedral grandeur in digital form",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #4b0082, #000000, #696969)",
+            "textColor": "#e6e6fa",
+            "accentColor": "#8b008b"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4b0082", "#000000", "#696969", "#8b008b"],
+              "backgroundGradient": "linear-gradient(135deg, #4b0082, #000000)",
+              "fontPrimary": "'Cinzel', serif",
+              "fontSecondary": "'Crimson Text', serif"
+            },
+            "components": {
+              "button": {
+                "background": "#8b008b",
+                "border": "2px solid #696969",
+                "color": "#e6e6fa"
+              }
+            }
+          }
+        },
+        {
+          "id": "art_nouveau_digital",
+          "name": "Art Nouveau Digital",
+          "displayName": "Art Nouveau Digital",
+          "vibe": "Flowing organic forms, nature motifs, elegant curves",
+          "colors": "Natural greens, flowing blues, organic golds, floral accents",
+          "tagline": "Nature's elegance in digital form",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #228b22, #4169e1, #daa520)",
+            "textColor": "#2f4f4f",
+            "accentColor": "#daa520"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#228b22", "#4169e1", "#daa520", "#8fbc8f"],
+              "backgroundGradient": "linear-gradient(135deg, #228b22, #4169e1)",
+              "fontPrimary": "'Playfair Display', serif",
+              "fontSecondary": "'Lato', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #daa520, #228b22)",
+                "border": "none",
+                "borderRadius": "15px"
+              }
+            }
+          }
+        },
+        {
+          "id": "constructivist_revival",
+          "name": "Constructivist Revival",
+          "displayName": "Constructivist Revival",
+          "vibe": "Soviet-era geometric propaganda aesthetics",
+          "colors": "Revolutionary reds, industrial blacks, constructivist whites",
+          "tagline": "Revolutionary design for the digital age",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #dc143c, #000000, #ffffff)",
+            "textColor": "#ffffff",
+            "accentColor": "#dc143c"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#dc143c", "#000000", "#ffffff", "#696969"],
+              "backgroundGradient": "linear-gradient(135deg, #dc143c, #000000)",
+              "fontPrimary": "'Oswald', sans-serif",
+              "fontSecondary": "'Arial Black', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#dc143c",
+                "border": "none",
+                "color": "#ffffff",
+                "textTransform": "uppercase"
+              }
+            }
+          }
+        },
+        {
+          "id": "grunge_digital",
+          "name": "Grunge Digital",
+          "displayName": "Grunge Digital",
+          "vibe": "Distressed textures, rough edges, rebellious 90s aesthetic",
+          "colors": "Distressed browns, rebellious blacks, faded denim blues",
+          "tagline": "Digital rebellion with authentic imperfection",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #8b4513, #000000, #4682b4)",
+            "textColor": "#f5deb3",
+            "accentColor": "#cd853f"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#8b4513", "#000000", "#4682b4", "#cd853f"],
+              "backgroundGradient": "linear-gradient(135deg, #8b4513, #000000)",
+              "fontPrimary": "'Courier New', monospace",
+              "fontSecondary": "'Arial', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#cd853f",
+                "border": "2px solid #8b4513",
+                "color": "#000000"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "temporal_nostalgic",
+      "title": "Temporal & Nostalgic Themes",
+      "themes": [
+        {
+          "id": "synthwave_outrun",
+          "name": "Synthwave/Outrun",
+          "displayName": "Synthwave/Outrun",
+          "vibe": "80s neon, palm trees, sunset gradients, retro-futuristic",
+          "colors": "Neon pinks, electric blues, sunset oranges, cyber purples",
+          "tagline": "80s dreams in digital form",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff1493, #00bfff, #ff4500)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff1493"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff1493", "#00bfff", "#ff4500", "#8b008b"],
+              "backgroundGradient": "linear-gradient(135deg, #ff1493, #00bfff)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff1493, #00bfff)",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "y2k_millennium",
+          "name": "Y2K Millennium",
+          "displayName": "Y2K Millennium",
+          "vibe": "Early 2000s internet aesthetic, metallic textures, chrome effects",
+          "colors": "Chrome silvers, millennium blues, cyber greens, metallic purples",
+          "tagline": "Millennium optimism in digital chrome",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #c0c0c0, #4169e1, #00ff00)",
+            "textColor": "#000000",
+            "accentColor": "#c0c0c0"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#c0c0c0", "#4169e1", "#00ff00", "#8b008b"],
+              "backgroundGradient": "linear-gradient(135deg, #c0c0c0, #4169e1)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #c0c0c0, #4169e1)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "vintage_terminal",
+          "name": "Vintage Terminal",
+          "displayName": "Vintage Terminal",
+          "vibe": "Green phosphor, amber monochrome, computing nostalgia",
+          "colors": "Terminal greens, amber displays, phosphor whites, CRT blacks",
+          "tagline": "Computing history in monochrome beauty",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #00ff00, #ffbf00, #000000)",
+            "textColor": "#00ff00",
+            "accentColor": "#ffbf00"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#00ff00", "#ffbf00", "#000000", "#ffffff"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #001100)",
+              "fontPrimary": "'Courier New', monospace",
+              "fontSecondary": "'Roboto Mono', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#00ff00",
+                "border": "2px solid #ffbf00",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "mid_century_modern",
+          "name": "Mid-Century Modern",
+          "displayName": "Mid-Century Modern",
+          "vibe": "1950s atomic age, clean lines, geometric patterns",
+          "colors": "Atomic oranges, space age blues, modern grays, geometric yellows",
+          "tagline": "Atomic age optimism meets modern design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff4500, #4169e1, #808080)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff4500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff4500", "#4169e1", "#808080", "#ffff00"],
+              "backgroundGradient": "linear-gradient(135deg, #ff4500, #4169e1)",
+              "fontPrimary": "'Futura', sans-serif",
+              "fontSecondary": "'Helvetica', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ffff00",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "space_age_modernism",
+          "name": "Space Age Modernism",
+          "displayName": "Space Age Modernism",
+          "vibe": "1960s NASA aesthetic, atomic symbols, futuristic optimism",
+          "colors": "NASA blues, rocket silvers, atomic greens, space whites",
+          "tagline": "Space race optimism in digital form",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #1e90ff, #c0c0c0, #32cd32)",
+            "textColor": "#ffffff",
+            "accentColor": "#1e90ff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1e90ff", "#c0c0c0", "#32cd32", "#ffffff"],
+              "backgroundGradient": "linear-gradient(135deg, #1e90ff, #c0c0c0)",
+              "fontPrimary": "'Futura', sans-serif",
+              "fontSecondary": "'Helvetica', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#32cd32",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "experimental_avant_garde",
+      "title": "Experimental & Avant-Garde",
+      "themes": [
+        {
+          "id": "liminal_space",
+          "name": "Liminal Space",
+          "displayName": "Liminal Space",
+          "vibe": "Eerie, transitional, uncanny valley aesthetics, threshold spaces",
+          "colors": "Transition grays, threshold yellows, liminal blues, uncanny whites",
+          "tagline": "Design at the edge of familiarity",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #808080, #ffff00, #4169e1)",
+            "textColor": "#2f4f4f",
+            "accentColor": "#ffff00"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#808080", "#ffff00", "#4169e1", "#f5f5f5"],
+              "backgroundGradient": "linear-gradient(135deg, #808080, #ffff00)",
+              "fontPrimary": "'Inter', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ffff00",
+                "border": "2px solid #808080",
+                "color": "#2f4f4f"
+              }
+            }
+          }
+        },
+        {
+          "id": "holographic_interfaces",
+          "name": "Holographic Interfaces",
+          "displayName": "Holographic Interfaces",
+          "vibe": "Iridescent, shifting, prismatic effects, rainbow reflections",
+          "colors": "Holographic shifts, prismatic rainbows, iridescent gradients",
+          "tagline": "Light as interface, color as interaction",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00, #8b008b)",
+            "textColor": "#ffffff",
+            "accentColor": "#00ffff"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff0080", "#00ffff", "#ffff00", "#8b008b"],
+              "backgroundGradient": "linear-gradient(135deg, #ff0080, #00ffff, #ffff00)",
+              "fontPrimary": "'Orbitron', monospace",
+              "fontSecondary": "'Exo 2', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff0080, #00ffff, #ffff00)",
+                "border": "none",
+                "filter": "hue-rotate(180deg)"
+              }
+            }
+          }
+        },
+        {
+          "id": "glitch_art",
+          "name": "Glitch Art",
+          "displayName": "Glitch Art",
+          "vibe": "Digital corruption, error aesthetics, intentional broken elements",
+          "colors": "Error reds, corruption pinks, digital greens, system blues",
+          "tagline": "Beauty in digital malfunction",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #ff0000, #ff1493, #00ff00)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff1493"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#ff0000", "#ff1493", "#00ff00", "#0000ff"],
+              "backgroundGradient": "linear-gradient(135deg, #ff0000, #ff1493)",
+              "fontPrimary": "'Courier New', monospace",
+              "fontSecondary": "'Roboto Mono', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#ff1493",
+                "border": "2px solid #00ff00",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "kinetic_typography",
+          "name": "Kinetic Typography",
+          "displayName": "Kinetic Typography",
+          "vibe": "Moving text as primary design element, animated letterforms",
+          "colors": "Motion blues, kinetic oranges, animated purples, flowing greens",
+          "tagline": "Text in motion, meaning in movement",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #4169e1, #ff4500, #8b008b)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff4500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4169e1", "#ff4500", "#8b008b", "#32cd32"],
+              "backgroundGradient": "linear-gradient(135deg, #4169e1, #ff4500)",
+              "fontPrimary": "'Oswald', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#ff4500",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "data_viz_native",
+          "name": "Data Visualization Native",
+          "displayName": "Data Visualization Native",
+          "vibe": "Charts and graphs as aesthetic elements, infographic beauty",
+          "colors": "Data blues, chart greens, graph oranges, metric purples",
+          "tagline": "Information as aesthetic, data as design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #4169e1, #32cd32, #ff4500)",
+            "textColor": "#ffffff",
+            "accentColor": "#4169e1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4169e1", "#32cd32", "#ff4500", "#8b008b"],
+              "backgroundGradient": "linear-gradient(135deg, #4169e1, #32cd32)",
+              "fontPrimary": "'Roboto', sans-serif",
+              "fontSecondary": "'Roboto Mono', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#32cd32",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        },
+        {
+          "id": "experimental_typography",
+          "name": "Experimental Typography",
+          "displayName": "Experimental Typography",
+          "vibe": "Type as art, unconventional text treatments, letter chaos",
+          "colors": "Typographic blacks, experimental reds, chaotic yellows, artistic blues",
+          "tagline": "Letters as art, words as design",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #000000, #ff0000, #ffff00)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#ff0000", "#ffff00", "#4169e1"],
+              "backgroundGradient": "linear-gradient(135deg, #000000, #ff0000)",
+              "fontPrimary": "'Impact', sans-serif",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#ff0000",
+                "border": "none",
+                "color": "#ffff00"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "nature_comfort",
+      "title": "Nature & Comfort Themes",
+      "themes": [
+        {
+          "id": "tropical_modernism",
+          "name": "Tropical Modernism",
+          "displayName": "Tropical Modernism",
+          "vibe": "Bright, vibrant, vacation-inspired, palm and coral palettes",
+          "colors": "Tropical blues, coral pinks, palm greens, sunset oranges",
+          "tagline": "Vacation vibes in digital paradise",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #00bfff, #ff7f50, #32cd32)",
+            "textColor": "#ffffff",
+            "accentColor": "#ff7f50"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#00bfff", "#ff7f50", "#32cd32", "#ff4500"],
+              "backgroundGradient": "linear-gradient(135deg, #00bfff, #ff7f50)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #ff7f50, #32cd32)",
+                "border": "none",
+                "color": "#ffffff"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "luxury_maximalism",
+      "title": "Luxury & Maximalism",
+      "themes": [
+        {
+          "id": "pastel_goth",
+          "name": "Pastel Goth",
+          "displayName": "Pastel Goth",
+          "vibe": "Dark themes with soft colors, contradictory aesthetic harmony",
+          "colors": "Pastel purples, soft blacks, gentle pinks, muted grays",
+          "tagline": "Darkness softened, contrast harmonized",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #dda0dd, #000000, #ffb6c1)",
+            "textColor": "#ffffff",
+            "accentColor": "#dda0dd"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#dda0dd", "#000000", "#ffb6c1", "#696969"],
+              "backgroundGradient": "linear-gradient(135deg, #dda0dd, #000000)",
+              "fontPrimary": "'Nunito', sans-serif",
+              "fontSecondary": "'Open Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#dda0dd",
+                "border": "2px solid #000000",
+                "color": "#000000"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
