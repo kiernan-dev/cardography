@@ -236,7 +236,7 @@
                 themeData = await response.json();
                 
                 // Initialize section states
-                themeData.sections.forEach(section => {
+                themeData.categories.forEach(section => {
                     sectionStates[section.id] = section.id === 'core'; // Only core section expanded by default
                 });
             } catch (error) {
@@ -246,21 +246,27 @@
 
         // Generate card HTML from theme data
         function createThemeCard(theme) {
-            const frontCardStyle = `background: ${theme.frontCard.backgroundColor}; color: ${theme.frontCard.textColor};`;
             const backCardStyle = `background: ${theme.backCard.theme.backgroundGradient}; color: ${theme.frontCard.textColor};`;
             
             return `
                 <div class="flip-card" onclick="flipCard(this)">
                     <div class="flip-card-inner">
-                        <div class="flip-card-front" style="${frontCardStyle}" data-theme="${theme.id}">
-                            <div class="p-6 cursor-pointer h-full flex flex-col justify-between">
+                        <div class="flip-card-front" data-theme="${theme.id}">
+                            <div class="p-6 cursor-pointer h-full flex flex-col justify-between text-white">
                                 <div>
                                     <h3 class="text-xl font-bold mb-2">${theme.name}</h3>
                                     ${theme.tagline ? `<p class="text-sm mb-3 opacity-80">${theme.tagline}</p>` : ''}
                                 </div>
                                 <div class="space-y-2 text-sm">
-                                    <p><strong>Vibe:</strong> ${theme.vibe}</p>
-                                    <p><strong>Colors:</strong> ${theme.colors}</p>
+                                    <p><strong>Vibe:</strong> ${theme.vibes.join(', ')}</p>
+                                    <div class="flex items-center">
+                                        <strong class="mr-2">Colors:</strong>
+                                        <div class="flex space-x-1">
+                                            ${theme.colorPalette.slice(0, 4).map(color =>
+                                                `<div class="w-4 h-4 rounded border border-white/20" style="background: ${color};"></div>`
+                                            ).join('')}
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +303,7 @@
             const container = document.getElementById('themeSections');
             container.innerHTML = '';
             
-            themeData.sections.forEach(section => {
+            themeData.categories.forEach(section => {
                 const sectionHTML = `
                     <div class="theme-section">
                         <div class="section-header bg-white/10 backdrop-blur-md rounded-lg p-4 cursor-pointer" onclick="toggleSection('${section.id}')">
