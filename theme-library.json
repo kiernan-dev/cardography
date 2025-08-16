@@ -546,6 +546,1152 @@
           }
         }
       ]
+    },
+    {
+      "id": "midcentury_modern",
+      "title": "Mid-Century Modern (1945-1970)",
+      "description": "Post-war design emphasizing organic forms, new materials, and space-age optimism",
+      "themes": [
+        {
+          "id": "organic_modernism",
+          "name": "Organic Modernism",
+          "displayName": "Organic Modernism",
+          "historicalContext": "Pioneered by Alvar Aalto and Charles Eames (1945-1965). Blended natural forms with industrial production.",
+          "keyCharacteristics": [
+            "Fluid curves",
+            "Warm materials",
+            "Human-centered design"
+          ],
+          "corePrinciples": [
+            "Unity of nature/technology",
+            "Ergonomic forms",
+            "Material honesty"
+          ],
+          "colorPalette": [
+            "#E6D2AA",
+            "#8B4513",
+            "#556B2F",
+            "#4682B4"
+          ],
+          "typography": [
+            "Futura",
+            "Gill Sans",
+            "Optima"
+          ],
+          "influences": [
+            "Bauhaus",
+            "Scandinavian craft"
+          ],
+          "relatedMovements": [
+            "Danish Modern",
+            "California Design"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Warm",
+            "Natural",
+            "Sculptural"
+          ],
+          "tagline": "Industrial production meets natural forms",
+          "frontCard": {
+            "backgroundColor": "#F5F5DC",
+            "textColor": "#8B4513",
+            "accentColor": "#4682B4"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#F5F5DC",
+                "#8B4513",
+                "#4682B4",
+                "#556B2F"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #F5F5DC 0%, #E6D2AA 100%)",
+              "fontPrimary": "'Optima', serif",
+              "fontSecondary": "'Gill Sans', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "2px solid #8B4513",
+                "color": "#8B4513"
+              }
+            }
+          }
+        },
+        {
+          "id": "swiss_style",
+          "name": "International Typographic Style",
+          "displayName": "Swiss Design",
+          "historicalContext": "Developed in Switzerland (1950s) by Müller-Brockmann and Hofmann. Grid-based precision.",
+          "keyCharacteristics": [
+            "Asymmetrical grids",
+            "Sans-serif dominance",
+            "Mathematical precision"
+          ],
+          "corePrinciples": [
+            "Visual hierarchy",
+            "Objective communication",
+            "Typography as design"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#000000",
+            "#FFFFFF",
+            "#808080"
+          ],
+          "typography": [
+            "Helvetica",
+            "Univers",
+            "Akzidenz-Grotesk"
+          ],
+          "influences": [
+            "Bauhaus",
+            "De Stijl"
+          ],
+          "relatedMovements": [
+            "Corporate Modernism",
+            "Minimalism"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Precise",
+            "Structured",
+            "Clean"
+          ],
+          "tagline": "Precision and clarity through grid systems",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#000000",
+                "#808080"
+              ],
+              "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #F8F8F8 100%)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Univers', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "googie",
+          "name": "Googie Architecture",
+          "displayName": "Googie",
+          "historicalContext": "American space-age style (1950-1970) for coffee shops and motels. Popularized by John Lautner.",
+          "keyCharacteristics": [
+            "Upward thrust",
+            "Atomic motifs",
+            "Boomerang shapes"
+          ],
+          "corePrinciples": [
+            "Technological optimism",
+            "Kinetic energy",
+            "Pop futurism"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#00FFFF",
+            "#FFFF00",
+            "#000000"
+          ],
+          "typography": [
+            "House Industries Neutra",
+            "Futura Black",
+            "Jet Age"
+          ],
+          "influences": [
+            "Streamline Moderne",
+            "Space Age"
+          ],
+          "relatedMovements": [
+            "Populuxe",
+            "Tiki Culture"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Retro-futuristic",
+            "Playful",
+            "Dynamic"
+          ],
+          "tagline": "Space-age optimism for the jet set",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#000000",
+                "#00FFFF",
+                "#FF0000",
+                "#FFFF00"
+              ],
+              "backgroundGradient": "linear-gradient(45deg, #000000 0%, #1A0033 100%)",
+              "fontPrimary": "'House Industries Neutra', sans-serif",
+              "fontSecondary": "'Futura Black', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #FF0000, #00FFFF)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "space_age",
+          "name": "Space Age Design",
+          "displayName": "Space Age",
+          "historicalContext": "Atomic Era aesthetic (1955-1975) influenced by Sputnik and NASA missions.",
+          "keyCharacteristics": [
+            "Sputnik forms",
+            "Satellite dishes",
+            "Molecular patterns"
+          ],
+          "corePrinciples": [
+            "Technological wonder",
+            "Cosmic exploration",
+            "Plastic futurism"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#FF0000",
+            "#00BFFF",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Eurostile",
+            "Microgramma",
+            "Futura Bold"
+          ],
+          "influences": [
+            "Streamline Moderne",
+            "Googie"
+          ],
+          "relatedMovements": [
+            "Atomic Age",
+            "Jetsons Modern"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Futuristic",
+            "Plastic",
+            "Orbital"
+          ],
+          "tagline": "Design for the atomic era and beyond",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#00BFFF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#00BFFF",
+                "#FF0000",
+                "#C0C0C0"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #E0F7FF 100%)",
+              "fontPrimary": "'Eurostile', sans-serif",
+              "fontSecondary": "'Microgramma', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#00BFFF",
+                "border": "2px solid #FF0000",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "danish_modern",
+          "name": "Danish Modern",
+          "displayName": "Danish Modern",
+          "historicalContext": "Scandinavian design movement (1945-1970) led by Hans Wegner and Arne Jacobsen.",
+          "keyCharacteristics": [
+            "Teak wood",
+            "Organic shapes",
+            "Minimal ornament"
+          ],
+          "corePrinciples": [
+            "Functional beauty",
+            "Natural materials",
+            "Human scale"
+          ],
+          "colorPalette": [
+            "#D2B48C",
+            "#556B2F",
+            "#FFFFFF",
+            "#8B4513"
+          ],
+          "typography": [
+            "Futura",
+            "Gill Sans",
+            "Neue Haas Grotesk"
+          ],
+          "influences": [
+            "Bauhaus",
+            "Arts and Crafts"
+          ],
+          "relatedMovements": [
+            "Scandinavian Design",
+            "Organic Modernism"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Warm",
+            "Tactile",
+            "Understated"
+          ],
+          "tagline": "Democratic design with natural warmth",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#8B4513",
+            "accentColor": "#556B2F"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#8B4513",
+                "#556B2F",
+                "#D2B48C"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F0 100%)",
+              "fontPrimary": "'Gill Sans', sans-serif",
+              "fontSecondary": "'Neue Haas Grotesk', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "2px solid #8B4513",
+                "color": "#8B4513"
+              }
+            }
+          }
+        },
+        {
+          "id": "populuxe",
+          "name": "Populuxe",
+          "displayName": "Populuxe",
+          "historicalContext": "American consumer aesthetic (1954-1964) blending luxury and accessibility.",
+          "keyCharacteristics": [
+            "Boomerang shapes",
+            "Starbursts",
+            "Pastel metallics"
+          ],
+          "corePrinciples": [
+            "Democratic luxury",
+            "Technological optimism",
+            "Playful excess"
+          ],
+          "colorPalette": [
+            "#FFD700",
+            "#FF69B4",
+            "#00CED1",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Futura Bold",
+            "House Industries Champagne",
+            "Lido"
+          ],
+          "influences": [
+            "Art Deco",
+            "Streamline Moderne"
+          ],
+          "relatedMovements": [
+            "Googie",
+            "Space Age"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Kitschy",
+            "Optimistic",
+            "Lavish"
+          ],
+          "tagline": "Luxury for the masses in the atomic age",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#FF69B4",
+            "accentColor": "#FFD700"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#FFD700",
+                "#FF69B4",
+                "#00CED1"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFFACD 100%)",
+              "fontPrimary": "'House Industries Champagne', sans-serif",
+              "fontSecondary": "'Futura Bold', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #FFD700, #FF69B4)",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "brutalism",
+          "name": "Brutalist Architecture",
+          "displayName": "Brutalism",
+          "historicalContext": "Post-war architectural movement (1950-1975) emphasizing raw materials. Pioneered by Le Corbusier.",
+          "keyCharacteristics": [
+            "Exposed concrete",
+            "Monumental forms",
+            "Geometric repetition"
+          ],
+          "corePrinciples": [
+            "Honesty of materials",
+            "Structural expression",
+            "Social utopianism"
+          ],
+          "colorPalette": [
+            "#778899",
+            "#2F4F4F",
+            "#FFFFFF",
+            "#000000"
+          ],
+          "typography": [
+            "Univers Bold",
+            "Helvetica Compressed",
+            "Courier"
+          ],
+          "influences": [
+            "Modernism",
+            "Constructivism"
+          ],
+          "relatedMovements": [
+            "New Brutalism",
+            "Metabolist"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Monolithic",
+            "Raw",
+            "Imposing"
+          ],
+          "tagline": "Raw concrete as social statement",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#2F4F4F",
+            "accentColor": "#778899"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#778899",
+                "#2F4F4F",
+                "#000000"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #D3D3D3 100%)",
+              "fontPrimary": "'Univers Bold', sans-serif",
+              "fontSecondary": "'Helvetica Compressed', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#2F4F4F",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "tiki_culture",
+          "name": "Tiki Culture",
+          "displayName": "Tiki",
+          "historicalContext": "American Polynesian-inspired aesthetic (1930-1970) popularized by Don the Beachcomber.",
+          "keyCharacteristics": [
+            "Bamboo textures",
+            "Tiki masks",
+            "Tropical colors"
+          ],
+          "corePrinciples": [
+            "Escapism",
+            "Exotic fantasy",
+            "Polynesian fusion"
+          ],
+          "colorPalette": [
+            "#228B22",
+            "#8B4513",
+            "#FF4500",
+            "#FFD700"
+          ],
+          "typography": [
+            "Aloha",
+            "Tiki Type",
+            "Bamboo"
+          ],
+          "influences": [
+            "Art Deco",
+            "Primitivism"
+          ],
+          "relatedMovements": [
+            "Googie",
+            "Populuxe"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Tropical",
+            "Kitschy",
+            "Exotic"
+          ],
+          "tagline": "Polynesian escapism in post-war America",
+          "frontCard": {
+            "backgroundColor": "#228B22",
+            "textColor": "#FFD700",
+            "accentColor": "#FF4500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#228B22",
+                "#FF4500",
+                "#FFD700",
+                "#8B4513"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #228B22 0%, #006400 100%)",
+              "fontPrimary": "'Tiki Type', sans-serif",
+              "fontSecondary": "'Bamboo', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF4500",
+                "border": "2px solid #FFD700",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "metabolist",
+          "name": "Metabolist Movement",
+          "displayName": "Metabolism",
+          "historicalContext": "Japanese architectural movement (1959-1970) envisioning organic urban growth. Led by Kenzo Tange.",
+          "keyCharacteristics": [
+            "Modular units",
+            "Capsule architecture",
+            "Biomorphic forms"
+          ],
+          "corePrinciples": [
+            "Organic growth",
+            "Technological integration",
+            "Urban megastructures"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#FF0000",
+            "#000000",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Neue Haas Grotesk",
+            "Helvetica",
+            "Univers"
+          ],
+          "influences": [
+            "Brutalism",
+            "Constructivism"
+          ],
+          "relatedMovements": [
+            "High-Tech Architecture",
+            "Archigram"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Futuristic",
+            "Modular",
+            "Experimental"
+          ],
+          "tagline": "Cities that grow like living organisms",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#000000",
+                "#C0C0C0"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'Neue Haas Grotesk', sans-serif",
+              "fontSecondary": "'Helvetica', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "california_design",
+          "name": "California Design Movement",
+          "displayName": "California Design",
+          "historicalContext": "West Coast aesthetic (1945-1975) blending craft and industry. Championed by the Eameses.",
+          "keyCharacteristics": [
+            "Plywood forms",
+            "Fiberglass",
+            "Playful colors"
+          ],
+          "corePrinciples": [
+            "Democratized design",
+            "Material innovation",
+            "Casual living"
+          ],
+          "colorPalette": [
+            "#FFA500",
+            "#4682B4",
+            "#FFFFFF",
+            "#556B2F"
+          ],
+          "typography": [
+            "Futura",
+            "Neutraface",
+            "Cooper Black"
+          ],
+          "influences": [
+            "Bauhaus",
+            "Organic Modernism"
+          ],
+          "relatedMovements": [
+            "Mid-Century Modern",
+            "Pop Art"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Playful",
+            "Innovative",
+            "Sun-drenched"
+          ],
+          "tagline": "Sunny modernism for everyday living",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#4682B4",
+            "accentColor": "#FFA500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#FFA500",
+                "#4682B4",
+                "#556B2F"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFF8DC 100%)",
+              "fontPrimary": "'Neutraface', sans-serif",
+              "fontSecondary": "'Futura', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FFA500",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "space_race",
+          "name": "Space Race Aesthetic",
+          "displayName": "Space Race",
+          "historicalContext": "NASA-inspired design (1957-1975) reflecting Cold War technological competition.",
+          "keyCharacteristics": [
+            "NASA meatball",
+            "Control panel aesthetics",
+            "Mission patches"
+          ],
+          "corePrinciples": [
+            "Scientific precision",
+            "Technological optimism",
+            "Patriotic futurism"
+          ],
+          "colorPalette": [
+            "#0033A0",
+            "#FFFFFF",
+            "#D10000",
+            "#000000"
+          ],
+          "typography": [
+            "Microgramma",
+            "Eurostile",
+            "Futura Bold"
+          ],
+          "influences": [
+            "Googie",
+            "Military Design"
+          ],
+          "relatedMovements": [
+            "Atomic Age",
+            "Space Age"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Technical",
+            "Patriotic",
+            "Precision"
+          ],
+          "tagline": "Design for the final frontier",
+          "frontCard": {
+            "backgroundColor": "#0033A0",
+            "textColor": "#FFFFFF",
+            "accentColor": "#D10000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#0033A0",
+                "#D10000",
+                "#FFFFFF",
+                "#000000"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #0033A0 0%, #001F5C 100%)",
+              "fontPrimary": "'Microgramma', sans-serif",
+              "fontSecondary": "'Eurostile', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#D10000",
+                "border": "1px solid #FFFFFF",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "atomic_age",
+          "name": "Atomic Age Design",
+          "displayName": "Atomic Age",
+          "historicalContext": "Post-WWII aesthetic (1945-1965) celebrating nuclear energy and scientific progress.",
+          "keyCharacteristics": [
+            "Atomic symbols",
+            "Molecular patterns",
+            "Starbursts"
+          ],
+          "corePrinciples": [
+            "Scientific optimism",
+            "Technological wonder",
+            "Atomic imagery"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#00FFFF",
+            "#000000",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Futura Bold",
+            "Microgramma",
+            "Space Age"
+          ],
+          "influences": [
+            "Streamline Moderne",
+            "Bauhaus"
+          ],
+          "relatedMovements": [
+            "Googie",
+            "Space Age"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Retro-futuristic",
+            "Scientific",
+            "Bold"
+          ],
+          "tagline": "Design for the nuclear era",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#000000",
+                "#FF0000",
+                "#00FFFF",
+                "#FFFFFF"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
+              "fontPrimary": "'Microgramma', sans-serif",
+              "fontSecondary": "'Futura Bold', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #FF0000, #00FFFF)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "scandinavian_design",
+          "name": "Scandinavian Design",
+          "displayName": "Scandinavian",
+          "historicalContext": "Nordic design philosophy (1930-1970) emphasizing functionality and nature. Led by Marimekko.",
+          "keyCharacteristics": [
+            "Light woods",
+            "Minimal ornament",
+            "Natural textures"
+          ],
+          "corePrinciples": [
+            "Democratic design",
+            "Functional beauty",
+            "Connection to nature"
+          ],
+          "colorPalette": [
+            "#FFFFFF",
+            "#D3D3D3",
+            "#8B4513",
+            "#2F4F4F"
+          ],
+          "typography": [
+            "Futura",
+            "Gill Sans",
+            "Neue Haas Grotesk"
+          ],
+          "influences": [
+            "Bauhaus",
+            "Arts and Crafts"
+          ],
+          "relatedMovements": [
+            "Danish Modern",
+            "Organic Modernism"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Minimal",
+            "Natural",
+            "Cozy"
+          ],
+          "tagline": "Functional beauty inspired by Nordic landscapes",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#2F4F4F",
+            "accentColor": "#8B4513"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#8B4513",
+                "#2F4F4F",
+                "#D3D3D3"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
+              "fontPrimary": "'Gill Sans', sans-serif",
+              "fontSecondary": "'Neue Haas Grotesk', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "2px solid #8B4513",
+                "color": "#8B4513"
+              }
+            }
+          }
+        },
+        {
+          "id": "italian_modern",
+          "name": "Italian Modernism",
+          "displayName": "Italian Modern",
+          "historicalContext": "Post-war Italian design (1945-1975) combining craftsmanship and industry. Led by Gio Ponti.",
+          "keyCharacteristics": [
+            "Sleek lines",
+            "Luxury materials",
+            "Architectural forms"
+          ],
+          "corePrinciples": [
+            "Sculptural functionality",
+            "Material excellence",
+            "Artistic production"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#C0C0C0",
+            "#B22234",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Bodoni",
+            "Futura",
+            "Eurostile"
+          ],
+          "influences": [
+            "Bauhaus",
+            "Art Deco"
+          ],
+          "relatedMovements": [
+            "Mid-Century Modern",
+            "Organic Modernism"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Sophisticated",
+            "Sleek",
+            "Luxurious"
+          ],
+          "tagline": "Industrial elegance with artistic flair",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#B22234"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#B22234",
+                "#000000",
+                "#C0C0C0"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'Bodoni', serif",
+              "fontSecondary": "'Eurostile', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#B22234",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "japanese_postwar",
+          "name": "Japanese Postwar Design",
+          "displayName": "Japanese Postwar",
+          "historicalContext": "Reconstruction-era design (1945-1970) blending tradition and modernity. Led by Ikko Tanaka.",
+          "keyCharacteristics": [
+            "Asymmetrical balance",
+            "Negative space",
+            "Bold graphics"
+          ],
+          "corePrinciples": [
+            "Ma (negative space)",
+            "Wabi-sabi",
+            "Modern tradition"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#B22234",
+            "#8B4513"
+          ],
+          "typography": [
+            "Helvetica",
+            "Gothic",
+            "Mincho"
+          ],
+          "influences": [
+            "Bauhaus",
+            "Ukiyo-e"
+          ],
+          "relatedMovements": [
+            "Swiss Style",
+            "Metabolism"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Harmonious",
+            "Precise",
+            "Balanced"
+          ],
+          "tagline": "Modern design rooted in Japanese tradition",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#B22234"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#B22234",
+                "#000000",
+                "#8B4513"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Gothic', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#B22234",
+                "border": "1px solid #000000",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "corporate_modernism",
+          "name": "Corporate Modernism",
+          "displayName": "Corporate Modern",
+          "historicalContext": "Post-war business aesthetic (1950-1970) developed by design firms like Chermayeff & Geismar.",
+          "keyCharacteristics": [
+            "Visual systems",
+            "Brand consistency",
+            "Geometric logos"
+          ],
+          "corePrinciples": [
+            "Visual identity",
+            "Systematic design",
+            "Professional clarity"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#0066CC",
+            "#808080"
+          ],
+          "typography": [
+            "Helvetica",
+            "Univers",
+            "Futura"
+          ],
+          "influences": [
+            "Swiss Style",
+            "Bauhaus"
+          ],
+          "relatedMovements": [
+            "Minimalism",
+            "International Style"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Professional",
+            "Structured",
+            "Authoritative"
+          ],
+          "tagline": "Design systems for global corporations",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#0066CC"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#0066CC",
+                "#000000",
+                "#808080"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Univers', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#0066CC",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "high_tech",
+          "name": "High-Tech Architecture",
+          "displayName": "High-Tech",
+          "historicalContext": "Late modernist movement (1960-1980) celebrating structural expression. Pioneered by Norman Foster.",
+          "keyCharacteristics": [
+            "Exposed structures",
+            "Industrial materials",
+            "Technical detailing"
+          ],
+          "corePrinciples": [
+            "Honesty of construction",
+            "Technological exhibition",
+            "Adaptable systems"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#000000",
+            "#FFFFFF",
+            "#4682B4"
+          ],
+          "typography": [
+            "Univers",
+            "Helvetica",
+            "Eurostile"
+          ],
+          "influences": [
+            "Modernism",
+            "Constructivism"
+          ],
+          "relatedMovements": [
+            "Brutalism",
+            "Metabolism"
+          ],
+          "authenticityLevel": "authentic",
+          "vibes": [
+            "Industrial",
+            "Precise",
+            "Technical"
+          ],
+          "tagline": "Celebrating the poetry of structure",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#4682B4"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": [
+                "#FFFFFF",
+                "#4682B4",
+                "#000000",
+                "#C0C0C0"
+              ],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'Univers', sans-serif",
+              "fontSecondary": "'Eurostile', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#4682B4",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }
