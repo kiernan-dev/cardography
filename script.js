@@ -230,24 +230,37 @@ function createThemeCard(theme) {
             <div class="flip-card-inner">
                 <div class="flip-card-front" data-theme="${theme.id}">
                     <div class="p-6 cursor-pointer h-full flex flex-col text-white">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">${theme.name}</h3>
-                            ${theme.tagline ? `<p class="text-sm mb-3 opacity-80">${theme.tagline}</p>` : ''}
+                        <!-- Header Section -->
+                        <div class="mb-4">
+                            <h3 class="text-lg font-bold mb-1 leading-tight">${theme.name}</h3>
+                            ${theme.tagline ? `<p class="text-xs font-medium opacity-75 uppercase tracking-wide">${theme.tagline}</p>` : ''}
                         </div>
                         
-                        <div class="mt-auto space-y-3 text-sm">
-                            <div>
-                                <strong class="block mb-1 text-xs uppercase tracking-wider opacity-70">Key Characteristics:</strong>
+                        <!-- Historical Context Section -->
+                        <div class="flex-1 mb-4">
+                            <div class="bg-white/10 rounded-lg p-3 backdrop-blur-sm">
+                                <p class="text-xs leading-relaxed text-white/90">${theme.historicalContext}</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Footer Section -->
+                        <div class="space-y-3">
+                            <!-- Vibe -->
+                            <div class="space-y-1">
+                                <span class="text-xs font-semibold opacity-70">VIBE:</span>
                                 <div class="flex flex-wrap gap-1">
-                                    ${theme.keyCharacteristics.slice(0, 3).map(char => `<span class="characteristic-tag">${char}</span>`).join('')}
+                                    ${theme.vibes.map(vibe => 
+                                        `<span class="vibe-tag">${vibe}</span>`
+                                    ).join('')}
                                 </div>
                             </div>
-                            <p><strong>Vibe:</strong> ${theme.vibes.join(', ')}</p>
-                            <div class="flex items-center">
-                                <strong class="mr-2">Colors:</strong>
-                                <div class="flex space-x-1">
+                            
+                            <!-- Colors -->
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold opacity-70 min-w-[40px]">COLORS:</span>
+                                <div class="flex gap-1">
                                     ${theme.colorPalette.slice(0, 4).map(color =>
-                                        `<div class="w-4 h-4 rounded border border-white/20" style="background: ${color};"></div>`
+                                        `<div class="w-5 h-5 rounded-md border border-white/30 shadow-sm" style="background: ${color};"></div>`
                                     ).join('')}
                                 </div>
                             </div>
