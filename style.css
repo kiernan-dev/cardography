@@ -88,12 +88,51 @@
 }
 
 .clean-subtitle {
-    font-size: clamp(1.125rem, 3vw, 1.5rem);
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Dancing Script', cursive;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
     margin: 0;
     letter-spacing: 0.5px;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+}
+
+/* Alternative Script Font Options */
+.clean-subtitle.pacifico {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clean-subtitle.great-vibes {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clean-subtitle.kaushan {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clean-subtitle.allura {
+    font-family: 'Allura', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clean-subtitle.sacramento {
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clean-subtitle.courgette {
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
