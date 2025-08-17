@@ -359,14 +359,14 @@ async function loadThemeData() {
     }
 }
 
-// Optimized card creation with better string handling
+// Redesigned card with better visual layout
 function createThemeCard(theme) {
     const backCardStyle = `background: ${theme.backCard.theme.backgroundGradient}; color: ${theme.frontCard.textColor};`;
     
     // Pre-build repeated elements
     const vibesHTML = theme.vibes.map(vibe => `<span class="vibe-tag">${vibe}</span>`).join('');
-    const colorPaletteHTML = theme.colorPalette.slice(0, 4).map(color =>
-        `<div class="w-5 h-5 rounded-md border border-white/30 shadow-sm" style="background: ${color};"></div>`
+    const colorPaletteHTML = theme.colorPalette.slice(0, 5).map(color =>
+        `<div class="color-dot" style="background: ${color};"></div>`
     ).join('');
     const primaryColorsHTML = theme.backCard.theme.primaryColors.slice(0, 4).map(color => 
         `<div class="w-4 h-4 rounded" style="background: ${color};"></div>`
@@ -376,28 +376,28 @@ function createThemeCard(theme) {
         <div class="flip-card" onclick="flipCard(this)">
             <div class="flip-card-inner">
                 <div class="flip-card-front" data-theme="${theme.id}">
-                    <div class="p-6 cursor-pointer h-full flex flex-col text-white">
-                        <div class="mb-4">
-                            <h3 class="text-lg font-bold mb-1 leading-tight">${theme.name}</h3>
-                            ${theme.tagline ? `<p class="text-xs font-medium opacity-75 uppercase tracking-wide">${theme.tagline}</p>` : ''}
+                    <div class="theme-card-content">
+                        <!-- Header with Title and Tagline -->
+                        <div class="theme-header">
+                            <h3 class="theme-title">${theme.name}</h3>
+                            ${theme.tagline ? `<p class="theme-tagline">${theme.tagline}</p>` : ''}
                         </div>
                         
-                        <div class="flex-1 mb-4">
-                            <div class="bg-white/10 rounded-lg p-3 backdrop-blur-sm">
-                                <p class="text-xs leading-relaxed text-white/90">${theme.historicalContext}</p>
-                            </div>
+                        <!-- Color Palette Strip -->
+                        <div class="color-palette-strip">
+                            ${colorPaletteHTML}
                         </div>
                         
-                        <div class="space-y-3">
-                            <div class="space-y-1">
-                                <span class="text-xs font-semibold opacity-70">VIBE:</span>
-                                <div class="flex flex-wrap gap-1">${vibesHTML}</div>
-                            </div>
-                            
-                            <div class="flex items-center gap-2">
-                                <span class="text-xs font-semibold opacity-70 min-w-[40px]">COLORS:</span>
-                                <div class="flex gap-1">${colorPaletteHTML}</div>
-                            </div>
+                        <!-- Historical Context Box -->
+                        <div class="context-box">
+                            <div class="context-label">Historical Context</div>
+                            <p class="context-text">${theme.historicalContext}</p>
+                        </div>
+                        
+                        <!-- Bottom Section with Vibes -->
+                        <div class="vibes-section">
+                            <div class="vibes-label">Style Characteristics</div>
+                            <div class="vibes-container">${vibesHTML}</div>
                         </div>
                     </div>
                 </div>
