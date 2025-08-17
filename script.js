@@ -80,23 +80,47 @@ function initializeToggles() {
 // Filter logic
 function initializeFilters() {
     const allColorFamilies = new Set();
+    const allDesignSystems = new Set();
+    
     themeData.categories.forEach(cat => {
         cat.themes.forEach(theme => {
             if (theme.colorFamily) {
                 allColorFamilies.add(theme.colorFamily);
             }
+            if (theme.designSystem) {
+                allDesignSystems.add(theme.designSystem);
+            }
         });
     });
 
     const select = document.getElementById('colorFilterSelect');
-    select.innerHTML = '<option value="all">All Colors</option>';
+    select.innerHTML = '<option value="all">All Themes</option>';
 
-    allColorFamilies.forEach(family => {
-        const option = document.createElement('option');
-        option.value = family;
-        option.textContent = family;
-        select.appendChild(option);
-    });
+    // Add color families section
+    if (allColorFamilies.size > 0) {
+        const colorGroup = document.createElement('optgroup');
+        colorGroup.label = 'Color Families';
+        allColorFamilies.forEach(family => {
+            const option = document.createElement('option');
+            option.value = `color:${family}`;
+            option.textContent = family;
+            colorGroup.appendChild(option);
+        });
+        select.appendChild(colorGroup);
+    }
+
+    // Add design systems section
+    if (allDesignSystems.size > 0) {
+        const designGroup = document.createElement('optgroup');
+        designGroup.label = 'Design Systems';
+        allDesignSystems.forEach(system => {
+            const option = document.createElement('option');
+            option.value = `design:${system}`;
+            option.textContent = system;
+            designGroup.appendChild(option);
+        });
+        select.appendChild(designGroup);
+    }
 
     select.addEventListener('change', () => {
         applyFilters();
@@ -105,18 +129,26 @@ function initializeFilters() {
 
 function applyFilters() {
     const select = document.getElementById('colorFilterSelect');
-    const selectedColor = select.value;
+    const selectedFilter = select.value;
 
     const allCards = document.querySelectorAll('.flip-card');
     allCards.forEach(card => {
         const themeId = card.querySelector('.flip-card-front').dataset.theme;
         const theme = findThemeById(themeId);
 
-        if (selectedColor === 'all' || theme.colorFamily === selectedColor) {
-            card.style.display = 'block';
-        } else {
-            card.style.display = 'none';
+        let shouldShow = false;
+
+        if (selectedFilter === 'all') {
+            shouldShow = true;
+        } else if (selectedFilter.startsWith('color:')) {
+            const colorFamily = selectedFilter.replace('color:', '');
+            shouldShow = theme.colorFamily === colorFamily;
+        } else if (selectedFilter.startsWith('design:')) {
+            const designSystem = selectedFilter.replace('design:', '');
+            shouldShow = theme.designSystem === designSystem;
         }
+
+        card.style.display = shouldShow ? 'block' : 'none';
     });
     updateCardCount();
 }

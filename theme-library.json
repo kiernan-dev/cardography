@@ -24,15 +24,43 @@
           "name": "Arts and Crafts Movement",
           "displayName": "Arts & Crafts",
           "historicalContext": "Founded by William Morris (1860-1910). Reaction against industrialization emphasizing craftsmanship.",
-          "keyCharacteristics": ["Handcrafted quality", "Medieval inspiration", "Natural motifs"],
-          "corePrinciples": ["Truth to materials", "Honest craftsmanship", "Unity of all arts"],
-          "colorPalette": ["#8B4513", "#556B2F", "#CD853F", "#6B8E23"],
+          "keyCharacteristics": [
+            "Handcrafted quality",
+            "Medieval inspiration",
+            "Natural motifs"
+          ],
+          "corePrinciples": [
+            "Truth to materials",
+            "Honest craftsmanship",
+            "Unity of all arts"
+          ],
+          "colorPalette": [
+            "#8B4513",
+            "#556B2F",
+            "#CD853F",
+            "#6B8E23"
+          ],
           "colorFamily": "Brown",
-          "typography": ["Golden Type", "Jenson", "Venetian"],
-          "influences": ["Medieval manuscripts", "Gothic revival"],
-          "relatedMovements": ["Art Nouveau", "Prairie School"],
+          "designSystem": "Organic",
+          "typography": [
+            "Golden Type",
+            "Jenson",
+            "Venetian"
+          ],
+          "influences": [
+            "Medieval manuscripts",
+            "Gothic revival"
+          ],
+          "relatedMovements": [
+            "Art Nouveau",
+            "Prairie School"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Handcrafted", "Organic", "Pre-industrial"],
+          "vibes": [
+            "Handcrafted",
+            "Organic",
+            "Pre-industrial"
+          ],
           "tagline": "Honest craftsmanship in the machine age",
           "frontCard": {
             "backgroundColor": "#F5F5DC",
@@ -41,7 +69,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#F5F5DC", "#8B4513", "#556B2F", "#CD853F"],
+              "primaryColors": [
+                "#F5F5DC",
+                "#8B4513",
+                "#556B2F",
+                "#CD853F"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #F5F5DC 0%, #E6D2AA 100%)",
               "fontPrimary": "'IM Fell English', serif",
               "fontSecondary": "'Cardo', serif"
@@ -60,15 +93,43 @@
           "name": "Art Nouveau",
           "displayName": "Art Nouveau",
           "historicalContext": "International movement (1890-1910) characterized by organic forms",
-          "keyCharacteristics": ["Whiplash curves", "Natural forms", "Asymmetry"],
-          "corePrinciples": ["Total work of art", "Nature as inspiration", "Ornamental unity"],
-          "colorPalette": ["#8FBC8F", "#DA70D6", "#F0E68C", "#CD5C5C"],
+          "keyCharacteristics": [
+            "Whiplash curves",
+            "Natural forms",
+            "Asymmetry"
+          ],
+          "corePrinciples": [
+            "Total work of art",
+            "Nature as inspiration",
+            "Ornamental unity"
+          ],
+          "colorPalette": [
+            "#8FBC8F",
+            "#DA70D6",
+            "#F0E68C",
+            "#CD5C5C"
+          ],
           "colorFamily": "Green",
-          "typography": ["Arnold Böcklin", "Eckmann", "Auriol"],
-          "influences": ["Japanese woodblocks", "Celtic art"],
-          "relatedMovements": ["Arts & Crafts", "Vienna Secession"],
+          "designSystem": "Organic",
+          "typography": [
+            "Arnold Böcklin",
+            "Eckmann",
+            "Auriol"
+          ],
+          "influences": [
+            "Japanese woodblocks",
+            "Celtic art"
+          ],
+          "relatedMovements": [
+            "Arts & Crafts",
+            "Vienna Secession"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Floral", "Elegant", "Flowing"],
+          "vibes": [
+            "Floral",
+            "Elegant",
+            "Flowing"
+          ],
           "tagline": "Nature's elegance in flowing forms",
           "frontCard": {
             "backgroundColor": "#FFF0F5",
@@ -77,7 +138,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFF0F5", "#8FBC8F", "#DA70D6", "#F0E68C"],
+              "primaryColors": [
+                "#FFF0F5",
+                "#8FBC8F",
+                "#DA70D6",
+                "#F0E68C"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFF0F5 0%, #FFE4E1 100%)",
               "fontPrimary": "'Auriol', serif",
               "fontSecondary": "'Eckmann', sans-serif"
@@ -96,15 +162,43 @@
           "name": "Bauhaus",
           "displayName": "Bauhaus",
           "historicalContext": "German school (1919-1933) founded by Walter Gropius unifying arts/crafts",
-          "keyCharacteristics": ["Form follows function", "Geometric purity", "Primary colors"],
-          "corePrinciples": ["Unity of art/technology", "Minimal ornamentation", "Rational design"],
-          "colorPalette": ["#FF0000", "#FFFF00", "#0000FF", "#FFFFFF"],
+          "keyCharacteristics": [
+            "Form follows function",
+            "Geometric purity",
+            "Primary colors"
+          ],
+          "corePrinciples": [
+            "Unity of art/technology",
+            "Minimal ornamentation",
+            "Rational design"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#FFFF00",
+            "#0000FF",
+            "#FFFFFF"
+          ],
           "colorFamily": "Red",
-          "typography": ["Universal", "Futura", "Akzidenz-Grotesk"],
-          "influences": ["De Stijl", "Constructivism"],
-          "relatedMovements": ["International Style", "Swiss Design"],
+          "designSystem": "Minimalist",
+          "typography": [
+            "Universal",
+            "Futura",
+            "Akzidenz-Grotesk"
+          ],
+          "influences": [
+            "De Stijl",
+            "Constructivism"
+          ],
+          "relatedMovements": [
+            "International Style",
+            "Swiss Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Geometric", "Rational", "Industrial"],
+          "vibes": [
+            "Geometric",
+            "Rational",
+            "Industrial"
+          ],
           "tagline": "Form follows function in the machine age",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -113,7 +207,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF0000", "#0000FF", "#FFFF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#0000FF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #FFFFFF 0%, #F0F0F0 100%)",
               "fontPrimary": "'Futura', sans-serif",
               "fontSecondary": "'Univers', sans-serif"
@@ -132,15 +231,43 @@
           "name": "De Stijl",
           "displayName": "De Stijl",
           "historicalContext": "Dutch movement (1917-1931) founded by Theo van Doesburg",
-          "keyCharacteristics": ["Primary colors", "Orthogonal lines", "Asymmetrical balance"],
-          "corePrinciples": ["Elementarism", "Universal harmony", "Geometric abstraction"],
-          "colorPalette": ["#FF0000", "#0000FF", "#FFFF00", "#000000"],
+          "keyCharacteristics": [
+            "Primary colors",
+            "Orthogonal lines",
+            "Asymmetrical balance"
+          ],
+          "corePrinciples": [
+            "Elementarism",
+            "Universal harmony",
+            "Geometric abstraction"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#0000FF",
+            "#FFFF00",
+            "#000000"
+          ],
           "colorFamily": "Red",
-          "typography": ["Architype Van Doesburg", "De Stijl", "Geometric Sans"],
-          "influences": ["Cubism", "Neo-Plasticism"],
-          "relatedMovements": ["Bauhaus", "Constructivism"],
+          "designSystem": "Systematic",
+          "typography": [
+            "Architype Van Doesburg",
+            "De Stijl",
+            "Geometric Sans"
+          ],
+          "influences": [
+            "Cubism",
+            "Neo-Plasticism"
+          ],
+          "relatedMovements": [
+            "Bauhaus",
+            "Constructivism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Reductive", "Harmonious", "Abstract"],
+          "vibes": [
+            "Reductive",
+            "Harmonious",
+            "Abstract"
+          ],
           "tagline": "Universal harmony through pure abstraction",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -149,7 +276,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF0000", "#0000FF", "#FFFF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#0000FF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(90deg, #FFFFFF 50%, #000000 50%)",
               "fontPrimary": "'De Stijl', sans-serif",
               "fontSecondary": "'Geometric Sans', sans-serif"
@@ -168,15 +300,43 @@
           "name": "Constructivism",
           "displayName": "Constructivism",
           "historicalContext": "Russian movement (1913-1940s) merging art with industrial production",
-          "keyCharacteristics": ["Industrial materials", "Geometric forms", "Political messaging"],
-          "corePrinciples": ["Art as social practice", "Technological progress", "Visual engineering"],
-          "colorPalette": ["#FF0000", "#000000", "#FFFFFF", "#FFFF00"],
+          "keyCharacteristics": [
+            "Industrial materials",
+            "Geometric forms",
+            "Political messaging"
+          ],
+          "corePrinciples": [
+            "Art as social practice",
+            "Technological progress",
+            "Visual engineering"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#000000",
+            "#FFFFFF",
+            "#FFFF00"
+          ],
           "colorFamily": "Red",
-          "typography": ["Rodchenko", "Lissitzky", "Bauhaus Bold"],
-          "influences": ["Cubism", "Futurism"],
-          "relatedMovements": ["De Stijl", "Bauhaus"],
+          "designSystem": "Industrial",
+          "typography": [
+            "Rodchenko",
+            "Lissitzky",
+            "Bauhaus Bold"
+          ],
+          "influences": [
+            "Cubism",
+            "Futurism"
+          ],
+          "relatedMovements": [
+            "De Stijl",
+            "Bauhaus"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Industrial", "Dynamic", "Political"],
+          "vibes": [
+            "Industrial",
+            "Dynamic",
+            "Political"
+          ],
           "tagline": "Art as a tool for revolutionary change",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -185,7 +345,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF0000", "#000000", "#FFFF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#000000",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #FF0000 0%, #000000 100%)",
               "fontPrimary": "'Rodchenko', sans-serif",
               "fontSecondary": "'Lissitzky', sans-serif"
@@ -205,15 +370,43 @@
           "name": "Futurism",
           "displayName": "Futurism",
           "historicalContext": "Italian avant-garde movement (1909-1944) celebrating technology/speed",
-          "keyCharacteristics": ["Dynamic motion", "Technological themes", "Energetic compositions"],
-          "corePrinciples": ["Machine aesthetics", "Velocity", "Modernity worship"],
-          "colorPalette": ["#C0C0C0", "#FF4500", "#000000", "#4169E1"],
+          "keyCharacteristics": [
+            "Dynamic motion",
+            "Technological themes",
+            "Energetic compositions"
+          ],
+          "corePrinciples": [
+            "Machine aesthetics",
+            "Velocity",
+            "Modernity worship"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#FF4500",
+            "#000000",
+            "#4169E1"
+          ],
           "colorFamily": "Orange",
-          "typography": ["Parole", "Futura Black", "Dynamo"],
-          "influences": ["Cubism", "Divisionism"],
-          "relatedMovements": ["Vorticism", "Rayonism"],
+          "designSystem": "Expressive",
+          "typography": [
+            "Parole",
+            "Futura Black",
+            "Dynamo"
+          ],
+          "influences": [
+            "Cubism",
+            "Divisionism"
+          ],
+          "relatedMovements": [
+            "Vorticism",
+            "Rayonism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Energetic", "Mechanical", "Disruptive"],
+          "vibes": [
+            "Energetic",
+            "Mechanical",
+            "Disruptive"
+          ],
           "tagline": "Capturing the speed and violence of modernity",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -222,7 +415,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#C0C0C0", "#FF4500", "#4169E1"],
+              "primaryColors": [
+                "#000000",
+                "#C0C0C0",
+                "#FF4500",
+                "#4169E1"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #000000 0%, #333333 100%)",
               "fontPrimary": "'Futura Black', sans-serif",
               "fontSecondary": "'Dynamo', sans-serif"
@@ -241,15 +439,43 @@
           "name": "Dada",
           "displayName": "Dada",
           "historicalContext": "Anti-art movement (1916-1924) reacting to WWI through absurdity",
-          "keyCharacteristics": ["Nonsensical", "Collage", "Anti-bourgeois"],
-          "corePrinciples": ["Artistic anarchy", "Chance operations", "Cultural subversion"],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#00FF00"],
+          "keyCharacteristics": [
+            "Nonsensical",
+            "Collage",
+            "Anti-bourgeois"
+          ],
+          "corePrinciples": [
+            "Artistic anarchy",
+            "Chance operations",
+            "Cultural subversion"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF0000",
+            "#00FF00"
+          ],
           "colorFamily": "Red",
-          "typography": ["Cut-and-paste", "Wood Type", "Found Typography"],
-          "influences": ["Cubist collage", "Expressionism"],
-          "relatedMovements": ["Surrealism", "Fluxus"],
+          "designSystem": "Deconstructed",
+          "typography": [
+            "Cut-and-paste",
+            "Wood Type",
+            "Found Typography"
+          ],
+          "influences": [
+            "Cubist collage",
+            "Expressionism"
+          ],
+          "relatedMovements": [
+            "Surrealism",
+            "Fluxus"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Chaotic", "Provocative", "Absurd"],
+          "vibes": [
+            "Chaotic",
+            "Provocative",
+            "Absurd"
+          ],
           "tagline": "Systematic work against the system",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -258,7 +484,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#00FF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#000000",
+                "#FF0000",
+                "#00FF00"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
               "fontPrimary": "'Wood Type', sans-serif",
               "fontSecondary": "'Cut-and-paste', sans-serif"
@@ -277,15 +508,43 @@
           "name": "Art Deco",
           "displayName": "Art Deco",
           "historicalContext": "Global style (1920-1939) representing luxury/modernity",
-          "keyCharacteristics": ["Geometric ornament", "Streamlined forms", "Luxury materials"],
-          "corePrinciples": ["Modern classicism", "Technological progress", "Decorative elegance"],
-          "colorPalette": ["#000000", "#D4AF37", "#C0C0C0", "#B22234"],
+          "keyCharacteristics": [
+            "Geometric ornament",
+            "Streamlined forms",
+            "Luxury materials"
+          ],
+          "corePrinciples": [
+            "Modern classicism",
+            "Technological progress",
+            "Decorative elegance"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#D4AF37",
+            "#C0C0C0",
+            "#B22234"
+          ],
           "colorFamily": "Black",
-          "typography": ["Broadway", "Bifur", "Avenir"],
-          "influences": ["Cubism", "Ancient Egypt"],
-          "relatedMovements": ["Streamline Moderne", "Jazz Age"],
+          "designSystem": "Decorative",
+          "typography": [
+            "Broadway",
+            "Bifur",
+            "Avenir"
+          ],
+          "influences": [
+            "Cubism",
+            "Ancient Egypt"
+          ],
+          "relatedMovements": [
+            "Streamline Moderne",
+            "Jazz Age"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Opulent", "Geometric", "Sophisticated"],
+          "vibes": [
+            "Opulent",
+            "Geometric",
+            "Sophisticated"
+          ],
           "tagline": "Modern elegance through geometric luxury",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -294,7 +553,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#D4AF37", "#C0C0C0", "#8B4513"],
+              "primaryColors": [
+                "#000000",
+                "#D4AF37",
+                "#C0C0C0",
+                "#8B4513"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A1A1A 100%)",
               "fontPrimary": "'Broadway', serif",
               "fontSecondary": "'Avenir', sans-serif"
@@ -313,15 +577,42 @@
           "name": "Vienna Secession",
           "displayName": "Vienna Secession",
           "historicalContext": "Austrian movement (1897-1905) breaking from academic art",
-          "keyCharacteristics": ["Geometric harmony", "Mosaic patterns", "Synthetic forms"],
-          "corePrinciples": ["Gesamtkunstwerk", "Stylized naturalism", "Geometric purity"],
-          "colorPalette": ["#F5F5DC", "#8B4513", "#556B2F", "#000000"],
+          "keyCharacteristics": [
+            "Geometric harmony",
+            "Mosaic patterns",
+            "Synthetic forms"
+          ],
+          "corePrinciples": [
+            "Gesamtkunstwerk",
+            "Stylized naturalism",
+            "Geometric purity"
+          ],
+          "colorPalette": [
+            "#F5F5DC",
+            "#8B4513",
+            "#556B2F",
+            "#000000"
+          ],
           "colorFamily": "Brown",
-          "typography": ["Ver Sacrum", "Koloman Moser", "Jugendstil"],
-          "influences": ["Arts & Crafts", "Art Nouveau"],
-          "relatedMovements": ["Wiener Werkstätte", "Expressionism"],
+          "typography": [
+            "Ver Sacrum",
+            "Koloman Moser",
+            "Jugendstil"
+          ],
+          "influences": [
+            "Arts & Crafts",
+            "Art Nouveau"
+          ],
+          "relatedMovements": [
+            "Wiener Werkstätte",
+            "Expressionism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Harmonious", "Stylized", "Integrated"],
+          "vibes": [
+            "Harmonious",
+            "Stylized",
+            "Integrated"
+          ],
           "tagline": "To every age its art, to art its freedom",
           "frontCard": {
             "backgroundColor": "#F5F5DC",
@@ -330,7 +621,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#F5F5DC", "#8B4513", "#556B2F", "#000000"],
+              "primaryColors": [
+                "#F5F5DC",
+                "#8B4513",
+                "#556B2F",
+                "#000000"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #F5F5DC 0%, #E6D2AA 100%)",
               "fontPrimary": "'Ver Sacrum', serif",
               "fontSecondary": "'Jugendstil', sans-serif"
@@ -342,22 +638,50 @@
                 "color": "#8B4513"
               }
             }
-          }
+          },
+          "designSystem": "Systematic"
         },
         {
           "id": "suprematism",
           "name": "Suprematism",
           "displayName": "Suprematism",
           "historicalContext": "Russian abstract art movement (1915-1930s) founded by Malevich",
-          "keyCharacteristics": ["Basic geometric forms", "Limited color palette", "Non-objective"],
-          "corePrinciples": ["Pure feeling", "Non-representational", "Spiritual geometry"],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#0000FF"],
+          "keyCharacteristics": [
+            "Basic geometric forms",
+            "Limited color palette",
+            "Non-objective"
+          ],
+          "corePrinciples": [
+            "Pure feeling",
+            "Non-representational",
+            "Spiritual geometry"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF0000",
+            "#0000FF"
+          ],
           "colorFamily": "Red",
-          "typography": ["Malevich", "Geometric Abstraction", "Bauhaus"],
-          "influences": ["Cubism", "Futurism"],
-          "relatedMovements": ["Constructivism", "De Stijl"],
+          "typography": [
+            "Malevich",
+            "Geometric Abstraction",
+            "Bauhaus"
+          ],
+          "influences": [
+            "Cubism",
+            "Futurism"
+          ],
+          "relatedMovements": [
+            "Constructivism",
+            "De Stijl"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Reductive", "Spiritual", "Fundamental"],
+          "vibes": [
+            "Reductive",
+            "Spiritual",
+            "Fundamental"
+          ],
           "tagline": "The supremacy of pure artistic feeling",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -366,7 +690,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#0000FF"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#000000",
+                "#FF0000",
+                "#0000FF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
               "fontPrimary": "'Malevich', sans-serif",
               "fontSecondary": "'Geometric Abstraction', sans-serif"
@@ -378,22 +707,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Minimalist"
         },
         {
           "id": "expressionism",
           "name": "Expressionism",
           "displayName": "Expressionism",
           "historicalContext": "Germanic art movement (1905-1933) emphasizing subjective emotion",
-          "keyCharacteristics": ["Distorted forms", "Intense colors", "Emotional rawness"],
-          "corePrinciples": ["Subjective perspective", "Emotional experience", "Social criticism"],
-          "colorPalette": ["#8B0000", "#4B0082", "#FF8C00", "#2F4F4F"],
+          "keyCharacteristics": [
+            "Distorted forms",
+            "Intense colors",
+            "Emotional rawness"
+          ],
+          "corePrinciples": [
+            "Subjective perspective",
+            "Emotional experience",
+            "Social criticism"
+          ],
+          "colorPalette": [
+            "#8B0000",
+            "#4B0082",
+            "#FF8C00",
+            "#2F4F4F"
+          ],
           "colorFamily": "Red",
-          "typography": ["Expressionist", "Woodcut", "Handwritten"],
-          "influences": ["Fauvism", "Symbolism"],
-          "relatedMovements": ["Abstract Expressionism", "Neo-Expressionism"],
+          "typography": [
+            "Expressionist",
+            "Woodcut",
+            "Handwritten"
+          ],
+          "influences": [
+            "Fauvism",
+            "Symbolism"
+          ],
+          "relatedMovements": [
+            "Abstract Expressionism",
+            "Neo-Expressionism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Emotional", "Distorted", "Intense"],
+          "vibes": [
+            "Emotional",
+            "Distorted",
+            "Intense"
+          ],
           "tagline": "Emotional experience over physical reality",
           "frontCard": {
             "backgroundColor": "#4B0082",
@@ -402,7 +759,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#4B0082", "#8B0000", "#FF8C00", "#2F4F4F"],
+              "primaryColors": [
+                "#4B0082",
+                "#8B0000",
+                "#FF8C00",
+                "#2F4F4F"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #4B0082 0%, #2F4F4F 100%)",
               "fontPrimary": "'Expressionist', sans-serif",
               "fontSecondary": "'Woodcut', sans-serif"
@@ -414,22 +776,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Expressive"
         },
         {
           "id": "streamline_moderne",
           "name": "Streamline Moderne",
           "displayName": "Streamline Moderne",
           "historicalContext": "Late Art Deco phase (1930-1950) emphasizing aerodynamic forms",
-          "keyCharacteristics": ["Horizontal lines", "Nautical elements", "Sleek curves"],
-          "corePrinciples": ["Aerodynamic efficiency", "Technological optimism", "Sleek functionality"],
-          "colorPalette": ["#FFFFFF", "#C0C0C0", "#4682B4", "#000000"],
+          "keyCharacteristics": [
+            "Horizontal lines",
+            "Nautical elements",
+            "Sleek curves"
+          ],
+          "corePrinciples": [
+            "Aerodynamic efficiency",
+            "Technological optimism",
+            "Sleek functionality"
+          ],
+          "colorPalette": [
+            "#FFFFFF",
+            "#C0C0C0",
+            "#4682B4",
+            "#000000"
+          ],
           "colorFamily": "Blue",
-          "typography": ["Futura", "Kabel", "Metro"],
-          "influences": ["Art Deco", "Industrial Design"],
-          "relatedMovements": ["Googie", "Mid-Century Modern"],
+          "typography": [
+            "Futura",
+            "Kabel",
+            "Metro"
+          ],
+          "influences": [
+            "Art Deco",
+            "Industrial Design"
+          ],
+          "relatedMovements": [
+            "Googie",
+            "Mid-Century Modern"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Dynamic", "Sleek", "Industrial"],
+          "vibes": [
+            "Dynamic",
+            "Sleek",
+            "Industrial"
+          ],
           "tagline": "Aerodynamic efficiency as aesthetic principle",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -438,7 +828,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#C0C0C0", "#4682B4", "#000000"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#C0C0C0",
+                "#4682B4",
+                "#000000"
+              ],
               "backgroundGradient": "linear-gradient(90deg, #FFFFFF 0%, #C0C0C0 100%)",
               "fontPrimary": "'Futura', sans-serif",
               "fontSecondary": "'Kabel', sans-serif"
@@ -450,22 +845,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Industrial"
         },
         {
           "id": "cubism",
           "name": "Cubism",
           "displayName": "Cubism",
           "historicalContext": "Revolutionary art movement (1907-1914) pioneered by Picasso/Braque",
-          "keyCharacteristics": ["Geometric fragmentation", "Multiple perspectives", "Monochrome palette"],
-          "corePrinciples": ["Deconstruction of form", "Simultaneity of vision", "Abstract representation"],
-          "colorPalette": ["#808080", "#000000", "#FFFFFF", "#696969"],
+          "keyCharacteristics": [
+            "Geometric fragmentation",
+            "Multiple perspectives",
+            "Monochrome palette"
+          ],
+          "corePrinciples": [
+            "Deconstruction of form",
+            "Simultaneity of vision",
+            "Abstract representation"
+          ],
+          "colorPalette": [
+            "#808080",
+            "#000000",
+            "#FFFFFF",
+            "#696969"
+          ],
           "colorFamily": "Gray",
-          "typography": ["Cubist", "Geometric", "Collage"],
-          "influences": ["African sculpture", "Post-Impressionism"],
-          "relatedMovements": ["Futurism", "Constructivism"],
+          "typography": [
+            "Cubist",
+            "Geometric",
+            "Collage"
+          ],
+          "influences": [
+            "African sculpture",
+            "Post-Impressionism"
+          ],
+          "relatedMovements": [
+            "Futurism",
+            "Constructivism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Fragmented", "Analytical", "Multi-perspective"],
+          "vibes": [
+            "Fragmented",
+            "Analytical",
+            "Multi-perspective"
+          ],
           "tagline": "Simultaneous perspectives in fractured space",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -474,7 +897,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#808080", "#000000", "#696969"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#808080",
+                "#000000",
+                "#696969"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #D3D3D3 100%)",
               "fontPrimary": "'Cubist', sans-serif",
               "fontSecondary": "'Geometric', sans-serif"
@@ -486,22 +914,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Deconstructed"
         },
         {
           "id": "fauvism",
           "name": "Fauvism",
           "displayName": "Fauvism",
           "historicalContext": "Early 20th-century movement (1904-1908) emphasizing painterly qualities",
-          "keyCharacteristics": ["Bold colors", "Simplified forms", "Expressive brushwork"],
-          "corePrinciples": ["Color autonomy", "Emotional intensity", "Decorative surfaces"],
-          "colorPalette": ["#FF0000", "#00FF00", "#0000FF", "#FFFF00"],
+          "keyCharacteristics": [
+            "Bold colors",
+            "Simplified forms",
+            "Expressive brushwork"
+          ],
+          "corePrinciples": [
+            "Color autonomy",
+            "Emotional intensity",
+            "Decorative surfaces"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#00FF00",
+            "#0000FF",
+            "#FFFF00"
+          ],
           "colorFamily": "Red",
-          "typography": ["Wild Type", "Brush Script", "Expressive"],
-          "influences": ["Post-Impressionism", "African art"],
-          "relatedMovements": ["Expressionism", "Orphism"],
+          "typography": [
+            "Wild Type",
+            "Brush Script",
+            "Expressive"
+          ],
+          "influences": [
+            "Post-Impressionism",
+            "African art"
+          ],
+          "relatedMovements": [
+            "Expressionism",
+            "Orphism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Vibrant", "Instinctive", "Unrestrained"],
+          "vibes": [
+            "Vibrant",
+            "Instinctive",
+            "Unrestrained"
+          ],
           "tagline": "Color liberated from descriptive function",
           "frontCard": {
             "backgroundColor": "#00FF00",
@@ -510,7 +966,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#00FF00", "#FF0000", "#0000FF", "#FFFF00"],
+              "primaryColors": [
+                "#00FF00",
+                "#FF0000",
+                "#0000FF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #00FF00 0%, #00CC00 100%)",
               "fontPrimary": "'Wild Type', sans-serif",
               "fontSecondary": "'Brush Script', cursive"
@@ -522,22 +983,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "High Contrast"
         },
         {
           "id": "der_blaue_reiter",
           "name": "Der Blaue Reiter",
           "displayName": "Der Blaue Reiter",
           "historicalContext": "German expressionist group (1911-1914) co-founded by Kandinsky",
-          "keyCharacteristics": ["Spiritual abstraction", "Symbolic color", "Synthetic forms"],
-          "corePrinciples": ["Inner necessity", "Synthesis of arts", "Spiritual in art"],
-          "colorPalette": ["#0000FF", "#FFFF00", "#FF0000", "#FFFFFF"],
+          "keyCharacteristics": [
+            "Spiritual abstraction",
+            "Symbolic color",
+            "Synthetic forms"
+          ],
+          "corePrinciples": [
+            "Inner necessity",
+            "Synthesis of arts",
+            "Spiritual in art"
+          ],
+          "colorPalette": [
+            "#0000FF",
+            "#FFFF00",
+            "#FF0000",
+            "#FFFFFF"
+          ],
           "colorFamily": "Blue",
-          "typography": ["Expressionist", "Handwritten", "Woodcut"],
-          "influences": ["Folk art", "Medieval art"],
-          "relatedMovements": ["Expressionism", "Abstract Art"],
+          "typography": [
+            "Expressionist",
+            "Handwritten",
+            "Woodcut"
+          ],
+          "influences": [
+            "Folk art",
+            "Medieval art"
+          ],
+          "relatedMovements": [
+            "Expressionism",
+            "Abstract Art"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Spiritual", "Symbolic", "Expressive"],
+          "vibes": [
+            "Spiritual",
+            "Symbolic",
+            "Expressive"
+          ],
           "tagline": "The spiritual in art through symbolic form",
           "frontCard": {
             "backgroundColor": "#0000FF",
@@ -546,7 +1035,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#0000FF", "#FFFF00", "#FF0000", "#FFFFFF"],
+              "primaryColors": [
+                "#0000FF",
+                "#FFFF00",
+                "#FF0000",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #0000FF 0%, #4169E1 100%)",
               "fontPrimary": "'Expressionist', sans-serif",
               "fontSecondary": "'Handwritten', cursive"
@@ -558,7 +1052,8 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "designSystem": "Expressive"
         }
       ]
     },
@@ -633,7 +1128,8 @@
                 "color": "#8B4513"
               }
             }
-          }
+          },
+          "designSystem": "Organic"
         },
         {
           "id": "swiss_style",
@@ -701,7 +1197,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Systematic"
         },
         {
           "id": "googie",
@@ -769,7 +1266,8 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "designSystem": "Expressive"
         },
         {
           "id": "space_age",
@@ -837,7 +1335,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Digital-first"
         },
         {
           "id": "danish_modern",
@@ -905,7 +1404,8 @@
                 "color": "#8B4513"
               }
             }
-          }
+          },
+          "designSystem": "Minimalist"
         },
         {
           "id": "populuxe",
@@ -973,7 +1473,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Expressive"
         },
         {
           "id": "brutalism",
@@ -1041,7 +1542,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Industrial"
         },
         {
           "id": "tiki_culture",
@@ -1109,7 +1611,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Decorative"
         },
         {
           "id": "metabolist",
@@ -1177,7 +1680,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Systematic"
         },
         {
           "id": "california_design",
@@ -1245,7 +1749,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Expressive"
         },
         {
           "id": "space_race",
@@ -1313,7 +1818,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Industrial"
         },
         {
           "id": "atomic_age",
@@ -1381,7 +1887,8 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "designSystem": "High Contrast"
         },
         {
           "id": "scandinavian_design",
@@ -1449,7 +1956,8 @@
                 "color": "#8B4513"
               }
             }
-          }
+          },
+          "designSystem": "Minimalist"
         },
         {
           "id": "italian_modern",
@@ -1517,7 +2025,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Decorative"
         },
         {
           "id": "japanese_postwar",
@@ -1585,7 +2094,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Systematic"
         },
         {
           "id": "corporate_modernism",
@@ -1653,7 +2163,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Systematic"
         },
         {
           "id": "high_tech",
@@ -1721,7 +2232,8 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "designSystem": "Industrial"
         }
       ]
     },
@@ -1735,14 +2247,41 @@
           "name": "Memphis Group",
           "displayName": "Memphis",
           "historicalContext": "Founded by Ettore Sottsass in Milan (1981). Rebelled against modernist minimalism with playful geometries.",
-          "keyCharacteristics": ["Bold patterns", "Plastic laminates", "Clashing colors"],
-          "corePrinciples": ["Radical eclecticism", "Anti-functionalism", "Postmodern irony"],
-          "colorPalette": ["#FFD700", "#FF69B4", "#00CED1", "#000000"],
-          "typography": ["ITC Avant Garde", "Bauhaus", "Futura Bold"],
-          "influences": ["Pop Art", "Art Deco"],
-          "relatedMovements": ["New Wave", "Anti-Design"],
+          "keyCharacteristics": [
+            "Bold patterns",
+            "Plastic laminates",
+            "Clashing colors"
+          ],
+          "corePrinciples": [
+            "Radical eclecticism",
+            "Anti-functionalism",
+            "Postmodern irony"
+          ],
+          "colorPalette": [
+            "#FFD700",
+            "#FF69B4",
+            "#00CED1",
+            "#000000"
+          ],
+          "typography": [
+            "ITC Avant Garde",
+            "Bauhaus",
+            "Futura Bold"
+          ],
+          "influences": [
+            "Pop Art",
+            "Art Deco"
+          ],
+          "relatedMovements": [
+            "New Wave",
+            "Anti-Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Playful", "Clashing", "Energetic"],
+          "vibes": [
+            "Playful",
+            "Clashing",
+            "Energetic"
+          ],
           "tagline": "Radical irreverence in form and color",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -1751,7 +2290,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF69B4", "#00CED1", "#FFD700"],
+              "primaryColors": [
+                "#000000",
+                "#FF69B4",
+                "#00CED1",
+                "#FFD700"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #FF69B4 0%, #00CED1 100%)",
               "fontPrimary": "'ITC Avant Garde', sans-serif",
               "fontSecondary": "'Bauhaus', sans-serif"
@@ -1763,21 +2307,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Yellow",
+          "designSystem": "High Contrast"
         },
         {
           "id": "new_wave_typography",
           "name": "New Wave Typography",
           "displayName": "New Wave",
           "historicalContext": "Pioneered by Wolfgang Weingart (1970s). Broke Swiss typographic grids with experimental layouts.",
-          "keyCharacteristics": ["Collaged type", "Overlapping elements", "Photocopier textures"],
-          "corePrinciples": ["Deconstructed grids", "Typographic expression", "Punk sensibility"],
-          "colorPalette": ["#FF0000", "#000000", "#FFFFFF", "#00FF00"],
-          "typography": ["Helvetica", "Univers", "Cut-and-paste"],
-          "influences": ["Dada", "Punk"],
-          "relatedMovements": ["Postmodernism", "Deconstructivism"],
+          "keyCharacteristics": [
+            "Collaged type",
+            "Overlapping elements",
+            "Photocopier textures"
+          ],
+          "corePrinciples": [
+            "Deconstructed grids",
+            "Typographic expression",
+            "Punk sensibility"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#000000",
+            "#FFFFFF",
+            "#00FF00"
+          ],
+          "typography": [
+            "Helvetica",
+            "Univers",
+            "Cut-and-paste"
+          ],
+          "influences": [
+            "Dada",
+            "Punk"
+          ],
+          "relatedMovements": [
+            "Postmodernism",
+            "Deconstructivism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Chaotic", "Energetic", "Rebellious"],
+          "vibes": [
+            "Chaotic",
+            "Energetic",
+            "Rebellious"
+          ],
           "tagline": "Typography unchained from modernist dogma",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -1786,7 +2359,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF0000", "#000000", "#00FF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#000000",
+                "#00FF00"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
               "fontPrimary": "'Helvetica', sans-serif",
               "fontSecondary": "'Univers', sans-serif"
@@ -1798,21 +2376,50 @@
                 "transform": "rotate(2deg)"
               }
             }
-          }
+          },
+          "colorFamily": "Red",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "punk_design",
           "name": "Punk Design",
           "displayName": "Punk",
           "historicalContext": "Emerging from 1970s UK music scene. DIY aesthetic challenging establishment norms.",
-          "keyCharacteristics": ["Ransom-note typography", "Distressed textures", "Photocopied imagery"],
-          "corePrinciples": ["Anti-authoritarianism", "DIY ethic", "Cultural sabotage"],
-          "colorPalette": ["#000000", "#FF0000", "#FFFFFF", "#FFFF00"],
-          "typography": ["Cut-out letters", "Stencil", "Handwritten"],
-          "influences": ["Dada", "Situationist International"],
-          "relatedMovements": ["Grunge", "New Wave"],
+          "keyCharacteristics": [
+            "Ransom-note typography",
+            "Distressed textures",
+            "Photocopied imagery"
+          ],
+          "corePrinciples": [
+            "Anti-authoritarianism",
+            "DIY ethic",
+            "Cultural sabotage"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FF0000",
+            "#FFFFFF",
+            "#FFFF00"
+          ],
+          "typography": [
+            "Cut-out letters",
+            "Stencil",
+            "Handwritten"
+          ],
+          "influences": [
+            "Dada",
+            "Situationist International"
+          ],
+          "relatedMovements": [
+            "Grunge",
+            "New Wave"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Aggressive", "Raw", "Rebellious"],
+          "vibes": [
+            "Aggressive",
+            "Raw",
+            "Rebellious"
+          ],
           "tagline": "Destroy the establishment with scissors and glue",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -1821,7 +2428,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF0000", "#FFFF00", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#FF0000",
+                "#FFFF00",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #333333 100%)",
               "fontPrimary": "'Stencil', sans-serif",
               "fontSecondary": "'Cut-out letters', sans-serif"
@@ -1833,21 +2445,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "deconstructivism",
           "name": "Deconstructivism",
           "displayName": "Deconstructivism",
           "historicalContext": "Architectural movement (1980s) led by Zaha Hadid and Peter Eisenman. Fragmented forms.",
-          "keyCharacteristics": ["Non-rectilinear shapes", "Distorted geometry", "Visual instability"],
-          "corePrinciples": ["Challenge of symmetry", "Controlled chaos", "Spatial conflict"],
-          "colorPalette": ["#FFFFFF", "#000000", "#C0C0C0", "#FF0000"],
-          "typography": ["FF Meta", "Univers", "Helvetica Compressed"],
-          "influences": ["Constructivism", "Postmodernism"],
-          "relatedMovements": ["High-Tech", "Blobitecture"],
+          "keyCharacteristics": [
+            "Non-rectilinear shapes",
+            "Distorted geometry",
+            "Visual instability"
+          ],
+          "corePrinciples": [
+            "Challenge of symmetry",
+            "Controlled chaos",
+            "Spatial conflict"
+          ],
+          "colorPalette": [
+            "#FFFFFF",
+            "#000000",
+            "#C0C0C0",
+            "#FF0000"
+          ],
+          "typography": [
+            "FF Meta",
+            "Univers",
+            "Helvetica Compressed"
+          ],
+          "influences": [
+            "Constructivism",
+            "Postmodernism"
+          ],
+          "relatedMovements": [
+            "High-Tech",
+            "Blobitecture"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Fragmented", "Unstable", "Dynamic"],
+          "vibes": [
+            "Fragmented",
+            "Unstable",
+            "Dynamic"
+          ],
           "tagline": "Architecture at the edge of chaos",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -1856,7 +2497,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#C0C0C0"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#000000",
+                "#FF0000",
+                "#C0C0C0"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
               "fontPrimary": "'FF Meta', sans-serif",
               "fontSecondary": "'Univers', sans-serif"
@@ -1868,21 +2514,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "White",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "high_tech_architecture",
           "name": "High-Tech Architecture",
           "displayName": "High-Tech",
           "historicalContext": "Late modernist movement (1970-1990) celebrating structural expression. Norman Foster/Renzo Piano.",
-          "keyCharacteristics": ["Exposed structures", "Industrial materials", "Technical detailing"],
-          "corePrinciples": ["Honesty of construction", "Technological exhibition", "Adaptable systems"],
-          "colorPalette": ["#C0C0C0", "#000000", "#FFFFFF", "#4682B4"],
-          "typography": ["Univers", "Helvetica", "Eurostile"],
-          "influences": ["Modernism", "Constructivism"],
-          "relatedMovements": ["Brutalism", "Metabolism"],
+          "keyCharacteristics": [
+            "Exposed structures",
+            "Industrial materials",
+            "Technical detailing"
+          ],
+          "corePrinciples": [
+            "Honesty of construction",
+            "Technological exhibition",
+            "Adaptable systems"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#000000",
+            "#FFFFFF",
+            "#4682B4"
+          ],
+          "typography": [
+            "Univers",
+            "Helvetica",
+            "Eurostile"
+          ],
+          "influences": [
+            "Modernism",
+            "Constructivism"
+          ],
+          "relatedMovements": [
+            "Brutalism",
+            "Metabolism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Industrial", "Precise", "Technical"],
+          "vibes": [
+            "Industrial",
+            "Precise",
+            "Technical"
+          ],
           "tagline": "Celebrating the poetry of structure",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -1891,7 +2566,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#4682B4", "#000000", "#C0C0C0"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#4682B4",
+                "#000000",
+                "#C0C0C0"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
               "fontPrimary": "'Univers', sans-serif",
               "fontSecondary": "'Eurostile', sans-serif"
@@ -1903,21 +2583,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Gray",
+          "designSystem": "Industrial"
         },
         {
           "id": "anti_design",
           "name": "Anti-Design",
           "displayName": "Anti-Design",
           "historicalContext": "Italian movement (1970s) rejecting functionalism. Led by Superstudio and Archizoom.",
-          "keyCharacteristics": ["Illogical forms", "Provocative imagery", "Useless objects"],
-          "corePrinciples": ["Challenge consumerism", "Design as critique", "Radical dysfunction"],
-          "colorPalette": ["#FF0000", "#FFFF00", "#000000", "#FFFFFF"],
-          "typography": ["Cut-and-paste", "Handwritten", "Stencil"],
-          "influences": ["Dada", "Radical Architecture"],
-          "relatedMovements": ["Memphis", "Postmodernism"],
+          "keyCharacteristics": [
+            "Illogical forms",
+            "Provocative imagery",
+            "Useless objects"
+          ],
+          "corePrinciples": [
+            "Challenge consumerism",
+            "Design as critique",
+            "Radical dysfunction"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#FFFF00",
+            "#000000",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Cut-and-paste",
+            "Handwritten",
+            "Stencil"
+          ],
+          "influences": [
+            "Dada",
+            "Radical Architecture"
+          ],
+          "relatedMovements": [
+            "Memphis",
+            "Postmodernism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Provocative", "Absurd", "Conceptual"],
+          "vibes": [
+            "Provocative",
+            "Absurd",
+            "Conceptual"
+          ],
           "tagline": "Design against design",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -1926,7 +2635,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF0000", "#000000", "#FFFF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#000000",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
               "fontPrimary": "'Cut-and-paste', sans-serif",
               "fontSecondary": "'Handwritten', cursive"
@@ -1938,21 +2652,50 @@
                 "color": "#FFFF00"
               }
             }
-          }
+          },
+          "colorFamily": "Red",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "radical_design",
           "name": "Radical Design",
           "displayName": "Radical Design",
           "historicalContext": "Italian avant-garde (1960s-1970s) merging architecture with social critique.",
-          "keyCharacteristics": ["Utopian proposals", "Collage aesthetics", "Conceptual objects"],
-          "corePrinciples": ["Social revolution", "Anti-consumerism", "Speculative futures"],
-          "colorPalette": ["#000000", "#FF0000", "#FFFFFF", "#00FF00"],
-          "typography": ["Modular", "Stencil", "Constructivist"],
-          "influences": ["Constructivism", "Situationist International"],
-          "relatedMovements": ["Anti-Design", "Archigram"],
+          "keyCharacteristics": [
+            "Utopian proposals",
+            "Collage aesthetics",
+            "Conceptual objects"
+          ],
+          "corePrinciples": [
+            "Social revolution",
+            "Anti-consumerism",
+            "Speculative futures"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FF0000",
+            "#FFFFFF",
+            "#00FF00"
+          ],
+          "typography": [
+            "Modular",
+            "Stencil",
+            "Constructivist"
+          ],
+          "influences": [
+            "Constructivism",
+            "Situationist International"
+          ],
+          "relatedMovements": [
+            "Anti-Design",
+            "Archigram"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Utopian", "Provocative", "Conceptual"],
+          "vibes": [
+            "Utopian",
+            "Provocative",
+            "Conceptual"
+          ],
           "tagline": "Design as a weapon for social change",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -1961,7 +2704,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF0000", "#00FF00", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#FF0000",
+                "#00FF00",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #333333 100%)",
               "fontPrimary": "'Stencil', sans-serif",
               "fontSecondary": "'Constructivist', sans-serif"
@@ -1973,21 +2721,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "transavantgarde",
           "name": "Transavantgarde",
           "displayName": "Transavantgarde",
           "historicalContext": "Italian art movement (1979) bridging avant-garde and traditional painting.",
-          "keyCharacteristics": ["Neo-expressionist brushwork", "Mythological references", "Vibrant colors"],
-          "corePrinciples": ["Return to painting", "Cultural nomadism", "Emotional intensity"],
-          "colorPalette": ["#FF4500", "#4B0082", "#FFD700", "#000000"],
-          "typography": ["Hand-painted", "Serif", "Calligraphic"],
-          "influences": ["Expressionism", "Arte Povera"],
-          "relatedMovements": ["Neo-Expressionism", "Bad Painting"],
+          "keyCharacteristics": [
+            "Neo-expressionist brushwork",
+            "Mythological references",
+            "Vibrant colors"
+          ],
+          "corePrinciples": [
+            "Return to painting",
+            "Cultural nomadism",
+            "Emotional intensity"
+          ],
+          "colorPalette": [
+            "#FF4500",
+            "#4B0082",
+            "#FFD700",
+            "#000000"
+          ],
+          "typography": [
+            "Hand-painted",
+            "Serif",
+            "Calligraphic"
+          ],
+          "influences": [
+            "Expressionism",
+            "Arte Povera"
+          ],
+          "relatedMovements": [
+            "Neo-Expressionism",
+            "Bad Painting"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Energetic", "Mythic", "Gestural"],
+          "vibes": [
+            "Energetic",
+            "Mythic",
+            "Gestural"
+          ],
           "tagline": "Painting reborn through cultural nomadism",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -1996,7 +2773,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF4500", "#FFD700", "#4B0082"],
+              "primaryColors": [
+                "#000000",
+                "#FF4500",
+                "#FFD700",
+                "#4B0082"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
               "fontPrimary": "'Serif', serif",
               "fontSecondary": "'Calligraphic', cursive"
@@ -2008,21 +2790,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Orange",
+          "designSystem": "Expressive"
         },
         {
           "id": "neo_expressionism",
           "name": "Neo-Expressionism",
           "displayName": "Neo-Expressionism",
           "historicalContext": "Global art movement (1970s-1980s) reviving emotional, figurative painting.",
-          "keyCharacteristics": ["Thick brushstrokes", "Raw emotion", "Distorted figures"],
-          "corePrinciples": ["Subjective intensity", "Return to figuration", "Anti-minimalism"],
-          "colorPalette": ["#8B0000", "#000000", "#FFD700", "#4B0082"],
-          "typography": ["Hand-painted", "Gothic", "Expressionist"],
-          "influences": ["German Expressionism", "Abstract Expressionism"],
-          "relatedMovements": ["Transavantgarde", "Bad Painting"],
+          "keyCharacteristics": [
+            "Thick brushstrokes",
+            "Raw emotion",
+            "Distorted figures"
+          ],
+          "corePrinciples": [
+            "Subjective intensity",
+            "Return to figuration",
+            "Anti-minimalism"
+          ],
+          "colorPalette": [
+            "#8B0000",
+            "#000000",
+            "#FFD700",
+            "#4B0082"
+          ],
+          "typography": [
+            "Hand-painted",
+            "Gothic",
+            "Expressionist"
+          ],
+          "influences": [
+            "German Expressionism",
+            "Abstract Expressionism"
+          ],
+          "relatedMovements": [
+            "Transavantgarde",
+            "Bad Painting"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Emotional", "Raw", "Visceral"],
+          "vibes": [
+            "Emotional",
+            "Raw",
+            "Visceral"
+          ],
           "tagline": "The return of emotion to contemporary art",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2031,7 +2842,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#8B0000", "#FFD700", "#4B0082"],
+              "primaryColors": [
+                "#000000",
+                "#8B0000",
+                "#FFD700",
+                "#4B0082"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330000 100%)",
               "fontPrimary": "'Gothic', sans-serif",
               "fontSecondary": "'Expressionist', sans-serif"
@@ -2043,21 +2859,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Red",
+          "designSystem": "Expressive"
         },
         {
           "id": "memphis_revival",
           "name": "Memphis Revival",
           "displayName": "Memphis Revival",
           "historicalContext": "1980s resurgence of Memphis aesthetics in fashion and graphic design.",
-          "keyCharacteristics": ["Geometric patterns", "Plastic colors", "Postmodern eclecticism"],
-          "corePrinciples": ["Decorative excess", "Pop references", "Ironic nostalgia"],
-          "colorPalette": ["#FF69B4", "#00CED1", "#FFD700", "#000000"],
-          "typography": ["Memphis Bold", "ITC Avant Garde", "Futura Extra Bold"],
-          "influences": ["Pop Art", "Art Deco"],
-          "relatedMovements": ["Postmodernism", "New Wave"],
+          "keyCharacteristics": [
+            "Geometric patterns",
+            "Plastic colors",
+            "Postmodern eclecticism"
+          ],
+          "corePrinciples": [
+            "Decorative excess",
+            "Pop references",
+            "Ironic nostalgia"
+          ],
+          "colorPalette": [
+            "#FF69B4",
+            "#00CED1",
+            "#FFD700",
+            "#000000"
+          ],
+          "typography": [
+            "Memphis Bold",
+            "ITC Avant Garde",
+            "Futura Extra Bold"
+          ],
+          "influences": [
+            "Pop Art",
+            "Art Deco"
+          ],
+          "relatedMovements": [
+            "Postmodernism",
+            "New Wave"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Nostalgic", "Energetic", "Kitschy"],
+          "vibes": [
+            "Nostalgic",
+            "Energetic",
+            "Kitschy"
+          ],
           "tagline": "Postmodernism's most colorful rebellion",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2066,7 +2911,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF69B4", "#00CED1", "#FFD700"],
+              "primaryColors": [
+                "#000000",
+                "#FF69B4",
+                "#00CED1",
+                "#FFD700"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #FF69B4 0%, #00CED1 100%)",
               "fontPrimary": "'Memphis Bold', sans-serif",
               "fontSecondary": "'ITC Avant Garde', sans-serif"
@@ -2078,21 +2928,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Pink",
+          "designSystem": "Expressive"
         },
         {
           "id": "retro_futurism",
           "name": "Retro-Futurism",
           "displayName": "Retro-Futurism",
           "historicalContext": "1980s aesthetic reimagining early 20th-century futurism through contemporary lens.",
-          "keyCharacteristics": ["Nostalgic futurism", "Streamlined forms", "Art Deco influences"],
-          "corePrinciples": ["Reimagined futures", "Technological nostalgia", "Stylized progress"],
-          "colorPalette": ["#C0C0C0", "#FF0000", "#00FFFF", "#000000"],
-          "typography": ["Futura Black", "Microgramma", "Eurostile"],
-          "influences": ["Art Deco", "Googie"],
-          "relatedMovements": ["Steampunk", "Dieselpunk"],
+          "keyCharacteristics": [
+            "Nostalgic futurism",
+            "Streamlined forms",
+            "Art Deco influences"
+          ],
+          "corePrinciples": [
+            "Reimagined futures",
+            "Technological nostalgia",
+            "Stylized progress"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#FF0000",
+            "#00FFFF",
+            "#000000"
+          ],
+          "typography": [
+            "Futura Black",
+            "Microgramma",
+            "Eurostile"
+          ],
+          "influences": [
+            "Art Deco",
+            "Googie"
+          ],
+          "relatedMovements": [
+            "Steampunk",
+            "Dieselpunk"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Nostalgic", "Mechanical", "Optimistic"],
+          "vibes": [
+            "Nostalgic",
+            "Mechanical",
+            "Optimistic"
+          ],
           "tagline": "Yesterday's vision of tomorrow",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2101,7 +2980,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FFFF", "#FF0000", "#C0C0C0"],
+              "primaryColors": [
+                "#000000",
+                "#00FFFF",
+                "#FF0000",
+                "#C0C0C0"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
               "fontPrimary": "'Microgramma', sans-serif",
               "fontSecondary": "'Eurostile', sans-serif"
@@ -2113,21 +2997,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Gray",
+          "designSystem": "Nostalgic"
         },
         {
           "id": "grunge_design",
           "name": "Grunge Design",
           "displayName": "Grunge",
           "historicalContext": "1990s aesthetic from Seattle music scene. Reaction against polished design.",
-          "keyCharacteristics": ["Distressed textures", "Handmade typography", "Punk influences"],
-          "corePrinciples": ["Authentic imperfection", "DIY ethos", "Anti-corporate"],
-          "colorPalette": ["#000000", "#8B4513", "#708090", "#FFFFFF"],
-          "typography": ["Handwritten", "Stencil", "Typewriter"],
-          "influences": ["Punk", "Dada"],
-          "relatedMovements": ["New Wave", "Anti-Design"],
+          "keyCharacteristics": [
+            "Distressed textures",
+            "Handmade typography",
+            "Punk influences"
+          ],
+          "corePrinciples": [
+            "Authentic imperfection",
+            "DIY ethos",
+            "Anti-corporate"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#8B4513",
+            "#708090",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Handwritten",
+            "Stencil",
+            "Typewriter"
+          ],
+          "influences": [
+            "Punk",
+            "Dada"
+          ],
+          "relatedMovements": [
+            "New Wave",
+            "Anti-Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Raw", "Authentic", "Rebellious"],
+          "vibes": [
+            "Raw",
+            "Authentic",
+            "Rebellious"
+          ],
           "tagline": "Perfect imperfection in the digital age",
           "frontCard": {
             "backgroundColor": "#8B4513",
@@ -2136,7 +3049,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#8B4513", "#000000", "#708090", "#FFFFFF"],
+              "primaryColors": [
+                "#8B4513",
+                "#000000",
+                "#708090",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #8B4513 0%, #654321 100%)",
               "fontPrimary": "'Typewriter', monospace",
               "fontSecondary": "'Stencil', sans-serif"
@@ -2148,21 +3066,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "supergraphics",
           "name": "Supergraphics",
           "displayName": "Supergraphics",
           "historicalContext": "1970s architectural trend using massive graphics to transform spaces.",
-          "keyCharacteristics": ["Bold typography", "Giant scale", "Environmental integration"],
-          "corePrinciples": ["Architecture as canvas", "Spatial perception", "Graphic intervention"],
-          "colorPalette": ["#FF0000", "#0000FF", "#FFFF00", "#FFFFFF"],
-          "typography": ["Helvetica Bold", "Univers Extended", "Futura Black"],
-          "influences": ["Pop Art", "Op Art"],
-          "relatedMovements": ["Postmodernism", "New Wave"],
+          "keyCharacteristics": [
+            "Bold typography",
+            "Giant scale",
+            "Environmental integration"
+          ],
+          "corePrinciples": [
+            "Architecture as canvas",
+            "Spatial perception",
+            "Graphic intervention"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#0000FF",
+            "#FFFF00",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Helvetica Bold",
+            "Univers Extended",
+            "Futura Black"
+          ],
+          "influences": [
+            "Pop Art",
+            "Op Art"
+          ],
+          "relatedMovements": [
+            "Postmodernism",
+            "New Wave"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Bold", "Environmental", "Transformative"],
+          "vibes": [
+            "Bold",
+            "Environmental",
+            "Transformative"
+          ],
           "tagline": "Architecture as a giant graphic statement",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2171,7 +3118,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF0000", "#0000FF", "#FFFF00"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF0000",
+                "#0000FF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
               "fontPrimary": "'Helvetica Bold', sans-serif",
               "fontSecondary": "'Univers Extended', sans-serif"
@@ -2183,21 +3135,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Red",
+          "designSystem": "High Contrast"
         },
         {
           "id": "california_new_wave",
           "name": "California New Wave",
           "displayName": "Cal New Wave",
           "historicalContext": "1980s West Coast design movement blending surf culture with New Wave typography.",
-          "keyCharacteristics": ["Neon colors", "Beach references", "Punk influences"],
-          "corePrinciples": ["Sun-drenched rebellion", "Hybrid aesthetics", "Surf-punk fusion"],
-          "colorPalette": ["#00FFFF", "#FF00FF", "#FFFF00", "#000000"],
-          "typography": ["Raygun", "Dead Kennedys", "Beach Script"],
-          "influences": ["Punk", "Googie"],
-          "relatedMovements": ["New Wave", "Memphis"],
+          "keyCharacteristics": [
+            "Neon colors",
+            "Beach references",
+            "Punk influences"
+          ],
+          "corePrinciples": [
+            "Sun-drenched rebellion",
+            "Hybrid aesthetics",
+            "Surf-punk fusion"
+          ],
+          "colorPalette": [
+            "#00FFFF",
+            "#FF00FF",
+            "#FFFF00",
+            "#000000"
+          ],
+          "typography": [
+            "Raygun",
+            "Dead Kennedys",
+            "Beach Script"
+          ],
+          "influences": [
+            "Punk",
+            "Googie"
+          ],
+          "relatedMovements": [
+            "New Wave",
+            "Memphis"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Energetic", "Sun-bleached", "Rebellious"],
+          "vibes": [
+            "Energetic",
+            "Sun-bleached",
+            "Rebellious"
+          ],
           "tagline": "Punk goes surfing in the neon sunset",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2206,7 +3187,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FFFF", "#FF00FF", "#FFFF00"],
+              "primaryColors": [
+                "#000000",
+                "#00FFFF",
+                "#FF00FF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330066 100%)",
               "fontPrimary": "'Raygun', sans-serif",
               "fontSecondary": "'Beach Script', cursive"
@@ -2218,21 +3204,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Cyan",
+          "designSystem": "Expressive"
         },
         {
           "id": "postmodern_architecture",
           "name": "Postmodern Architecture",
           "displayName": "PoMo Architecture",
           "historicalContext": "1970s-1990s reaction against modernism. Led by Robert Venturi and Michael Graves.",
-          "keyCharacteristics": ["Historical references", "Playful ornament", "Complexity"],
-          "corePrinciples": ["Less is a bore", "Double-coding", "Contextualism"],
-          "colorPalette": ["#FFD700", "#800080", "#008080", "#FFFFFF"],
-          "typography": ["Memphis", "ITC Garamond", "Futura Bold"],
-          "influences": ["Art Deco", "Classicism"],
-          "relatedMovements": ["Memphis", "New Classicism"],
+          "keyCharacteristics": [
+            "Historical references",
+            "Playful ornament",
+            "Complexity"
+          ],
+          "corePrinciples": [
+            "Less is a bore",
+            "Double-coding",
+            "Contextualism"
+          ],
+          "colorPalette": [
+            "#FFD700",
+            "#800080",
+            "#008080",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Memphis",
+            "ITC Garamond",
+            "Futura Bold"
+          ],
+          "influences": [
+            "Art Deco",
+            "Classicism"
+          ],
+          "relatedMovements": [
+            "Memphis",
+            "New Classicism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Eclectic", "Ornamental", "Witty"],
+          "vibes": [
+            "Eclectic",
+            "Ornamental",
+            "Witty"
+          ],
           "tagline": "Less is a bore - more is more",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2241,7 +3256,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#800080", "#FFD700", "#008080"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#800080",
+                "#FFD700",
+                "#008080"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
               "fontPrimary": "'ITC Garamond', serif",
               "fontSecondary": "'Memphis', sans-serif"
@@ -2253,21 +3273,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Yellow",
+          "designSystem": "Decorative"
         },
         {
           "id": "memphis_digital",
           "name": "Memphis Digital",
           "displayName": "Digital Memphis",
           "historicalContext": "1990s digital adaptation of Memphis aesthetics for early web design.",
-          "keyCharacteristics": ["Geometric patterns", "Dithering effects", "Limited color palettes"],
-          "corePrinciples": ["Postmodern digital", "Anti-skeuomorphism", "Early web maximalism"],
-          "colorPalette": ["#FF00FF", "#00FFFF", "#FFFF00", "#000000"],
-          "typography": ["Chicago", "New York", "Geneva"],
-          "influences": ["Memphis Group", "Web 1.0"],
-          "relatedMovements": ["New Wave", "Anti-Design"],
+          "keyCharacteristics": [
+            "Geometric patterns",
+            "Dithering effects",
+            "Limited color palettes"
+          ],
+          "corePrinciples": [
+            "Postmodern digital",
+            "Anti-skeuomorphism",
+            "Early web maximalism"
+          ],
+          "colorPalette": [
+            "#FF00FF",
+            "#00FFFF",
+            "#FFFF00",
+            "#000000"
+          ],
+          "typography": [
+            "Chicago",
+            "New York",
+            "Geneva"
+          ],
+          "influences": [
+            "Memphis Group",
+            "Web 1.0"
+          ],
+          "relatedMovements": [
+            "New Wave",
+            "Anti-Design"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["Nostalgic", "Pixelated", "Energetic"],
+          "vibes": [
+            "Nostalgic",
+            "Pixelated",
+            "Energetic"
+          ],
           "tagline": "Postmodernism meets the digital frontier",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2276,7 +3325,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF00FF", "#00FFFF", "#FFFF00"],
+              "primaryColors": [
+                "#000000",
+                "#FF00FF",
+                "#00FFFF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #FF00FF 0%, #00FFFF 100%)",
               "fontPrimary": "'Chicago', sans-serif",
               "fontSecondary": "'New York', serif"
@@ -2288,21 +3342,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Pink",
+          "designSystem": "Digital-first"
         },
         {
           "id": "anti_aesthetic",
           "name": "Anti-Aesthetic",
           "displayName": "Anti-Aesthetic",
           "historicalContext": "Conceptual movement (1980s) critiquing beauty standards in art/design.",
-          "keyCharacteristics": ["Deliberate ugliness", "Cultural critique", "Deconstruction"],
-          "corePrinciples": ["Challenge taste", "Institutional critique", "Radical ambiguity"],
-          "colorPalette": ["#000000", "#FFFFFF", "#808080", "#FF0000"],
-          "typography": ["Dysfunctional", "Cut-and-paste", "Found type"],
-          "influences": ["Dada", "Conceptual Art"],
-          "relatedMovements": ["Anti-Design", "Punk"],
+          "keyCharacteristics": [
+            "Deliberate ugliness",
+            "Cultural critique",
+            "Deconstruction"
+          ],
+          "corePrinciples": [
+            "Challenge taste",
+            "Institutional critique",
+            "Radical ambiguity"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#808080",
+            "#FF0000"
+          ],
+          "typography": [
+            "Dysfunctional",
+            "Cut-and-paste",
+            "Found type"
+          ],
+          "influences": [
+            "Dada",
+            "Conceptual Art"
+          ],
+          "relatedMovements": [
+            "Anti-Design",
+            "Punk"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Provocative", "Challenging", "Uncomfortable"],
+          "vibes": [
+            "Provocative",
+            "Challenging",
+            "Uncomfortable"
+          ],
           "tagline": "Beauty is a bourgeois construct",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2311,7 +3394,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#808080"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#000000",
+                "#FF0000",
+                "#808080"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
               "fontPrimary": "'Dysfunctional', sans-serif",
               "fontSecondary": "'Found type', sans-serif"
@@ -2323,21 +3411,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "digital_punk",
           "name": "Digital Punk",
           "displayName": "Digital Punk",
           "historicalContext": "1990s fusion of punk aesthetics with early digital tools like Photoshop 1.0.",
-          "keyCharacteristics": ["Glitch effects", "DIY digital", "Anti-corporate"],
-          "corePrinciples": ["Subvert technology", "Digital resistance", "Cyberpunk ethos"],
-          "colorPalette": ["#00FF00", "#FF00FF", "#000000", "#FFFFFF"],
-          "typography": ["Pixelated", "Stencil", "Handwritten"],
-          "influences": ["Punk", "Cyberpunk"],
-          "relatedMovements": ["Grunge", "New Wave"],
+          "keyCharacteristics": [
+            "Glitch effects",
+            "DIY digital",
+            "Anti-corporate"
+          ],
+          "corePrinciples": [
+            "Subvert technology",
+            "Digital resistance",
+            "Cyberpunk ethos"
+          ],
+          "colorPalette": [
+            "#00FF00",
+            "#FF00FF",
+            "#000000",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Pixelated",
+            "Stencil",
+            "Handwritten"
+          ],
+          "influences": [
+            "Punk",
+            "Cyberpunk"
+          ],
+          "relatedMovements": [
+            "Grunge",
+            "New Wave"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["Aggressive", "Glitchy", "Rebellious"],
+          "vibes": [
+            "Aggressive",
+            "Glitchy",
+            "Rebellious"
+          ],
           "tagline": "Fight the system with pixels and attitude",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2346,7 +3463,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FF00", "#FF00FF", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#00FF00",
+                "#FF00FF",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #003300 100%)",
               "fontPrimary": "'Pixelated', sans-serif",
               "fontSecondary": "'Stencil', sans-serif"
@@ -2358,7 +3480,9 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Green",
+          "designSystem": "Deconstructed"
         }
       ]
     },
@@ -2372,14 +3496,41 @@
           "name": "Skeuomorphic Design",
           "displayName": "Skeuomorphism",
           "historicalContext": "Dominant UI style (2000-2010) where digital interfaces mimicked physical objects. Pioneered by Apple under Steve Jobs.",
-          "keyCharacteristics": ["Realistic textures", "3D effects", "Analog metaphors"],
-          "corePrinciples": ["Intuitive familiarity", "Tactile realism", "Visual affordances"],
-          "colorPalette": ["#D2B48C", "#C0C0C0", "#A9A9A9", "#F5F5F5"],
-          "typography": ["Myriad Pro", "Helvetica Neue", "Lucida Grande"],
-          "influences": ["Industrial Design", "Realism"],
-          "relatedMovements": ["Web 2.0", "Material Design"],
+          "keyCharacteristics": [
+            "Realistic textures",
+            "3D effects",
+            "Analog metaphors"
+          ],
+          "corePrinciples": [
+            "Intuitive familiarity",
+            "Tactile realism",
+            "Visual affordances"
+          ],
+          "colorPalette": [
+            "#D2B48C",
+            "#C0C0C0",
+            "#A9A9A9",
+            "#F5F5F5"
+          ],
+          "typography": [
+            "Myriad Pro",
+            "Helvetica Neue",
+            "Lucida Grande"
+          ],
+          "influences": [
+            "Industrial Design",
+            "Realism"
+          ],
+          "relatedMovements": [
+            "Web 2.0",
+            "Material Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Realistic", "Textured", "Familiar"],
+          "vibes": [
+            "Realistic",
+            "Textured",
+            "Familiar"
+          ],
           "tagline": "Digital interfaces dressed in physical clothing",
           "frontCard": {
             "backgroundColor": "#F5F5F5",
@@ -2388,7 +3539,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#F5F5F5", "#D2B48C", "#C0C0C0", "#A9A9A9"],
+              "primaryColors": [
+                "#F5F5F5",
+                "#D2B48C",
+                "#C0C0C0",
+                "#A9A9A9"
+              ],
               "backgroundGradient": "linear-gradient(to bottom, #F5F5F5 0%, #E5E5E5 100%)",
               "fontPrimary": "'Helvetica Neue', sans-serif",
               "fontSecondary": "'Lucida Grande', sans-serif"
@@ -2400,21 +3556,50 @@
                 "border": "1px solid #B0B0B0"
               }
             }
-          }
+          },
+          "colorFamily": "Brown",
+          "designSystem": "Nostalgic"
         },
         {
           "id": "web_1.0",
           "name": "Web 1.0 Aesthetic",
           "displayName": "Web 1.0",
           "historicalContext": "Early internet design (1991-1999) characterized by basic HTML and limited styling.",
-          "keyCharacteristics": ["Blue hyperlinks", "Tables for layout", "Animated GIFs"],
-          "corePrinciples": ["Function over form", "Hypertext structure", "Low bandwidth"],
-          "colorPalette": ["#0000FF", "#FFFFFF", "#000000", "#C0C0C0"],
-          "typography": ["Times New Roman", "Courier New", "Arial"],
-          "influences": ["Print Design", "Technical Documentation"],
-          "relatedMovements": ["Brutalist Web", "Web 2.0"],
+          "keyCharacteristics": [
+            "Blue hyperlinks",
+            "Tables for layout",
+            "Animated GIFs"
+          ],
+          "corePrinciples": [
+            "Function over form",
+            "Hypertext structure",
+            "Low bandwidth"
+          ],
+          "colorPalette": [
+            "#0000FF",
+            "#FFFFFF",
+            "#000000",
+            "#C0C0C0"
+          ],
+          "typography": [
+            "Times New Roman",
+            "Courier New",
+            "Arial"
+          ],
+          "influences": [
+            "Print Design",
+            "Technical Documentation"
+          ],
+          "relatedMovements": [
+            "Brutalist Web",
+            "Web 2.0"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Nostalgic", "Minimal", "Functional"],
+          "vibes": [
+            "Nostalgic",
+            "Minimal",
+            "Functional"
+          ],
           "tagline": "The digital frontier in its purest form",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2423,7 +3608,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#0000FF", "#000000", "#C0C0C0"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#0000FF",
+                "#000000",
+                "#C0C0C0"
+              ],
               "backgroundGradient": "linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 100%)",
               "fontPrimary": "'Times New Roman', serif",
               "fontSecondary": "'Courier New', monospace"
@@ -2435,21 +3625,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Blue",
+          "designSystem": "Minimalist"
         },
         {
           "id": "flash_era",
           "name": "Flash Era Design",
           "displayName": "Flash Era",
           "historicalContext": "Dominant web aesthetic (1996-2010) powered by Adobe Flash. Enabled animations and interactivity.",
-          "keyCharacteristics": ["Animated intros", "Pixel fonts", "Loader graphics"],
-          "corePrinciples": ["Motion as experience", "Experimental navigation", "Rich media"],
-          "colorPalette": ["#00FFFF", "#FF00FF", "#FFFF00", "#000000"],
-          "typography": ["Pixel", "OCR-A", "Bank Gothic"],
-          "influences": ["Cyberpunk", "MTV Graphics"],
-          "relatedMovements": ["Web 2.0", "Y2K Aesthetic"],
+          "keyCharacteristics": [
+            "Animated intros",
+            "Pixel fonts",
+            "Loader graphics"
+          ],
+          "corePrinciples": [
+            "Motion as experience",
+            "Experimental navigation",
+            "Rich media"
+          ],
+          "colorPalette": [
+            "#00FFFF",
+            "#FF00FF",
+            "#FFFF00",
+            "#000000"
+          ],
+          "typography": [
+            "Pixel",
+            "OCR-A",
+            "Bank Gothic"
+          ],
+          "influences": [
+            "Cyberpunk",
+            "MTV Graphics"
+          ],
+          "relatedMovements": [
+            "Web 2.0",
+            "Y2K Aesthetic"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Animated", "Energetic", "Experimental"],
+          "vibes": [
+            "Animated",
+            "Energetic",
+            "Experimental"
+          ],
           "tagline": "Where the web learned to move",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2458,7 +3677,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FFFF", "#FF00FF", "#FFFF00"],
+              "primaryColors": [
+                "#000000",
+                "#00FFFF",
+                "#FF00FF",
+                "#FFFF00"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #000000 0%, #330066 100%)",
               "fontPrimary": "'Pixel', monospace",
               "fontSecondary": "'OCR-A', monospace"
@@ -2470,21 +3694,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Cyan",
+          "designSystem": "Expressive"
         },
         {
           "id": "y2k_aesthetic",
           "name": "Y2K Aesthetic",
           "displayName": "Y2K",
           "historicalContext": "Millennium-era design (1997-2003) reflecting digital optimism and Y2K anxiety.",
-          "keyCharacteristics": ["Chrome textures", "Bubble shapes", "Glossy effects"],
-          "corePrinciples": ["Technological optimism", "Futuristic minimalism", "Digital sheen"],
-          "colorPalette": ["#C0C0C0", "#00FFFF", "#FF00FF", "#000000"],
-          "typography": ["Eurostile", "Microgramma", "Bank Gothic"],
-          "influences": ["Space Age", "Cyberpunk"],
-          "relatedMovements": ["Web 2.0", "Flash Era"],
+          "keyCharacteristics": [
+            "Chrome textures",
+            "Bubble shapes",
+            "Glossy effects"
+          ],
+          "corePrinciples": [
+            "Technological optimism",
+            "Futuristic minimalism",
+            "Digital sheen"
+          ],
+          "colorPalette": [
+            "#C0C0C0",
+            "#00FFFF",
+            "#FF00FF",
+            "#000000"
+          ],
+          "typography": [
+            "Eurostile",
+            "Microgramma",
+            "Bank Gothic"
+          ],
+          "influences": [
+            "Space Age",
+            "Cyberpunk"
+          ],
+          "relatedMovements": [
+            "Web 2.0",
+            "Flash Era"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Futuristic", "Glossy", "Optimistic"],
+          "vibes": [
+            "Futuristic",
+            "Glossy",
+            "Optimistic"
+          ],
           "tagline": "Design for the new millennium",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2493,7 +3746,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FFFF", "#FF00FF", "#C0C0C0"],
+              "primaryColors": [
+                "#000000",
+                "#00FFFF",
+                "#FF00FF",
+                "#C0C0C0"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
               "fontPrimary": "'Microgramma', sans-serif",
               "fontSecondary": "'Eurostile', sans-serif"
@@ -2505,21 +3763,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Gray",
+          "designSystem": "Digital-first"
         },
         {
           "id": "web_2.0",
           "name": "Web 2.0 Design",
           "displayName": "Web 2.0",
           "historicalContext": "Mid-2000s aesthetic (2004-2010) emphasizing user-generated content and social features.",
-          "keyCharacteristics": ["Gradients", "Reflections", "Rounded corners"],
-          "corePrinciples": ["User participation", "Rich interfaces", "Social connectivity"],
-          "colorPalette": ["#3A7BD5", "#00D2FF", "#FFFFFF", "#F5F5F5"],
-          "typography": ["Helvetica Neue", "Myriad Pro", "Lucida Grande"],
-          "influences": ["Skeuomorphism", "Corporate Minimalism"],
-          "relatedMovements": ["Flat Design", "Material Design"],
+          "keyCharacteristics": [
+            "Gradients",
+            "Reflections",
+            "Rounded corners"
+          ],
+          "corePrinciples": [
+            "User participation",
+            "Rich interfaces",
+            "Social connectivity"
+          ],
+          "colorPalette": [
+            "#3A7BD5",
+            "#00D2FF",
+            "#FFFFFF",
+            "#F5F5F5"
+          ],
+          "typography": [
+            "Helvetica Neue",
+            "Myriad Pro",
+            "Lucida Grande"
+          ],
+          "influences": [
+            "Skeuomorphism",
+            "Corporate Minimalism"
+          ],
+          "relatedMovements": [
+            "Flat Design",
+            "Material Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Friendly", "Shiny", "Interactive"],
+          "vibes": [
+            "Friendly",
+            "Shiny",
+            "Interactive"
+          ],
           "tagline": "The web becomes social",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2528,7 +3815,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#3A7BD5", "#00D2FF", "#F5F5F5"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#3A7BD5",
+                "#00D2FF",
+                "#F5F5F5"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F7FF 100%)",
               "fontPrimary": "'Helvetica Neue', sans-serif",
               "fontSecondary": "'Myriad Pro', sans-serif"
@@ -2540,21 +3832,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Blue",
+          "designSystem": "Expressive"
         },
         {
           "id": "pixel_art",
           "name": "Pixel Art",
           "displayName": "Pixel Art",
           "historicalContext": "Digital art style (1980s-present) rooted in early computer and video game graphics.",
-          "keyCharacteristics": ["Low resolution", "Limited palettes", "Visible pixels"],
-          "corePrinciples": ["Constraints as creativity", "Nostalgic minimalism", "Digital craft"],
-          "colorPalette": ["#FF0000", "#00FF00", "#0000FF", "#FFFFFF"],
-          "typography": ["Press Start 2P", "Courier New", "Pixel"],
-          "influences": ["8-bit Games", "ASCII Art"],
-          "relatedMovements": ["Retro Computing", "Indie Game Aesthetic"],
+          "keyCharacteristics": [
+            "Low resolution",
+            "Limited palettes",
+            "Visible pixels"
+          ],
+          "corePrinciples": [
+            "Constraints as creativity",
+            "Nostalgic minimalism",
+            "Digital craft"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#00FF00",
+            "#0000FF",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Press Start 2P",
+            "Courier New",
+            "Pixel"
+          ],
+          "influences": [
+            "8-bit Games",
+            "ASCII Art"
+          ],
+          "relatedMovements": [
+            "Retro Computing",
+            "Indie Game Aesthetic"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Nostalgic", "Playful", "Minimal"],
+          "vibes": [
+            "Nostalgic",
+            "Playful",
+            "Minimal"
+          ],
           "tagline": "Digital art at its most fundamental",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2563,7 +3884,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF0000", "#00FF00", "#0000FF"],
+              "primaryColors": [
+                "#000000",
+                "#FF0000",
+                "#00FF00",
+                "#0000FF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #111111 100%)",
               "fontPrimary": "'Press Start 2P', sans-serif",
               "fontSecondary": "'Pixel', monospace"
@@ -2575,21 +3901,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Red",
+          "designSystem": "Minimalist"
         },
         {
           "id": "grunge_web",
           "name": "Grunge Web Design",
           "displayName": "Grunge Web",
           "historicalContext": "1990s-2000s web aesthetic influenced by grunge music and zine culture.",
-          "keyCharacteristics": ["Distressed textures", "Hand-drawn elements", "Dark color schemes"],
-          "corePrinciples": ["DIY ethos", "Anti-corporate", "Authentic imperfection"],
-          "colorPalette": ["#000000", "#8B4513", "#708090", "#FFFFFF"],
-          "typography": ["Grunge", "Handwritten", "Courier New"],
-          "influences": ["Punk Design", "Zine Culture"],
-          "relatedMovements": ["Flash Era", "Web 1.0"],
+          "keyCharacteristics": [
+            "Distressed textures",
+            "Hand-drawn elements",
+            "Dark color schemes"
+          ],
+          "corePrinciples": [
+            "DIY ethos",
+            "Anti-corporate",
+            "Authentic imperfection"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#8B4513",
+            "#708090",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Grunge",
+            "Handwritten",
+            "Courier New"
+          ],
+          "influences": [
+            "Punk Design",
+            "Zine Culture"
+          ],
+          "relatedMovements": [
+            "Flash Era",
+            "Web 1.0"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Raw", "Authentic", "Rebellious"],
+          "vibes": [
+            "Raw",
+            "Authentic",
+            "Rebellious"
+          ],
           "tagline": "The web gets dirty",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2598,7 +3953,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#8B4513", "#708090", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#8B4513",
+                "#708090",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #222222 100%)",
               "fontPrimary": "'Grunge', sans-serif",
               "fontSecondary": "'Handwritten', cursive"
@@ -2610,21 +3970,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "cyberpunk_ui",
           "name": "Cyberpunk UI",
           "displayName": "Cyberpunk UI",
           "historicalContext": "1990s digital aesthetic inspired by William Gibson's novels and early cyberculture.",
-          "keyCharacteristics": ["Glowing text", "Data overlays", "Low-fi futurism"],
-          "corePrinciples": ["High-tech, low-life", "Information density", "Neon dystopia"],
-          "colorPalette": ["#00FF00", "#FF00FF", "#000000", "#003300"],
-          "typography": ["OCR-A", "Courier New", "Digital"],
-          "influences": ["Punk", "Tech Noir"],
-          "relatedMovements": ["Y2K", "Glitch Art"],
+          "keyCharacteristics": [
+            "Glowing text",
+            "Data overlays",
+            "Low-fi futurism"
+          ],
+          "corePrinciples": [
+            "High-tech, low-life",
+            "Information density",
+            "Neon dystopia"
+          ],
+          "colorPalette": [
+            "#00FF00",
+            "#FF00FF",
+            "#000000",
+            "#003300"
+          ],
+          "typography": [
+            "OCR-A",
+            "Courier New",
+            "Digital"
+          ],
+          "influences": [
+            "Punk",
+            "Tech Noir"
+          ],
+          "relatedMovements": [
+            "Y2K",
+            "Glitch Art"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["Gritty", "Futuristic", "Noir"],
+          "vibes": [
+            "Gritty",
+            "Futuristic",
+            "Noir"
+          ],
           "tagline": "The street finds its own uses for technology",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2633,7 +4022,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FF00", "#FF00FF", "#003300"],
+              "primaryColors": [
+                "#000000",
+                "#00FF00",
+                "#FF00FF",
+                "#003300"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #003300 100%)",
               "fontPrimary": "'OCR-A', monospace",
               "fontSecondary": "'Digital', monospace"
@@ -2645,21 +4039,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Green",
+          "designSystem": "High Contrast"
         },
         {
           "id": "glitch_art",
           "name": "Glitch Art",
           "displayName": "Glitch Art",
           "historicalContext": "Emerging in the 2000s as artists intentionally corrupted digital files for aesthetic effect.",
-          "keyCharacteristics": ["Data corruption", "Pixel sorting", "Color channel shifts"],
-          "corePrinciples": ["Embracing errors", "Digital decay", "Anti-perfection"],
-          "colorPalette": ["#FF0000", "#00FFFF", "#000000", "#FFFFFF"],
-          "typography": ["Glitch", "Distorted", "Broken"],
-          "influences": ["Dada", "Cyberpunk"],
-          "relatedMovements": ["Digital Punk", "Post-Internet Art"],
+          "keyCharacteristics": [
+            "Data corruption",
+            "Pixel sorting",
+            "Color channel shifts"
+          ],
+          "corePrinciples": [
+            "Embracing errors",
+            "Digital decay",
+            "Anti-perfection"
+          ],
+          "colorPalette": [
+            "#FF0000",
+            "#00FFFF",
+            "#000000",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Glitch",
+            "Distorted",
+            "Broken"
+          ],
+          "influences": [
+            "Dada",
+            "Cyberpunk"
+          ],
+          "relatedMovements": [
+            "Digital Punk",
+            "Post-Internet Art"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Disrupted", "Unstable", "Experimental"],
+          "vibes": [
+            "Disrupted",
+            "Unstable",
+            "Experimental"
+          ],
           "tagline": "Finding beauty in digital malfunction",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2668,7 +4091,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FF0000", "#00FFFF", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#FF0000",
+                "#00FFFF",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330000 100%)",
               "fontPrimary": "'Glitch', sans-serif",
               "fontSecondary": "'Distorted', sans-serif"
@@ -2680,21 +4108,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Red",
+          "designSystem": "Deconstructed"
         },
         {
           "id": "vaporwave",
           "name": "Vaporwave",
           "displayName": "Vaporwave",
           "historicalContext": "Early 2010s internet microgenre blending 1990s nostalgia with surreal capitalism critique.",
-          "keyCharacteristics": ["Aesthetic overload", "Japanese text", "Mallsoft ambiance"],
-          "corePrinciples": ["Consumerist nostalgia", "Digital surrealism", "Haunted software"],
-          "colorPalette": ["#FF006E", "#8338EC", "#3A86FF", "#06FFA5"],
-          "typography": ["Arial", "Times New Roman", "MS Sans Serif"],
-          "influences": ["Seapunk", "Post-Internet Art"],
-          "relatedMovements": ["Synthwave", "Web 2.0"],
+          "keyCharacteristics": [
+            "Aesthetic overload",
+            "Japanese text",
+            "Mallsoft ambiance"
+          ],
+          "corePrinciples": [
+            "Consumerist nostalgia",
+            "Digital surrealism",
+            "Haunted software"
+          ],
+          "colorPalette": [
+            "#FF006E",
+            "#8338EC",
+            "#3A86FF",
+            "#06FFA5"
+          ],
+          "typography": [
+            "Arial",
+            "Times New Roman",
+            "MS Sans Serif"
+          ],
+          "influences": [
+            "Seapunk",
+            "Post-Internet Art"
+          ],
+          "relatedMovements": [
+            "Synthwave",
+            "Web 2.0"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["Dreamlike", "Nostalgic", "Surreal"],
+          "vibes": [
+            "Dreamlike",
+            "Nostalgic",
+            "Surreal"
+          ],
           "tagline": "A eulogy for the digital childhood we never had",
           "frontCard": {
             "backgroundColor": "linear-gradient(135deg, #FF006E, #8338EC, #3A86FF)",
@@ -2703,7 +4160,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FF006E", "#8338EC", "#3A86FF", "#06FFA5"],
+              "primaryColors": [
+                "#FF006E",
+                "#8338EC",
+                "#3A86FF",
+                "#06FFA5"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #1A0033, #330066, #000033)",
               "fontPrimary": "'MS Sans Serif', sans-serif",
               "fontSecondary": "'Arial', sans-serif"
@@ -2715,21 +4177,50 @@
                 "textTransform": "uppercase"
               }
             }
-          }
+          },
+          "colorFamily": "Pink",
+          "designSystem": "Nostalgic"
         },
         {
           "id": "seapunk",
           "name": "Seapunk",
           "displayName": "Seapunk",
           "historicalContext": "2011-2013 internet subculture merging oceanic themes with digital aesthetics.",
-          "keyCharacteristics": ["Aquatic colors", "Dolphin motifs", "Early web nostalgia"],
-          "corePrinciples": ["Surreal aquatic", "Internet folklore", "DIY digital"],
-          "colorPalette": ["#00FFFF", "#008080", "#000000", "#FFFFFF"],
-          "typography": ["Comic Sans", "Arial", "Impact"],
-          "influences": ["Vaporwave", "Web 1.0"],
-          "relatedMovements": ["Tumblr Aesthetic", "Digital Punk"],
+          "keyCharacteristics": [
+            "Aquatic colors",
+            "Dolphin motifs",
+            "Early web nostalgia"
+          ],
+          "corePrinciples": [
+            "Surreal aquatic",
+            "Internet folklore",
+            "DIY digital"
+          ],
+          "colorPalette": [
+            "#00FFFF",
+            "#008080",
+            "#000000",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Comic Sans",
+            "Arial",
+            "Impact"
+          ],
+          "influences": [
+            "Vaporwave",
+            "Web 1.0"
+          ],
+          "relatedMovements": [
+            "Tumblr Aesthetic",
+            "Digital Punk"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["Playful", "Surreal", "Nostalgic"],
+          "vibes": [
+            "Playful",
+            "Surreal",
+            "Nostalgic"
+          ],
           "tagline": "The internet's subconscious surfaces",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2738,7 +4229,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#00FFFF", "#008080", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#00FFFF",
+                "#008080",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #003333 100%)",
               "fontPrimary": "'Comic Sans', sans-serif",
               "fontSecondary": "'Impact', sans-serif"
@@ -2750,21 +4246,50 @@
                 "color": "#000000"
               }
             }
-          }
+          },
+          "colorFamily": "Cyan",
+          "designSystem": "Expressive"
         },
         {
           "id": "tumblr_aesthetic",
           "name": "Tumblr Aesthetic",
           "displayName": "Tumblr",
           "historicalContext": "2007-2014 microculture on Tumblr blending photography, GIFs, and text posts.",
-          "keyCharacteristics": ["Moody filters", "GIF-heavy", "Diary-like"],
-          "corePrinciples": ["Personal curation", "Visual blogging", "Fandom culture"],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF69B4", "#8A2BE2"],
-          "typography": ["Helvetica", "Georgia", "Courier New"],
-          "influences": ["Grunge", "Web 2.0"],
-          "relatedMovements": ["Vaporwave", "Seapunk"],
+          "keyCharacteristics": [
+            "Moody filters",
+            "GIF-heavy",
+            "Diary-like"
+          ],
+          "corePrinciples": [
+            "Personal curation",
+            "Visual blogging",
+            "Fandom culture"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF69B4",
+            "#8A2BE2"
+          ],
+          "typography": [
+            "Helvetica",
+            "Georgia",
+            "Courier New"
+          ],
+          "influences": [
+            "Grunge",
+            "Web 2.0"
+          ],
+          "relatedMovements": [
+            "Vaporwave",
+            "Seapunk"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Personal", "Eclectic", "Emotional"],
+          "vibes": [
+            "Personal",
+            "Eclectic",
+            "Emotional"
+          ],
           "tagline": "The internet's digital scrapbook",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -2773,7 +4298,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FFFFFF", "#FF69B4", "#8A2BE2"],
+              "primaryColors": [
+                "#000000",
+                "#FFFFFF",
+                "#FF69B4",
+                "#8A2BE2"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330033 100%)",
               "fontPrimary": "'Helvetica', sans-serif",
               "fontSecondary": "'Georgia', serif"
@@ -2785,21 +4315,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Expressive"
         },
         {
           "id": "emoji_design",
           "name": "Emoji Design",
           "displayName": "Emoji",
           "historicalContext": "Originating in Japan (1999), became global visual language by late 2000s.",
-          "keyCharacteristics": ["Pictographic", "Colorful", "Expressive"],
-          "corePrinciples": ["Visual shorthand", "Cross-cultural", "Emotional immediacy"],
-          "colorPalette": ["#FFD700", "#FF4500", "#1E90FF", "#FFFFFF"],
-          "typography": ["Emoji", "Noto Color Emoji", "Segoe UI Emoji"],
-          "influences": ["Kaomoji", "Manga"],
-          "relatedMovements": ["Web 2.0", "Mobile UI"],
+          "keyCharacteristics": [
+            "Pictographic",
+            "Colorful",
+            "Expressive"
+          ],
+          "corePrinciples": [
+            "Visual shorthand",
+            "Cross-cultural",
+            "Emotional immediacy"
+          ],
+          "colorPalette": [
+            "#FFD700",
+            "#FF4500",
+            "#1E90FF",
+            "#FFFFFF"
+          ],
+          "typography": [
+            "Emoji",
+            "Noto Color Emoji",
+            "Segoe UI Emoji"
+          ],
+          "influences": [
+            "Kaomoji",
+            "Manga"
+          ],
+          "relatedMovements": [
+            "Web 2.0",
+            "Mobile UI"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Playful", "Expressive", "Universal"],
+          "vibes": [
+            "Playful",
+            "Expressive",
+            "Universal"
+          ],
           "tagline": "The first global visual language",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2808,7 +4367,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF4500", "#1E90FF", "#FFD700"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF4500",
+                "#1E90FF",
+                "#FFD700"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFFACD 100%)",
               "fontPrimary": "'Noto Color Emoji', sans-serif",
               "fontSecondary": "'Segoe UI Emoji', sans-serif"
@@ -2820,21 +4384,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Yellow",
+          "designSystem": "Expressive"
         },
         {
           "id": "flash_games",
           "name": "Flash Games Aesthetic",
           "displayName": "Flash Games",
           "historicalContext": "2000-2010 browser-based games using Adobe Flash, defining early internet gaming culture.",
-          "keyCharacteristics": ["Simple vector art", "Looping music", "Click interactions"],
-          "corePrinciples": ["Browser-based", "Casual gaming", "DIY development"],
-          "colorPalette": ["#FF9900", "#0099FF", "#FFFFFF", "#000000"],
-          "typography": ["Comic Sans", "Impact", "Arial"],
-          "influences": ["Pixel Art", "Web 2.0"],
-          "relatedMovements": ["Indie Game", "Web 1.0"],
+          "keyCharacteristics": [
+            "Simple vector art",
+            "Looping music",
+            "Click interactions"
+          ],
+          "corePrinciples": [
+            "Browser-based",
+            "Casual gaming",
+            "DIY development"
+          ],
+          "colorPalette": [
+            "#FF9900",
+            "#0099FF",
+            "#FFFFFF",
+            "#000000"
+          ],
+          "typography": [
+            "Comic Sans",
+            "Impact",
+            "Arial"
+          ],
+          "influences": [
+            "Pixel Art",
+            "Web 2.0"
+          ],
+          "relatedMovements": [
+            "Indie Game",
+            "Web 1.0"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Playful", "Simple", "Nostalgic"],
+          "vibes": [
+            "Playful",
+            "Simple",
+            "Nostalgic"
+          ],
           "tagline": "Where the internet learned to play",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2843,7 +4436,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF9900", "#0099FF", "#000000"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF9900",
+                "#0099FF",
+                "#000000"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFEEEE 100%)",
               "fontPrimary": "'Comic Sans', sans-serif",
               "fontSecondary": "'Impact', sans-serif"
@@ -2855,21 +4453,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Orange",
+          "designSystem": "Minimalist"
         },
         {
           "id": "early_social_media",
           "name": "Early Social Media UI",
           "displayName": "Early Social Media",
           "historicalContext": "2003-2008 platforms like MySpace and Friendster that pioneered social networking.",
-          "keyCharacteristics": ["Profile customization", "Embedded media", "Web 2.0 widgets"],
-          "corePrinciples": ["Digital identity", "Networked profiles", "User-generated content"],
-          "colorPalette": ["#3B5998", "#FFFFFF", "#000000", "#CCCCCC"],
-          "typography": ["Lucida Grande", "Arial", "Verdana"],
-          "influences": ["Web 2.0", "Blogging"],
-          "relatedMovements": ["Tumblr", "Web 2.0"],
+          "keyCharacteristics": [
+            "Profile customization",
+            "Embedded media",
+            "Web 2.0 widgets"
+          ],
+          "corePrinciples": [
+            "Digital identity",
+            "Networked profiles",
+            "User-generated content"
+          ],
+          "colorPalette": [
+            "#3B5998",
+            "#FFFFFF",
+            "#000000",
+            "#CCCCCC"
+          ],
+          "typography": [
+            "Lucida Grande",
+            "Arial",
+            "Verdana"
+          ],
+          "influences": [
+            "Web 2.0",
+            "Blogging"
+          ],
+          "relatedMovements": [
+            "Tumblr",
+            "Web 2.0"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Customizable", "Connected", "Emergent"],
+          "vibes": [
+            "Customizable",
+            "Connected",
+            "Emergent"
+          ],
           "tagline": "The web becomes personal",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2878,7 +4505,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#3B5998", "#000000", "#CCCCCC"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#3B5998",
+                "#000000",
+                "#CCCCCC"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F7F7F7 100%)",
               "fontPrimary": "'Lucida Grande', sans-serif",
               "fontSecondary": "'Verdana', sans-serif"
@@ -2890,21 +4522,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Blue",
+          "designSystem": "Digital-first"
         },
         {
           "id": "brutalist_web",
           "name": "Brutalist Web Design",
           "displayName": "Brutalist Web",
           "historicalContext": "Mid-2010s reaction against polished corporate web design, emphasizing raw HTML.",
-          "keyCharacteristics": ["Minimal styling", "Default fonts", "Unconventional layouts"],
-          "corePrinciples": ["Honest markup", "Anti-trend", "Content-first"],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#CCCCCC"],
-          "typography": ["Times New Roman", "Courier New", "Arial"],
-          "influences": ["Brutalism", "Web 1.0"],
-          "relatedMovements": ["Anti-Design", "Skeuomorphism"],
+          "keyCharacteristics": [
+            "Minimal styling",
+            "Default fonts",
+            "Unconventional layouts"
+          ],
+          "corePrinciples": [
+            "Honest markup",
+            "Anti-trend",
+            "Content-first"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF0000",
+            "#CCCCCC"
+          ],
+          "typography": [
+            "Times New Roman",
+            "Courier New",
+            "Arial"
+          ],
+          "influences": [
+            "Brutalism",
+            "Web 1.0"
+          ],
+          "relatedMovements": [
+            "Anti-Design",
+            "Skeuomorphism"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Raw", "Unpolished", "Direct"],
+          "vibes": [
+            "Raw",
+            "Unpolished",
+            "Direct"
+          ],
           "tagline": "The web stripped bare",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2913,7 +4574,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#CCCCCC"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#000000",
+                "#FF0000",
+                "#CCCCCC"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #EEEEEE 100%)",
               "fontPrimary": "'Times New Roman', serif",
               "fontSecondary": "'Courier New', monospace"
@@ -2925,21 +4591,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Minimalist"
         },
         {
           "id": "mobile_first",
           "name": "Mobile-First UI",
           "displayName": "Mobile-First",
           "historicalContext": "Emerging post-2007 with iPhone, prioritizing touch interfaces and responsive design.",
-          "keyCharacteristics": ["Touch targets", "Flat icons", "Vertical scrolling"],
-          "corePrinciples": ["Content hierarchy", "Thumb zones", "Gesture-based"],
-          "colorPalette": ["#007AFF", "#FFFFFF", "#000000", "#F2F2F2"],
-          "typography": ["San Francisco", "Roboto", "Segoe UI"],
-          "influences": ["Skeuomorphism", "Flat Design"],
-          "relatedMovements": ["Material Design", "iOS Human Interface"],
+          "keyCharacteristics": [
+            "Touch targets",
+            "Flat icons",
+            "Vertical scrolling"
+          ],
+          "corePrinciples": [
+            "Content hierarchy",
+            "Thumb zones",
+            "Gesture-based"
+          ],
+          "colorPalette": [
+            "#007AFF",
+            "#FFFFFF",
+            "#000000",
+            "#F2F2F2"
+          ],
+          "typography": [
+            "San Francisco",
+            "Roboto",
+            "Segoe UI"
+          ],
+          "influences": [
+            "Skeuomorphism",
+            "Flat Design"
+          ],
+          "relatedMovements": [
+            "Material Design",
+            "iOS Human Interface"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Clean", "Focused", "Tactile"],
+          "vibes": [
+            "Clean",
+            "Focused",
+            "Tactile"
+          ],
           "tagline": "Design for the device in your pocket",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2948,7 +4643,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#007AFF", "#000000", "#F2F2F2"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#007AFF",
+                "#000000",
+                "#F2F2F2"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F7F7F7 100%)",
               "fontPrimary": "'San Francisco', sans-serif",
               "fontSecondary": "'Roboto', sans-serif"
@@ -2960,21 +4660,50 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Blue",
+          "designSystem": "Minimalist"
         },
         {
           "id": "indie_web",
           "name": "Indie Web Design",
           "displayName": "Indie Web",
           "historicalContext": "2010s movement promoting personal websites over corporate social platforms.",
-          "keyCharacteristics": ["Personal domains", "Webmentions", "Microformats"],
-          "corePrinciples": ["Digital sovereignty", "Decentralization", "Own your data"],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF5500", "#663399"],
-          "typography": ["System UI", "Georgia", "Courier New"],
-          "influences": ["Web 1.0", "Blogging"],
-          "relatedMovements": ["Brutalist Web", "Fediverse"],
+          "keyCharacteristics": [
+            "Personal domains",
+            "Webmentions",
+            "Microformats"
+          ],
+          "corePrinciples": [
+            "Digital sovereignty",
+            "Decentralization",
+            "Own your data"
+          ],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF5500",
+            "#663399"
+          ],
+          "typography": [
+            "System UI",
+            "Georgia",
+            "Courier New"
+          ],
+          "influences": [
+            "Web 1.0",
+            "Blogging"
+          ],
+          "relatedMovements": [
+            "Brutalist Web",
+            "Fediverse"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["Personal", "Independent", "Retro-futuristic"],
+          "vibes": [
+            "Personal",
+            "Independent",
+            "Retro-futuristic"
+          ],
           "tagline": "Reclaim your corner of the internet",
           "frontCard": {
             "backgroundColor": "#FFFFFF",
@@ -2983,7 +4712,12 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FFFFFF", "#FF5500", "#000000", "#663399"],
+              "primaryColors": [
+                "#FFFFFF",
+                "#FF5500",
+                "#000000",
+                "#663399"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFF5F0 100%)",
               "fontPrimary": "'Georgia', serif",
               "fontSecondary": "'Courier New', monospace"
@@ -2995,7 +4729,9 @@
                 "color": "#FFFFFF"
               }
             }
-          }
+          },
+          "colorFamily": "Black",
+          "designSystem": "Digital-first"
         }
       ]
     },
@@ -3020,13 +4756,35 @@
             "Bold, graphic, intentional",
             "Motion provides meaning"
           ],
-          "colorPalette": ["#4285F4", "#EA4335", "#FBBC04", "#34A853", "#F8F9FA"],
-          "colorFamily": "Primary-accent system",
-          "typography": ["Roboto", "Google Sans", "Product Sans"],
-          "influences": ["Swiss Design", "Bauhaus", "Paper Engineering"],
-          "relatedMovements": ["Flat Design 2.0", "Adaptive Design"],
+          "colorPalette": [
+            "#4285F4",
+            "#EA4335",
+            "#FBBC04",
+            "#34A853",
+            "#F8F9FA"
+          ],
+          "colorFamily": "Blue",
+          "designSystem": "Systematic",
+          "typography": [
+            "Roboto",
+            "Google Sans",
+            "Product Sans"
+          ],
+          "influences": [
+            "Swiss Design",
+            "Bauhaus",
+            "Paper Engineering"
+          ],
+          "relatedMovements": [
+            "Flat Design 2.0",
+            "Adaptive Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["systematic", "tactile", "adaptive"],
+          "vibes": [
+            "systematic",
+            "tactile",
+            "adaptive"
+          ],
           "tagline": "The physics of pixels",
           "frontCard": {
             "backgroundColor": "#4285F4",
@@ -3035,7 +4793,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#4285F4", "#EA4335"],
+              "primaryColors": [
+                "#4285F4",
+                "#EA4335"
+              ],
               "backgroundGradient": "radial-gradient(circle at 15% 50%, #F8F9FA 0%, #E8EAED 100%)",
               "fontPrimary": "Roboto",
               "fontSecondary": "Google Sans"
@@ -3065,13 +4826,35 @@
             "Digital-native aesthetics",
             "Reduction to essentials"
           ],
-          "colorPalette": ["#0078D7", "#FFB900", "#E81123", "#00CC6A", "#FFFFFF"],
-          "colorFamily": "Vibrant solids",
-          "typography": ["Segoe UI", "San Francisco", "Helvetica Neue"],
-          "influences": ["Swiss Style", "De Stijl", "Modernist Typography"],
-          "relatedMovements": ["Material Design", "Minimalist UI"],
+          "colorPalette": [
+            "#0078D7",
+            "#FFB900",
+            "#E81123",
+            "#00CC6A",
+            "#FFFFFF"
+          ],
+          "colorFamily": "Blue",
+          "designSystem": "High Contrast",
+          "typography": [
+            "Segoe UI",
+            "San Francisco",
+            "Helvetica Neue"
+          ],
+          "influences": [
+            "Swiss Style",
+            "De Stijl",
+            "Modernist Typography"
+          ],
+          "relatedMovements": [
+            "Material Design",
+            "Minimalist UI"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["clean", "efficient", "modern"],
+          "vibes": [
+            "clean",
+            "efficient",
+            "modern"
+          ],
           "tagline": "Digital purity",
           "frontCard": {
             "backgroundColor": "#0078D7",
@@ -3080,7 +4863,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#0078D7", "#E81123"],
+              "primaryColors": [
+                "#0078D7",
+                "#E81123"
+              ],
               "backgroundGradient": "linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%)",
               "fontPrimary": "Segoe UI",
               "fontSecondary": "Helvetica Neue"
@@ -3110,13 +4896,34 @@
             "Depth through light",
             "Minimal color differentiation"
           ],
-          "colorPalette": ["#E0E5EC", "#C2CBD9", "#A3B1C6", "#4A5568"],
-          "colorFamily": "Monochromatic",
-          "typography": ["SF Pro Rounded", "Circular STD", "Inter"],
-          "influences": ["Skeuomorphism", "Industrial Design", "Flat Design"],
-          "relatedMovements": ["Glassmorphism", "Claymorphism"],
+          "colorPalette": [
+            "#E0E5EC",
+            "#C2CBD9",
+            "#A3B1C6",
+            "#4A5568"
+          ],
+          "colorFamily": "Gray",
+          "designSystem": "Minimalist",
+          "typography": [
+            "SF Pro Rounded",
+            "Circular STD",
+            "Inter"
+          ],
+          "influences": [
+            "Skeuomorphism",
+            "Industrial Design",
+            "Flat Design"
+          ],
+          "relatedMovements": [
+            "Glassmorphism",
+            "Claymorphism"
+          ],
           "authenticityLevel": "experimental",
-          "vibes": ["tactile", "ambient", "futuristic"],
+          "vibes": [
+            "tactile",
+            "ambient",
+            "futuristic"
+          ],
           "tagline": "Pixels with volume",
           "frontCard": {
             "backgroundColor": "#E0E5EC",
@@ -3125,7 +4932,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#E0E5EC", "#A3B1C6"],
+              "primaryColors": [
+                "#E0E5EC",
+                "#A3B1C6"
+              ],
               "backgroundGradient": "linear-gradient(145deg, #E0E5EC 0%, #C2CBD9 100%)",
               "fontPrimary": "SF Pro Rounded",
               "fontSecondary": "Inter"
@@ -3155,13 +4965,34 @@
             "Layered dimensionality",
             "Fluid context adaptation"
           ],
-          "colorPalette": ["rgba(255,255,255,0.3)", "rgba(0,122,255,0.6)", "rgba(255,45,85,0.5)", "#FFFFFF"],
-          "colorFamily": "Translucent",
-          "typography": ["SF Pro Display", "Segoe UI Variable", "Manrope"],
-          "influences": ["Acrylic Material", "Frosted Glass", "Material Design"],
-          "relatedMovements": ["Neumorphism", "Liquid Design"],
+          "colorPalette": [
+            "rgba(255,255,255,0.3)",
+            "rgba(0,122,255,0.6)",
+            "rgba(255,45,85,0.5)",
+            "#FFFFFF"
+          ],
+          "colorFamily": "White",
+          "designSystem": "Minimalist",
+          "typography": [
+            "SF Pro Display",
+            "Segoe UI Variable",
+            "Manrope"
+          ],
+          "influences": [
+            "Acrylic Material",
+            "Frosted Glass",
+            "Material Design"
+          ],
+          "relatedMovements": [
+            "Neumorphism",
+            "Liquid Design"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["ethereal", "fluid", "high-tech"],
+          "vibes": [
+            "ethereal",
+            "fluid",
+            "high-tech"
+          ],
           "tagline": "UI as layered light",
           "frontCard": {
             "backgroundColor": "rgba(0,122,255,0.6)",
@@ -3170,7 +5001,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["rgba(0,122,255,0.6)", "rgba(255,45,85,0.5)"],
+              "primaryColors": [
+                "rgba(0,122,255,0.6)",
+                "rgba(255,45,85,0.5)"
+              ],
               "backgroundGradient": "linear-gradient(120deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.05) 100%)",
               "fontPrimary": "SF Pro Display",
               "fontSecondary": "Manrope"
@@ -3200,13 +5034,34 @@
             "Rejection of decorative styling",
             "Content as primary focus"
           ],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#0000FF"],
-          "colorFamily": "High contrast",
-          "typography": ["Courier New", "Times New Roman", "Arial"],
-          "influences": ["Brutalist Architecture", "Early Web Design", "Punk Aesthetics"],
-          "relatedMovements": ["Anti-Design", "HTML Energy"],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF0000",
+            "#0000FF"
+          ],
+          "colorFamily": "Black",
+          "designSystem": "High Contrast",
+          "typography": [
+            "Courier New",
+            "Times New Roman",
+            "Arial"
+          ],
+          "influences": [
+            "Brutalist Architecture",
+            "Early Web Design",
+            "Punk Aesthetics"
+          ],
+          "relatedMovements": [
+            "Anti-Design",
+            "HTML Energy"
+          ],
           "authenticityLevel": "custom",
-          "vibes": ["raw", "unfiltered", "confrontational"],
+          "vibes": [
+            "raw",
+            "unfiltered",
+            "confrontational"
+          ],
           "tagline": "The web unmasked",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -3215,7 +5070,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(0deg, #FFFFFF 0%, #EEEEEE 100%)",
               "fontPrimary": "Courier New",
               "fontSecondary": "Arial"
@@ -3245,13 +5103,35 @@
             "Extend battery life",
             "Maintain contrast ratios"
           ],
-          "colorPalette": ["#000000", "#1C1C1E", "#FF9F0A", "#0A84FF", "#32D74B"],
-          "colorFamily": "Low-light",
-          "typography": ["SF Pro Display", "Google Sans", "Segoe UI"],
-          "influences": ["Cinematic Interfaces", "Developer Tools", "OLED Technology"],
-          "relatedMovements": ["High Contrast Mode", "Midnight Design"],
+          "colorPalette": [
+            "#000000",
+            "#1C1C1E",
+            "#FF9F0A",
+            "#0A84FF",
+            "#32D74B"
+          ],
+          "colorFamily": "Black",
+          "designSystem": "High Contrast",
+          "typography": [
+            "SF Pro Display",
+            "Google Sans",
+            "Segoe UI"
+          ],
+          "influences": [
+            "Cinematic Interfaces",
+            "Developer Tools",
+            "OLED Technology"
+          ],
+          "relatedMovements": [
+            "High Contrast Mode",
+            "Midnight Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["cinematic", "immersive", "focused"],
+          "vibes": [
+            "cinematic",
+            "immersive",
+            "focused"
+          ],
           "tagline": "Interfaces for the night",
           "frontCard": {
             "backgroundColor": "#1C1C1E",
@@ -3260,7 +5140,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#1C1C1E", "#000000"],
+              "primaryColors": [
+                "#1C1C1E",
+                "#000000"
+              ],
               "backgroundGradient": "linear-gradient(180deg, #000000 0%, #1C1C1E 100%)",
               "fontPrimary": "SF Pro Display",
               "fontSecondary": "Google Sans"
@@ -3290,13 +5173,35 @@
             "Modular recombination",
             "Scan-optimized layouts"
           ],
-          "colorPalette": ["#E60023", "#1DA1F2", "#FFFFFF", "#F5F5F5", "#333333"],
-          "colorFamily": "Neutral with accents",
-          "typography": ["Helvetica Neue", "Segoe UI", "Proxima Nova"],
-          "influences": ["Print Editorial", "Masonry Layouts", "Atomic Design"],
-          "relatedMovements": ["Modular Design", "Systematic Design"],
+          "colorPalette": [
+            "#E60023",
+            "#1DA1F2",
+            "#FFFFFF",
+            "#F5F5F5",
+            "#333333"
+          ],
+          "colorFamily": "Gray",
+          "designSystem": "Systematic",
+          "typography": [
+            "Helvetica Neue",
+            "Segoe UI",
+            "Proxima Nova"
+          ],
+          "influences": [
+            "Print Editorial",
+            "Masonry Layouts",
+            "Atomic Design"
+          ],
+          "relatedMovements": [
+            "Modular Design",
+            "Systematic Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["organized", "bite-sized", "modular"],
+          "vibes": [
+            "organized",
+            "bite-sized",
+            "modular"
+          ],
           "tagline": "Content as building blocks",
           "frontCard": {
             "backgroundColor": "#E60023",
@@ -3305,7 +5210,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#E60023", "#1DA1F2"],
+              "primaryColors": [
+                "#E60023",
+                "#1DA1F2"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
               "fontPrimary": "Helvetica Neue",
               "fontSecondary": "Proxima Nova"
@@ -3335,13 +5243,35 @@
             "Depth through blending",
             "Brand recognition through hue"
           ],
-          "colorPalette": ["#FEDA77", "#F58529", "#DD2A7B", "#8134AF", "#515BD4"],
-          "colorFamily": "Chromatic blends",
-          "typography": ["Instagram Sans", "SF Pro Display", "Circular STD"],
-          "influences": ["80s Synthwave", "Psychedelic Art", "CSS3 Filters"],
-          "relatedMovements": ["Color-First Design", "Liquid Design"],
+          "colorPalette": [
+            "#FEDA77",
+            "#F58529",
+            "#DD2A7B",
+            "#8134AF",
+            "#515BD4"
+          ],
+          "colorFamily": "Orange",
+          "designSystem": "Expressive",
+          "typography": [
+            "Instagram Sans",
+            "SF Pro Display",
+            "Circular STD"
+          ],
+          "influences": [
+            "80s Synthwave",
+            "Psychedelic Art",
+            "CSS3 Filters"
+          ],
+          "relatedMovements": [
+            "Color-First Design",
+            "Liquid Design"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["vibrant", "energetic", "immersive"],
+          "vibes": [
+            "vibrant",
+            "energetic",
+            "immersive"
+          ],
           "tagline": "Color in motion",
           "frontCard": {
             "backgroundColor": "#DD2A7B",
@@ -3350,7 +5280,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#DD2A7B", "#515BD4"],
+              "primaryColors": [
+                "#DD2A7B",
+                "#515BD4"
+              ],
               "backgroundGradient": "linear-gradient(45deg, #FEDA77 0%, #DD2A7B 50%, #515BD4 100%)",
               "fontPrimary": "Instagram Sans",
               "fontSecondary": "SF Pro Display"
@@ -3363,7 +5296,7 @@
               }
             }
           }
-        },   
+        },
         {
           "id": "neobrutalism",
           "name": "Neobrutalism",
@@ -3380,13 +5313,35 @@
             "Rejection of decorative layers",
             "Function dictates form"
           ],
-          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#FFFF00", "#0000FF"],
-          "colorFamily": "High contrast",
-          "typography": ["Courier New", "Impact", "Times New Roman"],
-          "influences": ["Brutalist Architecture", "Punk Zines", "Early Web Design"],
-          "relatedMovements": ["Brutalist Web", "Anti-Design"],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#FF0000",
+            "#FFFF00",
+            "#0000FF"
+          ],
+          "colorFamily": "Black",
+          "designSystem": "High Contrast",
+          "typography": [
+            "Courier New",
+            "Impact",
+            "Times New Roman"
+          ],
+          "influences": [
+            "Brutalist Architecture",
+            "Punk Zines",
+            "Early Web Design"
+          ],
+          "relatedMovements": [
+            "Brutalist Web",
+            "Anti-Design"
+          ],
           "authenticityLevel": "custom",
-          "vibes": ["raw", "confrontational", "unfiltered"],
+          "vibes": [
+            "raw",
+            "confrontational",
+            "unfiltered"
+          ],
           "tagline": "Digital brutalism reborn",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -3395,7 +5350,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#FFFFFF"],
+              "primaryColors": [
+                "#000000",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(0deg, #FFFFFF 0%, #EEEEEE 100%)",
               "fontPrimary": "Courier New",
               "fontSecondary": "Impact"
@@ -3425,13 +5383,35 @@
             "Depth through concave/convex",
             "Playful tactility"
           ],
-          "colorPalette": ["#FF9E9E", "#A0E7E5", "#B5EAEA", "#FFD3B6", "#D4A5A5"],
-          "colorFamily": "Soft pastels",
-          "typography": ["Comic Neue", "SF Pro Rounded", "Nunito"],
-          "influences": ["Play-Doh Aesthetics", "Neumorphism", "Toy Design"],
-          "relatedMovements": ["Neumorphism", "Organic Modernism"],
+          "colorPalette": [
+            "#FF9E9E",
+            "#A0E7E5",
+            "#B5EAEA",
+            "#FFD3B6",
+            "#D4A5A5"
+          ],
+          "colorFamily": "Pink",
+          "designSystem": "Expressive",
+          "typography": [
+            "Comic Neue",
+            "SF Pro Rounded",
+            "Nunito"
+          ],
+          "influences": [
+            "Play-Doh Aesthetics",
+            "Neumorphism",
+            "Toy Design"
+          ],
+          "relatedMovements": [
+            "Neumorphism",
+            "Organic Modernism"
+          ],
           "authenticityLevel": "experimental",
-          "vibes": ["playful", "tactile", "whimsical"],
+          "vibes": [
+            "playful",
+            "tactile",
+            "whimsical"
+          ],
           "tagline": "UI you want to squish",
           "frontCard": {
             "backgroundColor": "#A0E7E5",
@@ -3440,7 +5420,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#A0E7E5", "#FF9E9E"],
+              "primaryColors": [
+                "#A0E7E5",
+                "#FF9E9E"
+              ],
               "backgroundGradient": "linear-gradient(145deg, #F9F9F9 0%, #E8F4F4 100%)",
               "fontPrimary": "SF Pro Rounded",
               "fontSecondary": "Nunito"
@@ -3470,13 +5453,35 @@
             "Seamless media integration",
             "Guided discovery"
           ],
-          "colorPalette": ["#1A1A1A", "#FFFFFF", "#999999", "#333333", "#CCCCCC"],
-          "colorFamily": "Monochrome",
-          "typography": ["Georgia", "Chronicle Display", "Merriweather"],
-          "influences": ["Cinematic Storytelling", "Comic Book Layouts", "Documentary Film"],
-          "relatedMovements": ["Motion Language", "Immersive 3D UI"],
+          "colorPalette": [
+            "#1A1A1A",
+            "#FFFFFF",
+            "#999999",
+            "#333333",
+            "#CCCCCC"
+          ],
+          "colorFamily": "Gray",
+          "designSystem": "Minimalist",
+          "typography": [
+            "Georgia",
+            "Chronicle Display",
+            "Merriweather"
+          ],
+          "influences": [
+            "Cinematic Storytelling",
+            "Comic Book Layouts",
+            "Documentary Film"
+          ],
+          "relatedMovements": [
+            "Motion Language",
+            "Immersive 3D UI"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["cinematic", "immersive", "narrative"],
+          "vibes": [
+            "cinematic",
+            "immersive",
+            "narrative"
+          ],
           "tagline": "Stories in motion",
           "frontCard": {
             "backgroundColor": "#1A1A1A",
@@ -3485,7 +5490,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#1A1A1A", "#FFFFFF"],
+              "primaryColors": [
+                "#1A1A1A",
+                "#FFFFFF"
+              ],
               "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%)",
               "fontPrimary": "Georgia",
               "fontSecondary": "Merriweather"
@@ -3515,13 +5523,35 @@
             "Explain without words",
             "Graceful degradation"
           ],
-          "colorPalette": ["#000000", "#FFFFFF", "#34C759", "#FF3B30", "#007AFF"],
-          "colorFamily": "High contrast",
-          "typography": ["SF Pro Display", "Roboto", "Segoe UI"],
-          "influences": ["Security UIs", "Accessibility Design", "Minimalist Design"],
-          "relatedMovements": ["Inclusive Design", "Microinteractions"],
+          "colorPalette": [
+            "#000000",
+            "#FFFFFF",
+            "#34C759",
+            "#FF3B30",
+            "#007AFF"
+          ],
+          "colorFamily": "Black",
+          "designSystem": "High Contrast",
+          "typography": [
+            "SF Pro Display",
+            "Roboto",
+            "Segoe UI"
+          ],
+          "influences": [
+            "Security UIs",
+            "Accessibility Design",
+            "Minimalist Design"
+          ],
+          "relatedMovements": [
+            "Inclusive Design",
+            "Microinteractions"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["secure", "instant", "invisible"],
+          "vibes": [
+            "secure",
+            "instant",
+            "invisible"
+          ],
           "tagline": "You are the password",
           "frontCard": {
             "backgroundColor": "#000000",
@@ -3530,7 +5560,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#000000", "#34C759"],
+              "primaryColors": [
+                "#000000",
+                "#34C759"
+              ],
               "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F7 100%)",
               "fontPrimary": "SF Pro Display",
               "fontSecondary": "Roboto"
@@ -3560,13 +5593,35 @@
             "Prevent negative spirals",
             "Reward positive engagement"
           ],
-          "colorPalette": ["#FF6B6B", "#4ECDC4", "#FFE66D", "#FF9F1C", "#2EC4B6"],
-          "colorFamily": "Emotional spectrum",
-          "typography": ["Comic Sans MS", "SF Pro Rounded", "Nunito"],
-          "influences": ["Color Psychology", "Behavioral Design", "Game Design"],
-          "relatedMovements": ["Dopamine Design", "Inclusive Design"],
+          "colorPalette": [
+            "#FF6B6B",
+            "#4ECDC4",
+            "#FFE66D",
+            "#FF9F1C",
+            "#2EC4B6"
+          ],
+          "colorFamily": "Red",
+          "designSystem": "Expressive",
+          "typography": [
+            "Comic Sans MS",
+            "SF Pro Rounded",
+            "Nunito"
+          ],
+          "influences": [
+            "Color Psychology",
+            "Behavioral Design",
+            "Game Design"
+          ],
+          "relatedMovements": [
+            "Dopamine Design",
+            "Inclusive Design"
+          ],
           "authenticityLevel": "experimental",
-          "vibes": ["empathetic", "responsive", "humanistic"],
+          "vibes": [
+            "empathetic",
+            "responsive",
+            "humanistic"
+          ],
           "tagline": "UI that feels back",
           "frontCard": {
             "backgroundColor": "#4ECDC4",
@@ -3575,7 +5630,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#4ECDC4", "#FF6B6B"],
+              "primaryColors": [
+                "#4ECDC4",
+                "#FF6B6B"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F7F7F7 100%)",
               "fontPrimary": "SF Pro Rounded",
               "fontSecondary": "Nunito"
@@ -3605,13 +5663,35 @@
             "Balance realism with functionality",
             "Prioritize emotional connection"
           ],
-          "colorPalette": ["#F5F5F5", "#E8E8E8", "#D6D6D6", "#333333", "#A3A3A3"],
-          "colorFamily": "Neutral textures",
-          "typography": ["Georgia", "Baskerville", "Palatino"],
-          "influences": ["Early iOS Design", "Print Media", "Industrial Design"],
-          "relatedMovements": ["Glassmorphism", "Material Design"],
+          "colorPalette": [
+            "#F5F5F5",
+            "#E8E8E8",
+            "#D6D6D6",
+            "#333333",
+            "#A3A3A3"
+          ],
+          "colorFamily": "Gray",
+          "designSystem": "Organic",
+          "typography": [
+            "Georgia",
+            "Baskerville",
+            "Palatino"
+          ],
+          "influences": [
+            "Early iOS Design",
+            "Print Media",
+            "Industrial Design"
+          ],
+          "relatedMovements": [
+            "Glassmorphism",
+            "Material Design"
+          ],
           "authenticityLevel": "semi-authentic",
-          "vibes": ["nostalgic", "tactile", "comforting"],
+          "vibes": [
+            "nostalgic",
+            "tactile",
+            "comforting"
+          ],
           "tagline": "Digital comfort food",
           "frontCard": {
             "backgroundColor": "#F5F5F5",
@@ -3620,7 +5700,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#F5F5F5", "#D6D6D6"],
+              "primaryColors": [
+                "#F5F5F5",
+                "#D6D6D6"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #F5F5F5 0%, #E8E8E8 100%)",
               "fontPrimary": "Georgia",
               "fontSecondary": "Baskerville"
@@ -3650,13 +5733,35 @@
             "Leverage implicit signals",
             "Balance surprise and familiarity"
           ],
-          "colorPalette": ["#1DB954", "#191414", "#FFFFFF", "#B3B3B3", "#535353"],
-          "colorFamily": "Brand-adaptive",
-          "typography": ["Circular STD", "Spotify Mix", "SF Pro Display"],
-          "influences": ["Recommendation Algorithms", "Data Visualization", "Behavioral Design"],
-          "relatedMovements": ["Data-Driven UI", "AI-Assisted Design"],
+          "colorPalette": [
+            "#1DB954",
+            "#191414",
+            "#FFFFFF",
+            "#B3B3B3",
+            "#535353"
+          ],
+          "colorFamily": "Green",
+          "designSystem": "Systematic",
+          "typography": [
+            "Circular STD",
+            "Spotify Mix",
+            "SF Pro Display"
+          ],
+          "influences": [
+            "Recommendation Algorithms",
+            "Data Visualization",
+            "Behavioral Design"
+          ],
+          "relatedMovements": [
+            "Data-Driven UI",
+            "AI-Assisted Design"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["tailored", "dynamic", "unpredictable"],
+          "vibes": [
+            "tailored",
+            "dynamic",
+            "unpredictable"
+          ],
           "tagline": "UI that knows you",
           "frontCard": {
             "backgroundColor": "#1DB954",
@@ -3665,7 +5770,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#1DB954", "#191414"],
+              "primaryColors": [
+                "#1DB954",
+                "#191414"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #191414 0%, #000000 100%)",
               "fontPrimary": "Circular STD",
               "fontSecondary": "SF Pro Display"
@@ -3695,13 +5803,35 @@
             "Design for depth cues",
             "Prioritize performance"
           ],
-          "colorPalette": ["#FF3E00", "#00C4CC", "#FFFFFF", "#000000", "#676778"],
-          "colorFamily": "High contrast",
-          "typography": ["SF Pro Display", "Roboto", "Segoe UI"],
-          "influences": ["Game Design", "Architectural Visualization", "VR Interfaces"],
-          "relatedMovements": ["Motion Language", "AR Overlay Patterns"],
+          "colorPalette": [
+            "#FF3E00",
+            "#00C4CC",
+            "#FFFFFF",
+            "#000000",
+            "#676778"
+          ],
+          "colorFamily": "Black",
+          "designSystem": "High Contrast",
+          "typography": [
+            "SF Pro Display",
+            "Roboto",
+            "Segoe UI"
+          ],
+          "influences": [
+            "Game Design",
+            "Architectural Visualization",
+            "VR Interfaces"
+          ],
+          "relatedMovements": [
+            "Motion Language",
+            "AR Overlay Patterns"
+          ],
           "authenticityLevel": "authentic",
-          "vibes": ["dimensional", "dynamic", "immersive"],
+          "vibes": [
+            "dimensional",
+            "dynamic",
+            "immersive"
+          ],
           "tagline": "The web in 3D",
           "frontCard": {
             "backgroundColor": "#FF3E00",
@@ -3710,7 +5840,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#FF3E00", "#00C4CC"],
+              "primaryColors": [
+                "#FF3E00",
+                "#00C4CC"
+              ],
               "backgroundGradient": "linear-gradient(135deg, #000000 0%, #676778 100%)",
               "fontPrimary": "SF Pro Display",
               "fontSecondary": "Roboto"
@@ -3740,13 +5873,34 @@
             "Leverage depth as information",
             "Prioritize gaze tracking"
           ],
-          "colorPalette": ["#00F0FF", "#FF00E6", "#00FF87", "rgba(0,0,0,0.7)"],
-          "colorFamily": "Neon depth",
-          "typography": ["SF Pro Rounded", "Segoe UI Variable", "Barlow Semi Condensed"],
-          "influences": ["Sci-Fi Cinema", "Volumetric Video", "Game Engine Tech"],
-          "relatedMovements": ["Spatial Computing", "Quantum UI"],
+          "colorPalette": [
+            "#00F0FF",
+            "#FF00E6",
+            "#00FF87",
+            "rgba(0,0,0,0.7)"
+          ],
+          "colorFamily": "Blue",
+          "designSystem": "High Contrast",
+          "typography": [
+            "SF Pro Rounded",
+            "Segoe UI Variable",
+            "Barlow Semi Condensed"
+          ],
+          "influences": [
+            "Sci-Fi Cinema",
+            "Volumetric Video",
+            "Game Engine Tech"
+          ],
+          "relatedMovements": [
+            "Spatial Computing",
+            "Quantum UI"
+          ],
           "authenticityLevel": "experimental",
-          "vibes": ["futuristic", "immersive", "dimensional"],
+          "vibes": [
+            "futuristic",
+            "immersive",
+            "dimensional"
+          ],
           "tagline": "Pixels with volume",
           "frontCard": {
             "backgroundColor": "rgba(0,0,0,0.7)",
@@ -3755,7 +5909,10 @@
           },
           "backCard": {
             "theme": {
-              "primaryColors": ["#00F0FF", "#FF00E6"],
+              "primaryColors": [
+                "#00F0FF",
+                "#FF00E6"
+              ],
               "backgroundGradient": "linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(0,240,255,0.2) 100%)",
               "fontPrimary": "SF Pro Rounded",
               "fontSecondary": "Barlow Semi Condensed"
