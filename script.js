@@ -5,6 +5,12 @@ let themeData = null;
 let allCardsFlipped = false;
 let allSectionsExpanded = false;
 
+// Filter state
+let activeFilters = {
+    colors: new Set(),
+    designs: new Set()
+};
+
 // Initialize
 document.addEventListener('DOMContentLoaded', async function() {
     await loadThemeData();
@@ -93,63 +99,102 @@ function initializeFilters() {
         });
     });
 
-    const select = document.getElementById('colorFilterSelect');
-    select.innerHTML = '<option value="all">All Themes</option>';
-
-    // Add color families section
-    if (allColorFamilies.size > 0) {
-        const colorGroup = document.createElement('optgroup');
-        colorGroup.label = 'Color Families';
-        allColorFamilies.forEach(family => {
-            const option = document.createElement('option');
-            option.value = `color:${family}`;
-            option.textContent = family;
-            colorGroup.appendChild(option);
-        });
-        select.appendChild(colorGroup);
-    }
-
-    // Add design systems section
-    if (allDesignSystems.size > 0) {
-        const designGroup = document.createElement('optgroup');
-        designGroup.label = 'Design Systems';
-        allDesignSystems.forEach(system => {
-            const option = document.createElement('option');
-            option.value = `design:${system}`;
-            option.textContent = system;
-            designGroup.appendChild(option);
-        });
-        select.appendChild(designGroup);
-    }
-
-    select.addEventListener('change', () => {
-        applyFilters();
+    // Create color pills
+    const colorPillsContainer = document.getElementById('colorPills');
+    colorPillsContainer.innerHTML = '';
+    Array.from(allColorFamilies).sort().forEach(color => {
+        const pill = document.createElement('div');
+        pill.className = 'filter-pill';
+        pill.textContent = color;
+        pill.dataset.type = 'color';
+        pill.dataset.value = color;
+        pill.addEventListener('click', () => toggleFilter('color', color, pill));
+        colorPillsContainer.appendChild(pill);
     });
+
+    // Create design system pills
+    const designPillsContainer = document.getElementById('designPills');
+    designPillsContainer.innerHTML = '';
+    Array.from(allDesignSystems).sort().forEach(design => {
+        const pill = document.createElement('div');
+        pill.className = 'filter-pill design-pill';
+        pill.textContent = design;
+        pill.dataset.type = 'design';
+        pill.dataset.value = design;
+        pill.addEventListener('click', () => toggleFilter('design', design, pill));
+        designPillsContainer.appendChild(pill);
+    });
+
+    // Initialize clear button
+    const clearBtn = document.getElementById('clearFilters');
+    clearBtn.addEventListener('click', clearAllFilters);
+    updateClearButton();
+}
+
+function toggleFilter(type, value, pillElement) {
+    const filterSet = type === 'color' ? activeFilters.colors : activeFilters.designs;
+    
+    if (filterSet.has(value)) {
+        // Remove filter
+        filterSet.delete(value);
+        pillElement.classList.remove('active');
+    } else {
+        // Add filter
+        filterSet.add(value);
+        pillElement.classList.add('active');
+    }
+    
+    updateClearButton();
+    applyFilters();
+}
+
+function clearAllFilters() {
+    // Clear all active filters
+    activeFilters.colors.clear();
+    activeFilters.designs.clear();
+    
+    // Remove active class from all pills
+    document.querySelectorAll('.filter-pill.active').forEach(pill => {
+        pill.classList.remove('active');
+    });
+    
+    updateClearButton();
+    applyFilters();
+}
+
+function updateClearButton() {
+    const clearBtn = document.getElementById('clearFilters');
+    const hasActiveFilters = activeFilters.colors.size > 0 || activeFilters.designs.size > 0;
+    
+    if (hasActiveFilters) {
+        clearBtn.classList.add('active');
+    } else {
+        clearBtn.classList.remove('active');
+    }
 }
 
 function applyFilters() {
-    const select = document.getElementById('colorFilterSelect');
-    const selectedFilter = select.value;
-
     const allCards = document.querySelectorAll('.flip-card');
+    
     allCards.forEach(card => {
         const themeId = card.querySelector('.flip-card-front').dataset.theme;
         const theme = findThemeById(themeId);
-
-        let shouldShow = false;
-
-        if (selectedFilter === 'all') {
-            shouldShow = true;
-        } else if (selectedFilter.startsWith('color:')) {
-            const colorFamily = selectedFilter.replace('color:', '');
-            shouldShow = theme.colorFamily === colorFamily;
-        } else if (selectedFilter.startsWith('design:')) {
-            const designSystem = selectedFilter.replace('design:', '');
-            shouldShow = theme.designSystem === designSystem;
+        
+        let shouldShow = true;
+        
+        // Apply color filters (if any are selected, theme must match at least one)
+        if (activeFilters.colors.size > 0) {
+            shouldShow = shouldShow && activeFilters.colors.has(theme.colorFamily);
         }
-
+        
+        // Apply design system filters (if any are selected, theme must match at least one)
+        if (activeFilters.designs.size > 0) {
+            shouldShow = shouldShow && activeFilters.designs.has(theme.designSystem);
+        }
+        
         card.style.display = shouldShow ? 'block' : 'none';
     });
+    
     updateCardCount();
 }
 
@@ -275,8 +320,7 @@ function renderThemeSections() {
 function updateCardCount() {
     const totalCards = themeData.categories.flatMap(c => c.themes).length;
     const visibleCards = document.querySelectorAll('.flip-card:not([style*="display: none"])').length;
-    const select = document.getElementById('colorFilterSelect');
-    const isFiltered = select.value !== 'all';
+    const isFiltered = activeFilters.colors.size > 0 || activeFilters.designs.size > 0;
 
     if (isFiltered) {
         document.getElementById('totalCardCount').textContent = `${visibleCards} / ${totalCards}`;
