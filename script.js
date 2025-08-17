@@ -1,18 +1,28 @@
-// State management
-let sectionStates = {};
+// Optimized JavaScript with memory leak prevention and performance improvements
+
+// State management - more efficient data structures
+let sectionStates = new Map();
 let themeData = null;
+let themeCache = new Map(); // Cache for theme lookups
 
 let allCardsFlipped = false;
 let allSectionsExpanded = false;
-let activeThemeCard = null; // Track the active theme card
+let activeThemeCard = null;
 
-// Filter state
+// Filter state - using Sets for better performance
 let activeFilters = {
     colors: new Set(),
     designs: new Set()
 };
 
-// Initialize
+// Event listener cleanup tracking
+let eventListeners = [];
+
+// Throttled functions for performance
+let throttledScroll = null;
+let throttledResize = null;
+
+// Initialize with cleanup
 document.addEventListener('DOMContentLoaded', async function() {
     await loadThemeData();
     renderThemeSections();
@@ -21,97 +31,177 @@ document.addEventListener('DOMContentLoaded', async function() {
     initializeMobileDrawer();
     initializeBackToTop();
     updateCardCount();
+    
+    // Add cleanup on beforeunload
+    window.addEventListener('beforeunload', cleanup);
 });
 
-// Toggle section expansion
+// Cleanup function to prevent memory leaks
+function cleanup() {
+    // Remove all tracked event listeners
+    eventListeners.forEach(({ element, event, handler }) => {
+        element.removeEventListener(event, handler);
+    });
+    eventListeners = [];
+    
+    // Clear caches
+    themeCache.clear();
+    sectionStates.clear();
+    activeFilters.colors.clear();
+    activeFilters.designs.clear();
+    
+    // Cancel any pending timers
+    if (throttledScroll) clearTimeout(throttledScroll);
+    if (throttledResize) clearTimeout(throttledResize);
+}
+
+// Helper to track event listeners for cleanup
+function addTrackedEventListener(element, event, handler) {
+    element.addEventListener(event, handler);
+    eventListeners.push({ element, event, handler });
+}
+
+// Optimized throttle function
+function throttle(func, delay) {
+    let timeoutId;
+    let lastExecTime = 0;
+    return function (...args) {
+        const currentTime = Date.now();
+        
+        if (currentTime - lastExecTime > delay) {
+            func.apply(this, args);
+            lastExecTime = currentTime;
+        } else {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(() => {
+                func.apply(this, args);
+                lastExecTime = Date.now();
+            }, delay - (currentTime - lastExecTime));
+        }
+    };
+}
+
+// Optimized section toggle with better DOM manipulation
 function toggleSection(sectionId) {
     const content = document.getElementById(sectionId + '-content');
     const arrow = document.getElementById(sectionId + '-arrow');
     
-    sectionStates[sectionId] = !sectionStates[sectionId];
+    if (!content || !arrow) return;
     
-    if (sectionStates[sectionId]) {
-        content.classList.add('expanded');
-        arrow.style.transform = 'rotate(180deg)';
-    } else {
-        content.classList.remove('expanded');
-        arrow.style.transform = 'rotate(0deg)';
-    }
+    const isExpanded = sectionStates.get(sectionId);
+    sectionStates.set(sectionId, !isExpanded);
+    
+    // Use requestAnimationFrame for smoother animations
+    requestAnimationFrame(() => {
+        if (!isExpanded) {
+            content.classList.add('expanded');
+            arrow.style.transform = 'rotate(180deg)';
+        } else {
+            content.classList.remove('expanded');
+            arrow.style.transform = 'rotate(0deg)';
+        }
+    });
 }
 
-// Flip individual card
+// Optimized card flip with event delegation
 function flipCard(card) {
-    // Only set as active if this is a manual click (not from flip-all)
+    if (!card) return;
+    
     setActiveThemeCard(card);
-    card.classList.toggle('flipped');
+    requestAnimationFrame(() => {
+        card.classList.toggle('flipped');
+    });
 }
 
-// Set active theme card
+// More efficient active card management
 function setActiveThemeCard(card) {
-    // Remove active class from previous card
-    if (activeThemeCard) {
+    if (activeThemeCard && activeThemeCard !== card) {
         activeThemeCard.classList.remove('active');
     }
     
-    // Set new active card
     activeThemeCard = card;
-    card.classList.add('active');
+    requestAnimationFrame(() => {
+        card.classList.add('active');
+    });
 }
 
-// Toggle controls
+// Optimized toggle controls with better event handling
 function initializeToggles() {
+    const expandToggle = document.getElementById('expandAllToggle');
+    const flipToggle = document.getElementById('flipAllToggle');
+    
+    if (!expandToggle || !flipToggle) return;
+    
     // Expand All Toggle
-    document.getElementById('expandAllToggle').addEventListener('click', function() {
+    const handleExpandToggle = function() {
         allSectionsExpanded = !allSectionsExpanded;
         this.classList.toggle('active');
         
-        Object.keys(sectionStates).forEach(sectionId => {
+        // Batch DOM updates for better performance
+        const updates = [];
+        sectionStates.forEach((state, sectionId) => {
             const content = document.getElementById(sectionId + '-content');
             const arrow = document.getElementById(sectionId + '-arrow');
             
             if (content && arrow) {
-                sectionStates[sectionId] = allSectionsExpanded;
-                
-                if (allSectionsExpanded) {
+                sectionStates.set(sectionId, allSectionsExpanded);
+                updates.push({ content, arrow, expanded: allSectionsExpanded });
+            }
+        });
+        
+        // Apply all updates in a single frame
+        requestAnimationFrame(() => {
+            updates.forEach(({ content, arrow, expanded }) => {
+                if (expanded) {
                     content.classList.add('expanded');
                     arrow.style.transform = 'rotate(180deg)';
                 } else {
                     content.classList.remove('expanded');
                     arrow.style.transform = 'rotate(0deg)';
                 }
-            }
+            });
         });
-    });
-
-    // Flip All Toggle
-    document.getElementById('flipAllToggle').addEventListener('click', function() {
+    };
+    
+    // Flip All Toggle with optimized DOM queries
+    const handleFlipToggle = function() {
         allCardsFlipped = !allCardsFlipped;
         this.classList.toggle('active');
         
         const allCards = document.querySelectorAll('.flip-card');
+        const cardsToUpdate = [];
+        
         allCards.forEach(card => {
-            // Skip active card - don't let flip-all affect it
-            if (card === activeThemeCard) {
-                return;
-            }
-            
-            if (allCardsFlipped) {
-                card.classList.add('flipped');
-            } else {
-                card.classList.remove('flipped');
+            if (card !== activeThemeCard) {
+                cardsToUpdate.push(card);
             }
         });
-    });
-
+        
+        requestAnimationFrame(() => {
+            cardsToUpdate.forEach(card => {
+                if (allCardsFlipped) {
+                    card.classList.add('flipped');
+                } else {
+                    card.classList.remove('flipped');
+                }
+            });
+        });
+    };
+    
+    addTrackedEventListener(expandToggle, 'click', handleExpandToggle);
+    addTrackedEventListener(flipToggle, 'click', handleFlipToggle);
 }
 
-// Filter logic
+// Optimized filter initialization with better data structures
 function initializeFilters() {
     const allColorFamilies = new Set();
     const allDesignSystems = new Set();
     
+    // Build lookup cache while collecting filter options
     themeData.categories.forEach(cat => {
         cat.themes.forEach(theme => {
+            themeCache.set(theme.id, theme);
+            
             if (theme.colorFamily) {
                 allColorFamilies.add(theme.colorFamily);
             }
@@ -121,170 +211,192 @@ function initializeFilters() {
         });
     });
 
-    // Create color pills
-    const colorPillsContainer = document.getElementById('colorPills');
-    colorPillsContainer.innerHTML = '';
-    Array.from(allColorFamilies).sort().forEach(color => {
-        const pill = document.createElement('div');
-        pill.className = 'filter-pill';
-        pill.textContent = color;
-        pill.dataset.type = 'color';
-        pill.dataset.value = color;
-        pill.addEventListener('click', () => toggleFilter('color', color, pill));
-        colorPillsContainer.appendChild(pill);
-    });
-
-    // Create design system pills
-    const designPillsContainer = document.getElementById('designPills');
-    designPillsContainer.innerHTML = '';
-    Array.from(allDesignSystems).sort().forEach(design => {
-        const pill = document.createElement('div');
-        pill.className = 'filter-pill design-pill';
-        pill.textContent = design;
-        pill.dataset.type = 'design';
-        pill.dataset.value = design;
-        pill.addEventListener('click', () => toggleFilter('design', design, pill));
-        designPillsContainer.appendChild(pill);
-    });
+    // Create pills with event delegation for better performance
+    createFilterPills('colorPills', allColorFamilies, 'color');
+    createFilterPills('designPills', allDesignSystems, 'design');
 
     // Initialize clear button
     const clearBtn = document.getElementById('clearFilters');
-    clearBtn.addEventListener('click', clearAllFilters);
+    if (clearBtn) {
+        addTrackedEventListener(clearBtn, 'click', clearAllFilters);
+    }
     updateClearButton();
 }
 
+// Helper function for creating filter pills
+function createFilterPills(containerId, items, type) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+    
+    const fragment = document.createDocumentFragment();
+    
+    Array.from(items).sort().forEach(item => {
+        const pill = document.createElement('div');
+        pill.className = `filter-pill ${type === 'design' ? 'design-pill' : ''}`;
+        pill.textContent = item;
+        pill.dataset.type = type;
+        pill.dataset.value = item;
+        
+        // Use event delegation instead of individual listeners
+        fragment.appendChild(pill);
+    });
+    
+    container.innerHTML = '';
+    container.appendChild(fragment);
+    
+    // Single event listener for all pills in container
+    addTrackedEventListener(container, 'click', (e) => {
+        const pill = e.target.closest('.filter-pill');
+        if (pill) {
+            const pillType = pill.dataset.type;
+            const value = pill.dataset.value;
+            toggleFilter(pillType, value, pill);
+        }
+    });
+}
+
+// Optimized filter toggle
 function toggleFilter(type, value, pillElement) {
     const filterSet = type === 'color' ? activeFilters.colors : activeFilters.designs;
     
     if (filterSet.has(value)) {
-        // Remove filter
         filterSet.delete(value);
         pillElement.classList.remove('active');
     } else {
-        // Add filter
         filterSet.add(value);
         pillElement.classList.add('active');
     }
     
     updateClearButton();
-    applyFilters();
+    
+    // Debounce filter application for better performance
+    if (applyFilters.timeoutId) {
+        clearTimeout(applyFilters.timeoutId);
+    }
+    applyFilters.timeoutId = setTimeout(applyFilters, 50);
 }
 
+// Optimized clear filters
 function clearAllFilters() {
-    // Clear all active filters
     activeFilters.colors.clear();
     activeFilters.designs.clear();
     
-    // Remove active class from all pills
-    document.querySelectorAll('.filter-pill.active').forEach(pill => {
-        pill.classList.remove('active');
+    // Batch DOM updates
+    const activePills = document.querySelectorAll('.filter-pill.active');
+    requestAnimationFrame(() => {
+        activePills.forEach(pill => pill.classList.remove('active'));
     });
     
     updateClearButton();
     applyFilters();
 }
 
+// Efficient clear button update
 function updateClearButton() {
     const clearBtn = document.getElementById('clearFilters');
+    if (!clearBtn) return;
+    
     const hasActiveFilters = activeFilters.colors.size > 0 || activeFilters.designs.size > 0;
     
-    if (hasActiveFilters) {
-        clearBtn.classList.add('active');
-    } else {
-        clearBtn.classList.remove('active');
-    }
+    requestAnimationFrame(() => {
+        clearBtn.classList.toggle('active', hasActiveFilters);
+    });
 }
 
+// Highly optimized filter application
 function applyFilters() {
     const allCards = document.querySelectorAll('.flip-card');
+    const visibilityUpdates = [];
     
     allCards.forEach(card => {
-        const themeId = card.querySelector('.flip-card-front').dataset.theme;
-        const theme = findThemeById(themeId);
+        const front = card.querySelector('.flip-card-front');
+        if (!front) return;
+        
+        const themeId = front.dataset.theme;
+        const theme = themeCache.get(themeId);
+        
+        if (!theme) return;
         
         let shouldShow = true;
         
-        // Apply color filters (if any are selected, theme must match at least one)
         if (activeFilters.colors.size > 0) {
             shouldShow = shouldShow && activeFilters.colors.has(theme.colorFamily);
         }
         
-        // Apply design system filters (if any are selected, theme must match at least one)
         if (activeFilters.designs.size > 0) {
             shouldShow = shouldShow && activeFilters.designs.has(theme.designSystem);
         }
         
-        card.style.display = shouldShow ? 'block' : 'none';
+        visibilityUpdates.push({ card, shouldShow });
     });
     
-    updateCardCount();
+    // Batch all visibility updates
+    requestAnimationFrame(() => {
+        visibilityUpdates.forEach(({ card, shouldShow }) => {
+            card.style.display = shouldShow ? 'block' : 'none';
+        });
+        updateCardCount();
+    });
 }
 
+// Optimized theme lookup using cache
 function findThemeById(id) {
-    for (const category of themeData.categories) {
-        const found = category.themes.find(theme => theme.id === id);
-        if (found) return found;
-    }
-    return null;
+    return themeCache.get(id) || null;
 }
 
-// Load theme data from JSON
+// Efficient data loading
 async function loadThemeData() {
     try {
         const response = await fetch('./theme-library.json');
         themeData = await response.json();
         
-        // Initialize section states
+        // Initialize section states efficiently
         themeData.categories.forEach(section => {
-            sectionStates[section.id] = section.id === 'core'; // Only core section expanded by default
+            sectionStates.set(section.id, section.id === 'core');
         });
     } catch (error) {
         console.error('Error loading theme data:', error);
     }
 }
 
-// Generate card HTML from theme data
+// Optimized card creation with better string handling
 function createThemeCard(theme) {
     const backCardStyle = `background: ${theme.backCard.theme.backgroundGradient}; color: ${theme.frontCard.textColor};`;
+    
+    // Pre-build repeated elements
+    const vibesHTML = theme.vibes.map(vibe => `<span class="vibe-tag">${vibe}</span>`).join('');
+    const colorPaletteHTML = theme.colorPalette.slice(0, 4).map(color =>
+        `<div class="w-5 h-5 rounded-md border border-white/30 shadow-sm" style="background: ${color};"></div>`
+    ).join('');
+    const primaryColorsHTML = theme.backCard.theme.primaryColors.slice(0, 4).map(color => 
+        `<div class="w-4 h-4 rounded" style="background: ${color};"></div>`
+    ).join('');
     
     return `
         <div class="flip-card" onclick="flipCard(this)">
             <div class="flip-card-inner">
                 <div class="flip-card-front" data-theme="${theme.id}">
                     <div class="p-6 cursor-pointer h-full flex flex-col text-white">
-                        <!-- Header Section -->
                         <div class="mb-4">
                             <h3 class="text-lg font-bold mb-1 leading-tight">${theme.name}</h3>
                             ${theme.tagline ? `<p class="text-xs font-medium opacity-75 uppercase tracking-wide">${theme.tagline}</p>` : ''}
                         </div>
                         
-                        <!-- Historical Context Section -->
                         <div class="flex-1 mb-4">
                             <div class="bg-white/10 rounded-lg p-3 backdrop-blur-sm">
                                 <p class="text-xs leading-relaxed text-white/90">${theme.historicalContext}</p>
                             </div>
                         </div>
                         
-                        <!-- Footer Section -->
                         <div class="space-y-3">
-                            <!-- Vibe -->
                             <div class="space-y-1">
                                 <span class="text-xs font-semibold opacity-70">VIBE:</span>
-                                <div class="flex flex-wrap gap-1">
-                                    ${theme.vibes.map(vibe => 
-                                        `<span class="vibe-tag">${vibe}</span>`
-                                    ).join('')}
-                                </div>
+                                <div class="flex flex-wrap gap-1">${vibesHTML}</div>
                             </div>
                             
-                            <!-- Colors -->
                             <div class="flex items-center gap-2">
                                 <span class="text-xs font-semibold opacity-70 min-w-[40px]">COLORS:</span>
-                                <div class="flex gap-1">
-                                    ${theme.colorPalette.slice(0, 4).map(color =>
-                                        `<div class="w-5 h-5 rounded-md border border-white/30 shadow-sm" style="background: ${color};"></div>`
-                                    ).join('')}
-                                </div>
+                                <div class="flex gap-1">${colorPaletteHTML}</div>
                             </div>
                         </div>
                     </div>
@@ -301,11 +413,7 @@ function createThemeCard(theme) {
                                 <div class="opacity-75 p-3 rounded text-sm">
                                     <p>${theme.tagline || 'Theme showcase'}</p>
                                 </div>
-                                <div class="flex justify-center space-x-2">
-                                    ${theme.backCard.theme.primaryColors.slice(0, 4).map(color => 
-                                        `<div class="w-4 h-4 rounded" style="background: ${color};"></div>`
-                                    ).join('')}
-                                </div>
+                                <div class="flex justify-center space-x-2">${primaryColorsHTML}</div>
                             </div>
                         </div>
                     </div>
@@ -315,114 +423,146 @@ function createThemeCard(theme) {
     `;
 }
 
-// Render all theme sections
+// Optimized section rendering
 function renderThemeSections() {
     if (!themeData) return;
     
     const container = document.getElementById('themeSections');
-    container.innerHTML = '';
+    if (!container) return;
+    
+    const fragment = document.createDocumentFragment();
     
     themeData.categories.forEach(section => {
-        const sectionHTML = `
-            <div class="theme-section frosted-card rounded-lg overflow-hidden mb-6">
-                <div class="section-header p-4 cursor-pointer" onclick="toggleSection('${section.id}')">
-                    <h2 class="text-xl font-bold text-white flex items-center justify-between">
-                        <span>${section.title} <span class="section-count text-yellow-300">(${section.themes.length})</span></span>
-                        <i class="fas fa-chevron-down transition-transform duration-300" id="${section.id}-arrow"></i>
-                    </h2>
-                </div>
-                <div class="section-content ${sectionStates[section.id] ? 'expanded' : ''}" id="${section.id}-content">
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 bg-black/10">
-                        ${section.themes.map(theme => createThemeCard(theme)).join('')}
-                    </div>
+        const sectionDiv = document.createElement('div');
+        sectionDiv.className = 'theme-section frosted-card rounded-lg overflow-hidden mb-6';
+        
+        const cardsHTML = section.themes.map(theme => createThemeCard(theme)).join('');
+        
+        sectionDiv.innerHTML = `
+            <div class="section-header p-4 cursor-pointer" onclick="toggleSection('${section.id}')">
+                <h2 class="text-xl font-bold text-white flex items-center justify-between">
+                    <span>${section.title} <span class="section-count text-yellow-300">(${section.themes.length})</span></span>
+                    <i class="fas fa-chevron-down transition-transform duration-300" id="${section.id}-arrow"></i>
+                </h2>
+            </div>
+            <div class="section-content ${sectionStates.get(section.id) ? 'expanded' : ''}" id="${section.id}-content">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 bg-black/10">
+                    ${cardsHTML}
                 </div>
             </div>
         `;
-        container.innerHTML += sectionHTML;
         
-        // Set initial arrow state
-        setTimeout(() => {
+        fragment.appendChild(sectionDiv);
+    });
+    
+    container.innerHTML = '';
+    container.appendChild(fragment);
+    
+    // Set initial arrow states efficiently
+    requestAnimationFrame(() => {
+        themeData.categories.forEach(section => {
             const arrow = document.getElementById(`${section.id}-arrow`);
             if (arrow) {
-                arrow.style.transform = sectionStates[section.id] ? 'rotate(180deg)' : 'rotate(0deg)';
+                arrow.style.transform = sectionStates.get(section.id) ? 'rotate(180deg)' : 'rotate(0deg)';
             }
-        }, 0);
+        });
     });
 }
 
-
-// Update card count
+// Optimized card count update
 function updateCardCount() {
-    const totalCards = themeData.categories.flatMap(c => c.themes).length;
+    if (!themeData) return;
+    
+    const totalCards = themeData.categories.reduce((sum, c) => sum + c.themes.length, 0);
     const visibleCards = document.querySelectorAll('.flip-card:not([style*="display: none"])').length;
     const isFiltered = activeFilters.colors.size > 0 || activeFilters.designs.size > 0;
 
-    if (isFiltered) {
-        document.getElementById('totalCardCount').textContent = `${visibleCards} / ${totalCards}`;
-    } else {
-        document.getElementById('totalCardCount').textContent = totalCards;
+    const countElement = document.getElementById('totalCardCount');
+    if (countElement) {
+        countElement.textContent = isFiltered ? `${visibleCards} / ${totalCards}` : totalCards;
     }
 }
 
-// Mobile drawer functionality
+// Optimized mobile drawer with throttled resize
 function initializeMobileDrawer() {
     const toggleBtn = document.getElementById('filterToggle');
     const drawer = document.getElementById('filterContainer');
     const toggleText = document.querySelector('.filter-toggle-text');
     
-    if (!toggleBtn || !drawer) return;
+    if (!toggleBtn || !drawer || !toggleText) return;
     
-    // Start with drawer collapsed on mobile
-    if (window.innerWidth < 768) {
-        drawer.classList.add('collapsed');
-    } else {
-        drawer.classList.add('expanded');
-    }
+    // Initial state
+    const setInitialState = () => {
+        if (window.innerWidth < 768) {
+            drawer.classList.add('collapsed');
+            drawer.classList.remove('expanded');
+        } else {
+            drawer.classList.remove('collapsed');
+            drawer.classList.add('expanded');
+        }
+    };
     
-    toggleBtn.addEventListener('click', () => {
+    setInitialState();
+    
+    const handleToggle = () => {
         const isCollapsed = drawer.classList.contains('collapsed');
         
-        if (isCollapsed) {
-            drawer.classList.remove('collapsed');
-            drawer.classList.add('expanded');
-            toggleBtn.classList.add('active');
-            toggleText.textContent = 'Hide Filters';
-        } else {
-            drawer.classList.remove('expanded');
-            drawer.classList.add('collapsed');
-            toggleBtn.classList.remove('active');
-            toggleText.textContent = 'Show Filters';
-        }
-    });
+        requestAnimationFrame(() => {
+            if (isCollapsed) {
+                drawer.classList.remove('collapsed');
+                drawer.classList.add('expanded');
+                toggleBtn.classList.add('active');
+                toggleText.textContent = 'Hide Filters';
+            } else {
+                drawer.classList.remove('expanded');
+                drawer.classList.add('collapsed');
+                toggleBtn.classList.remove('active');
+                toggleText.textContent = 'Show Filters';
+            }
+        });
+    };
     
-    // Handle window resize
-    window.addEventListener('resize', () => {
+    addTrackedEventListener(toggleBtn, 'click', handleToggle);
+    
+    // Throttled resize handler
+    throttledResize = throttle(() => {
         if (window.innerWidth >= 768) {
-            drawer.classList.remove('collapsed');
-            drawer.classList.add('expanded');
-            toggleBtn.classList.remove('active');
-            toggleText.textContent = 'Show Filters';
+            requestAnimationFrame(() => {
+                drawer.classList.remove('collapsed');
+                drawer.classList.add('expanded');
+                toggleBtn.classList.remove('active');
+                toggleText.textContent = 'Show Filters';
+            });
         }
-    });
+    }, 250);
+    
+    addTrackedEventListener(window, 'resize', throttledResize);
 }
 
-// Back to Top functionality
+// Optimized back to top with throttled scroll
 function initializeBackToTop() {
     const backToTopBtn = document.getElementById('backToTop');
-    
     if (!backToTopBtn) return;
     
-    // Show/hide button based on scroll position
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 300) {
-            backToTopBtn.classList.add('visible');
-        } else {
-            backToTopBtn.classList.remove('visible');
-        }
-    });
+    let isVisible = false;
     
-    // Smooth scroll to top when clicked
-    backToTopBtn.addEventListener('click', () => {
+    const updateVisibility = (shouldShow) => {
+        if (shouldShow !== isVisible) {
+            isVisible = shouldShow;
+            requestAnimationFrame(() => {
+                backToTopBtn.classList.toggle('visible', shouldShow);
+            });
+        }
+    };
+    
+    // Throttled scroll handler
+    throttledScroll = throttle(() => {
+        updateVisibility(window.scrollY > 300);
+    }, 100);
+    
+    addTrackedEventListener(window, 'scroll', throttledScroll);
+    
+    addTrackedEventListener(backToTopBtn, 'click', () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
