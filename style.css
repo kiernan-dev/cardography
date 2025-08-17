@@ -1,10 +1,10 @@
 /* Gradient Background - Critical Implementation */
 .cosmic-gradient {
     background: linear-gradient(-45deg, 
-        #ee7752, #e73c7e, #23a6d5, #23d5ab, 
-        #667eea, #764ba2, #f093fb, #f5576c,
-        #4facfe, #00f2fe, #43e97b, #38f9d7,
-        #667eea, #764ba2, #ee7752, #e73c7e);
+        #b85a42, #c2306b, #1a7ba8, #1aa588, 
+        #4a5cc7, #5a3c82, #d572d8, #d83f56,
+        #3a8cdb, #007bb8, #359965, #2bc4a8,
+        #4a5cc7, #5a3c82, #b85a42, #c2306b);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
     min-height: 100vh;
@@ -15,6 +15,30 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+/* Clean Header Styles */
+.clean-title {
+    font-size: clamp(3.5rem, 8vw, 6rem);
+    font-weight: 800;
+    line-height: 1.1;
+    margin: 0 0 1rem 0;
+    background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 50%, #c7d2fe 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+    letter-spacing: -0.02em;
+}
+
+.clean-subtitle {
+    font-size: clamp(1.125rem, 3vw, 1.5rem);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
 
 /* Card Flip Mechanism - No White Flash */
 .flip-card {
@@ -177,15 +201,18 @@
 }
 
 .clear-filters-btn {
-    background-color: rgba(239, 68, 68, 0.2);
-    border: 1px solid rgba(239, 68, 68, 0.5);
-    color: #f87171;
-    padding: 0.375rem 0.75rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.2s ease;
     opacity: 0.6;
     pointer-events: none;
+    font-size: 0.875rem;
+    font-weight: 500;
 }
 
 .clear-filters-btn.active {
@@ -194,6 +221,6 @@
 }
 
 .clear-filters-btn.active:hover {
-    background-color: rgba(239, 68, 68, 0.3);
-    border-color: rgba(239, 68, 68, 0.7);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
 }
