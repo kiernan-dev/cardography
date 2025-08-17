@@ -1,150 +1,105 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Design Theme",
-  "description": "Schema for a single design theme object.",
+  "title": "Theme Library",
+  "description": "Schema for the entire theme library, including metadata and categories of themes.",
   "type": "object",
-  "properties": {
-    "id": {
-      "description": "Unique identifier for the theme.",
-      "type": "string"
-    },
-    "name": {
-      "description": "The full, formal name of the design theme.",
-      "type": "string"
-    },
-    "displayName": {
-      "description": "A shorter, display-friendly name for the theme.",
-      "type": "string"
-    },
-    "historicalContext": {
-      "description": "A brief history or context of the theme's origin.",
-      "type": "string"
-    },
-    "keyCharacteristics": {
-      "description": "A list of defining visual or conceptual traits.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "corePrinciples": {
-      "description": "The foundational ideas or rules that guide the theme.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "colorPalette": {
-      "description": "An array of representative color hex codes.",
-      "type": "array",
-      "items": {
-        "type": "string",
-        "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
-      }
-    },
-    "colorFamily": {
-      "description": "The dominant color family of the theme.",
-      "type": "string"
-    },
-    "typography": {
-      "description": "A list of fonts or typographic styles associated with the theme.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "influences": {
-      "description": "Movements or ideas that influenced this theme.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "relatedMovements": {
-      "description": "Other themes or movements that are conceptually similar.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "authenticityLevel": {
-      "description": "The level of historical authenticity.",
-      "type": "string",
-      "enum": ["authentic", "semi-authentic", "custom", "experimental"]
-    },
-    "vibes": {
-      "description": "A list of words describing the feel or mood of the theme.",
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
-    "tagline": {
-      "description": "A short, catchy phrase summarizing the theme.",
-      "type": "string"
-    },
-    "frontCard": {
-      "description": "Styling information for the front of the theme card.",
+  "definitions": {
+    "theme": {
+      "title": "Design Theme",
+      "description": "Schema for a single design theme object.",
       "type": "object",
       "properties": {
-        "backgroundColor": { "type": "string" },
-        "textColor": { "type": "string" },
-        "accentColor": { "type": "string" }
-      },
-      "required": ["backgroundColor", "textColor", "accentColor"]
-    },
-    "backCard": {
-      "description": "Styling and component information for the back of the theme card.",
-      "type": "object",
-      "properties": {
-        "theme": {
+        "id": { "description": "Unique identifier for the theme.", "type": "string" },
+        "name": { "description": "The full, formal name of the design theme.", "type": "string" },
+        "displayName": { "description": "A shorter, display-friendly name for the theme.", "type": "string" },
+        "historicalContext": { "description": "A brief history or context of the theme's origin.", "type": "string" },
+        "keyCharacteristics": { "description": "A list of defining visual or conceptual traits.", "type": "array", "items": { "type": "string" } },
+        "corePrinciples": { "description": "The foundational ideas or rules that guide the theme.", "type": "array", "items": { "type": "string" } },
+        "colorPalette": { "description": "An array of representative color hex codes.", "type": "array", "items": { "type": "string", "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$" } },
+        "colorFamily": { "description": "The dominant color family of the theme.", "type": "string" },
+        "typography": { "description": "A list of fonts or typographic styles associated with the theme.", "type": "array", "items": { "type": "string" } },
+        "influences": { "description": "Movements or ideas that influenced this theme.", "type": "array", "items": { "type": "string" } },
+        "relatedMovements": { "description": "Other themes or movements that are conceptually similar.", "type": "array", "items": { "type": "string" } },
+        "authenticityLevel": { "description": "The level of historical authenticity.", "type": "string", "enum": ["authentic", "semi-authentic", "custom", "experimental"] },
+        "vibes": { "description": "A list of words describing the feel or mood of the theme.", "type": "array", "items": { "type": "string" } },
+        "tagline": { "description": "A short, catchy phrase summarizing the theme.", "type": "string" },
+        "frontCard": {
+          "description": "Styling information for the front of the theme card.",
           "type": "object",
           "properties": {
-            "primaryColors": {
-              "type": "array",
-              "items": { "type": "string" }
-            },
-            "backgroundGradient": { "type": "string" },
-            "fontPrimary": { "type": "string" },
-            "fontSecondary": { "type": "string" }
+            "backgroundColor": { "type": "string" },
+            "textColor": { "type": "string" },
+            "accentColor": { "type": "string" }
           },
-          "required": ["primaryColors", "backgroundGradient", "fontPrimary", "fontSecondary"]
+          "required": ["backgroundColor", "textColor", "accentColor"]
         },
-        "components": {
+        "backCard": {
+          "description": "Styling and component information for the back of the theme card.",
           "type": "object",
           "properties": {
-            "button": {
+            "theme": {
               "type": "object",
               "properties": {
-                "background": { "type": "string" },
-                "border": { "type": "string" },
-                "color": { "type": "string" }
+                "primaryColors": { "type": "array", "items": { "type": "string" } },
+                "backgroundGradient": { "type": "string" },
+                "fontPrimary": { "type": "string" },
+                "fontSecondary": { "type": "string" }
               },
-              "required": ["background", "border", "color"]
+              "required": ["primaryColors", "backgroundGradient", "fontPrimary", "fontSecondary"]
+            },
+            "components": {
+              "type": "object",
+              "properties": {
+                "button": {
+                  "type": "object",
+                  "properties": {
+                    "background": { "type": "string" },
+                    "border": { "type": "string" },
+                    "color": { "type": "string" }
+                  },
+                  "required": ["background", "border", "color"]
+                }
+              },
+              "required": ["button"]
             }
           },
-          "required": ["button"]
+          "required": ["theme", "components"]
         }
       },
-      "required": ["theme", "components"]
+      "required": ["id", "name", "displayName", "historicalContext", "keyCharacteristics", "corePrinciples", "colorPalette", "colorFamily", "typography", "influences", "relatedMovements", "authenticityLevel", "vibes", "tagline", "frontCard", "backCard"]
     }
   },
-  "required": [
-    "id",
-    "name",
-    "displayName",
-    "historicalContext",
-    "keyCharacteristics",
-    "corePrinciples",
-    "colorPalette",
-    "colorFamily",
-    "typography",
-    "influences",
-    "relatedMovements",
-    "authenticityLevel",
-    "vibes",
-    "tagline",
-    "frontCard",
-    "backCard"
-  ]
+  "properties": {
+    "metadata": {
+      "description": "Metadata about the theme library.",
+      "type": "object",
+      "properties": {
+        "version": { "type": "string" },
+        "created": { "type": "string", "format": "date" },
+        "movementCount": { "type": "integer" },
+        "categoryCount": { "type": "integer" },
+        "historicalRange": { "type": "string" },
+        "sources": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["version", "created", "movementCount", "categoryCount", "historicalRange", "sources"]
+    },
+    "categories": {
+      "description": "A list of categories, each containing a list of themes.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "themes": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/theme" }
+          }
+        },
+        "required": ["id", "title", "description", "themes"]
+      }
+    }
+  },
+  "required": ["metadata", "categories"]
 }

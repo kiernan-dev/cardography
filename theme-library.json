@@ -1724,6 +1724,2052 @@
           }
         }
       ]
+    },
+    {
+      "id": "postmodern_late_20th",
+      "title": "Postmodern & Late 20th Century (1970-2000)",
+      "description": "Reactions against modernism embracing complexity, reference, and irony",
+      "themes": [
+        {
+          "id": "memphis_group",
+          "name": "Memphis Group",
+          "displayName": "Memphis",
+          "historicalContext": "Founded by Ettore Sottsass in Milan (1981). Rebelled against modernist minimalism with playful geometries.",
+          "keyCharacteristics": ["Bold patterns", "Plastic laminates", "Clashing colors"],
+          "corePrinciples": ["Radical eclecticism", "Anti-functionalism", "Postmodern irony"],
+          "colorPalette": ["#FFD700", "#FF69B4", "#00CED1", "#000000"],
+          "typography": ["ITC Avant Garde", "Bauhaus", "Futura Bold"],
+          "influences": ["Pop Art", "Art Deco"],
+          "relatedMovements": ["New Wave", "Anti-Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Playful", "Clashing", "Energetic"],
+          "tagline": "Radical irreverence in form and color",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FF69B4",
+            "accentColor": "#00CED1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF69B4", "#00CED1", "#FFD700"],
+              "backgroundGradient": "linear-gradient(45deg, #FF69B4 0%, #00CED1 100%)",
+              "fontPrimary": "'ITC Avant Garde', sans-serif",
+              "fontSecondary": "'Bauhaus', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF69B4",
+                "border": "3px solid #00CED1",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "new_wave_typography",
+          "name": "New Wave Typography",
+          "displayName": "New Wave",
+          "historicalContext": "Pioneered by Wolfgang Weingart (1970s). Broke Swiss typographic grids with experimental layouts.",
+          "keyCharacteristics": ["Collaged type", "Overlapping elements", "Photocopier textures"],
+          "corePrinciples": ["Deconstructed grids", "Typographic expression", "Punk sensibility"],
+          "colorPalette": ["#FF0000", "#000000", "#FFFFFF", "#00FF00"],
+          "typography": ["Helvetica", "Univers", "Cut-and-paste"],
+          "influences": ["Dada", "Punk"],
+          "relatedMovements": ["Postmodernism", "Deconstructivism"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Chaotic", "Energetic", "Rebellious"],
+          "tagline": "Typography unchained from modernist dogma",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#FF0000", "#000000", "#00FF00"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Univers', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "2px dashed #000000",
+                "transform": "rotate(2deg)"
+              }
+            }
+          }
+        },
+        {
+          "id": "punk_design",
+          "name": "Punk Design",
+          "displayName": "Punk",
+          "historicalContext": "Emerging from 1970s UK music scene. DIY aesthetic challenging establishment norms.",
+          "keyCharacteristics": ["Ransom-note typography", "Distressed textures", "Photocopied imagery"],
+          "corePrinciples": ["Anti-authoritarianism", "DIY ethic", "Cultural sabotage"],
+          "colorPalette": ["#000000", "#FF0000", "#FFFFFF", "#FFFF00"],
+          "typography": ["Cut-out letters", "Stencil", "Handwritten"],
+          "influences": ["Dada", "Situationist International"],
+          "relatedMovements": ["Grunge", "New Wave"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Aggressive", "Raw", "Rebellious"],
+          "tagline": "Destroy the establishment with scissors and glue",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FF0000",
+            "accentColor": "#FFFF00"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF0000", "#FFFF00", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #333333 100%)",
+              "fontPrimary": "'Stencil', sans-serif",
+              "fontSecondary": "'Cut-out letters', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "1px solid #FFFF00",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "deconstructivism",
+          "name": "Deconstructivism",
+          "displayName": "Deconstructivism",
+          "historicalContext": "Architectural movement (1980s) led by Zaha Hadid and Peter Eisenman. Fragmented forms.",
+          "keyCharacteristics": ["Non-rectilinear shapes", "Distorted geometry", "Visual instability"],
+          "corePrinciples": ["Challenge of symmetry", "Controlled chaos", "Spatial conflict"],
+          "colorPalette": ["#FFFFFF", "#000000", "#C0C0C0", "#FF0000"],
+          "typography": ["FF Meta", "Univers", "Helvetica Compressed"],
+          "influences": ["Constructivism", "Postmodernism"],
+          "relatedMovements": ["High-Tech", "Blobitecture"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Fragmented", "Unstable", "Dynamic"],
+          "tagline": "Architecture at the edge of chaos",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#C0C0C0"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'FF Meta', sans-serif",
+              "fontSecondary": "'Univers', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#000000",
+                "border": "1px solid #FF0000",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "high_tech_architecture",
+          "name": "High-Tech Architecture",
+          "displayName": "High-Tech",
+          "historicalContext": "Late modernist movement (1970-1990) celebrating structural expression. Norman Foster/Renzo Piano.",
+          "keyCharacteristics": ["Exposed structures", "Industrial materials", "Technical detailing"],
+          "corePrinciples": ["Honesty of construction", "Technological exhibition", "Adaptable systems"],
+          "colorPalette": ["#C0C0C0", "#000000", "#FFFFFF", "#4682B4"],
+          "typography": ["Univers", "Helvetica", "Eurostile"],
+          "influences": ["Modernism", "Constructivism"],
+          "relatedMovements": ["Brutalism", "Metabolism"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Industrial", "Precise", "Technical"],
+          "tagline": "Celebrating the poetry of structure",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#4682B4"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#4682B4", "#000000", "#C0C0C0"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'Univers', sans-serif",
+              "fontSecondary": "'Eurostile', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#4682B4",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "anti_design",
+          "name": "Anti-Design",
+          "displayName": "Anti-Design",
+          "historicalContext": "Italian movement (1970s) rejecting functionalism. Led by Superstudio and Archizoom.",
+          "keyCharacteristics": ["Illogical forms", "Provocative imagery", "Useless objects"],
+          "corePrinciples": ["Challenge consumerism", "Design as critique", "Radical dysfunction"],
+          "colorPalette": ["#FF0000", "#FFFF00", "#000000", "#FFFFFF"],
+          "typography": ["Cut-and-paste", "Handwritten", "Stencil"],
+          "influences": ["Dada", "Radical Architecture"],
+          "relatedMovements": ["Memphis", "Postmodernism"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Provocative", "Absurd", "Conceptual"],
+          "tagline": "Design against design",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#FF0000", "#000000", "#FFFF00"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
+              "fontPrimary": "'Cut-and-paste', sans-serif",
+              "fontSecondary": "'Handwritten', cursive"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "none",
+                "color": "#FFFF00"
+              }
+            }
+          }
+        },
+        {
+          "id": "radical_design",
+          "name": "Radical Design",
+          "displayName": "Radical Design",
+          "historicalContext": "Italian avant-garde (1960s-1970s) merging architecture with social critique.",
+          "keyCharacteristics": ["Utopian proposals", "Collage aesthetics", "Conceptual objects"],
+          "corePrinciples": ["Social revolution", "Anti-consumerism", "Speculative futures"],
+          "colorPalette": ["#000000", "#FF0000", "#FFFFFF", "#00FF00"],
+          "typography": ["Modular", "Stencil", "Constructivist"],
+          "influences": ["Constructivism", "Situationist International"],
+          "relatedMovements": ["Anti-Design", "Archigram"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Utopian", "Provocative", "Conceptual"],
+          "tagline": "Design as a weapon for social change",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FF0000",
+            "accentColor": "#00FF00"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF0000", "#00FF00", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #333333 100%)",
+              "fontPrimary": "'Stencil', sans-serif",
+              "fontSecondary": "'Constructivist', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "1px solid #00FF00",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "transavantgarde",
+          "name": "Transavantgarde",
+          "displayName": "Transavantgarde",
+          "historicalContext": "Italian art movement (1979) bridging avant-garde and traditional painting.",
+          "keyCharacteristics": ["Neo-expressionist brushwork", "Mythological references", "Vibrant colors"],
+          "corePrinciples": ["Return to painting", "Cultural nomadism", "Emotional intensity"],
+          "colorPalette": ["#FF4500", "#4B0082", "#FFD700", "#000000"],
+          "typography": ["Hand-painted", "Serif", "Calligraphic"],
+          "influences": ["Expressionism", "Arte Povera"],
+          "relatedMovements": ["Neo-Expressionism", "Bad Painting"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Energetic", "Mythic", "Gestural"],
+          "tagline": "Painting reborn through cultural nomadism",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FFD700",
+            "accentColor": "#FF4500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF4500", "#FFD700", "#4B0082"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
+              "fontPrimary": "'Serif', serif",
+              "fontSecondary": "'Calligraphic', cursive"
+            },
+            "components": {
+              "button": {
+                "background": "#FF4500",
+                "border": "2px solid #FFD700",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "neo_expressionism",
+          "name": "Neo-Expressionism",
+          "displayName": "Neo-Expressionism",
+          "historicalContext": "Global art movement (1970s-1980s) reviving emotional, figurative painting.",
+          "keyCharacteristics": ["Thick brushstrokes", "Raw emotion", "Distorted figures"],
+          "corePrinciples": ["Subjective intensity", "Return to figuration", "Anti-minimalism"],
+          "colorPalette": ["#8B0000", "#000000", "#FFD700", "#4B0082"],
+          "typography": ["Hand-painted", "Gothic", "Expressionist"],
+          "influences": ["German Expressionism", "Abstract Expressionism"],
+          "relatedMovements": ["Transavantgarde", "Bad Painting"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Emotional", "Raw", "Visceral"],
+          "tagline": "The return of emotion to contemporary art",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#8B0000",
+            "accentColor": "#FFD700"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#8B0000", "#FFD700", "#4B0082"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330000 100%)",
+              "fontPrimary": "'Gothic', sans-serif",
+              "fontSecondary": "'Expressionist', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#8B0000",
+                "border": "1px solid #FFD700",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "memphis_revival",
+          "name": "Memphis Revival",
+          "displayName": "Memphis Revival",
+          "historicalContext": "1980s resurgence of Memphis aesthetics in fashion and graphic design.",
+          "keyCharacteristics": ["Geometric patterns", "Plastic colors", "Postmodern eclecticism"],
+          "corePrinciples": ["Decorative excess", "Pop references", "Ironic nostalgia"],
+          "colorPalette": ["#FF69B4", "#00CED1", "#FFD700", "#000000"],
+          "typography": ["Memphis Bold", "ITC Avant Garde", "Futura Extra Bold"],
+          "influences": ["Pop Art", "Art Deco"],
+          "relatedMovements": ["Postmodernism", "New Wave"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Nostalgic", "Energetic", "Kitschy"],
+          "tagline": "Postmodernism's most colorful rebellion",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FF69B4",
+            "accentColor": "#00CED1"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF69B4", "#00CED1", "#FFD700"],
+              "backgroundGradient": "linear-gradient(45deg, #FF69B4 0%, #00CED1 100%)",
+              "fontPrimary": "'Memphis Bold', sans-serif",
+              "fontSecondary": "'ITC Avant Garde', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF69B4",
+                "border": "3px solid #00CED1",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "retro_futurism",
+          "name": "Retro-Futurism",
+          "displayName": "Retro-Futurism",
+          "historicalContext": "1980s aesthetic reimagining early 20th-century futurism through contemporary lens.",
+          "keyCharacteristics": ["Nostalgic futurism", "Streamlined forms", "Art Deco influences"],
+          "corePrinciples": ["Reimagined futures", "Technological nostalgia", "Stylized progress"],
+          "colorPalette": ["#C0C0C0", "#FF0000", "#00FFFF", "#000000"],
+          "typography": ["Futura Black", "Microgramma", "Eurostile"],
+          "influences": ["Art Deco", "Googie"],
+          "relatedMovements": ["Steampunk", "Dieselpunk"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Nostalgic", "Mechanical", "Optimistic"],
+          "tagline": "Yesterday's vision of tomorrow",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FFFF", "#FF0000", "#C0C0C0"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
+              "fontPrimary": "'Microgramma', sans-serif",
+              "fontSecondary": "'Eurostile', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00FFFF, #FF0000)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "grunge_design",
+          "name": "Grunge Design",
+          "displayName": "Grunge",
+          "historicalContext": "1990s aesthetic from Seattle music scene. Reaction against polished design.",
+          "keyCharacteristics": ["Distressed textures", "Handmade typography", "Punk influences"],
+          "corePrinciples": ["Authentic imperfection", "DIY ethos", "Anti-corporate"],
+          "colorPalette": ["#000000", "#8B4513", "#708090", "#FFFFFF"],
+          "typography": ["Handwritten", "Stencil", "Typewriter"],
+          "influences": ["Punk", "Dada"],
+          "relatedMovements": ["New Wave", "Anti-Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Raw", "Authentic", "Rebellious"],
+          "tagline": "Perfect imperfection in the digital age",
+          "frontCard": {
+            "backgroundColor": "#8B4513",
+            "textColor": "#000000",
+            "accentColor": "#708090"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#8B4513", "#000000", "#708090", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #8B4513 0%, #654321 100%)",
+              "fontPrimary": "'Typewriter', monospace",
+              "fontSecondary": "'Stencil', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#000000",
+                "border": "1px solid #708090",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "supergraphics",
+          "name": "Supergraphics",
+          "displayName": "Supergraphics",
+          "historicalContext": "1970s architectural trend using massive graphics to transform spaces.",
+          "keyCharacteristics": ["Bold typography", "Giant scale", "Environmental integration"],
+          "corePrinciples": ["Architecture as canvas", "Spatial perception", "Graphic intervention"],
+          "colorPalette": ["#FF0000", "#0000FF", "#FFFF00", "#FFFFFF"],
+          "typography": ["Helvetica Bold", "Univers Extended", "Futura Black"],
+          "influences": ["Pop Art", "Op Art"],
+          "relatedMovements": ["Postmodernism", "New Wave"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Bold", "Environmental", "Transformative"],
+          "tagline": "Architecture as a giant graphic statement",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#0000FF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#FF0000", "#0000FF", "#FFFF00"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'Helvetica Bold', sans-serif",
+              "fontSecondary": "'Univers Extended', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "california_new_wave",
+          "name": "California New Wave",
+          "displayName": "Cal New Wave",
+          "historicalContext": "1980s West Coast design movement blending surf culture with New Wave typography.",
+          "keyCharacteristics": ["Neon colors", "Beach references", "Punk influences"],
+          "corePrinciples": ["Sun-drenched rebellion", "Hybrid aesthetics", "Surf-punk fusion"],
+          "colorPalette": ["#00FFFF", "#FF00FF", "#FFFF00", "#000000"],
+          "typography": ["Raygun", "Dead Kennedys", "Beach Script"],
+          "influences": ["Punk", "Googie"],
+          "relatedMovements": ["New Wave", "Memphis"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Energetic", "Sun-bleached", "Rebellious"],
+          "tagline": "Punk goes surfing in the neon sunset",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF00FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FFFF", "#FF00FF", "#FFFF00"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330066 100%)",
+              "fontPrimary": "'Raygun', sans-serif",
+              "fontSecondary": "'Beach Script', cursive"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00FFFF, #FF00FF)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "postmodern_architecture",
+          "name": "Postmodern Architecture",
+          "displayName": "PoMo Architecture",
+          "historicalContext": "1970s-1990s reaction against modernism. Led by Robert Venturi and Michael Graves.",
+          "keyCharacteristics": ["Historical references", "Playful ornament", "Complexity"],
+          "corePrinciples": ["Less is a bore", "Double-coding", "Contextualism"],
+          "colorPalette": ["#FFD700", "#800080", "#008080", "#FFFFFF"],
+          "typography": ["Memphis", "ITC Garamond", "Futura Bold"],
+          "influences": ["Art Deco", "Classicism"],
+          "relatedMovements": ["Memphis", "New Classicism"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Eclectic", "Ornamental", "Witty"],
+          "tagline": "Less is a bore - more is more",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#800080",
+            "accentColor": "#FFD700"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#800080", "#FFD700", "#008080"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
+              "fontPrimary": "'ITC Garamond', serif",
+              "fontSecondary": "'Memphis', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#800080",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "memphis_digital",
+          "name": "Memphis Digital",
+          "displayName": "Digital Memphis",
+          "historicalContext": "1990s digital adaptation of Memphis aesthetics for early web design.",
+          "keyCharacteristics": ["Geometric patterns", "Dithering effects", "Limited color palettes"],
+          "corePrinciples": ["Postmodern digital", "Anti-skeuomorphism", "Early web maximalism"],
+          "colorPalette": ["#FF00FF", "#00FFFF", "#FFFF00", "#000000"],
+          "typography": ["Chicago", "New York", "Geneva"],
+          "influences": ["Memphis Group", "Web 1.0"],
+          "relatedMovements": ["New Wave", "Anti-Design"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["Nostalgic", "Pixelated", "Energetic"],
+          "tagline": "Postmodernism meets the digital frontier",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF00FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF00FF", "#00FFFF", "#FFFF00"],
+              "backgroundGradient": "linear-gradient(45deg, #FF00FF 0%, #00FFFF 100%)",
+              "fontPrimary": "'Chicago', sans-serif",
+              "fontSecondary": "'New York', serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF00FF",
+                "border": "1px solid #00FFFF",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "anti_aesthetic",
+          "name": "Anti-Aesthetic",
+          "displayName": "Anti-Aesthetic",
+          "historicalContext": "Conceptual movement (1980s) critiquing beauty standards in art/design.",
+          "keyCharacteristics": ["Deliberate ugliness", "Cultural critique", "Deconstruction"],
+          "corePrinciples": ["Challenge taste", "Institutional critique", "Radical ambiguity"],
+          "colorPalette": ["#000000", "#FFFFFF", "#808080", "#FF0000"],
+          "typography": ["Dysfunctional", "Cut-and-paste", "Found type"],
+          "influences": ["Dada", "Conceptual Art"],
+          "relatedMovements": ["Anti-Design", "Punk"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Provocative", "Challenging", "Uncomfortable"],
+          "tagline": "Beauty is a bourgeois construct",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#808080"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #CCCCCC 100%)",
+              "fontPrimary": "'Dysfunctional', sans-serif",
+              "fontSecondary": "'Found type', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#000000",
+                "border": "1px solid #FF0000",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "digital_punk",
+          "name": "Digital Punk",
+          "displayName": "Digital Punk",
+          "historicalContext": "1990s fusion of punk aesthetics with early digital tools like Photoshop 1.0.",
+          "keyCharacteristics": ["Glitch effects", "DIY digital", "Anti-corporate"],
+          "corePrinciples": ["Subvert technology", "Digital resistance", "Cyberpunk ethos"],
+          "colorPalette": ["#00FF00", "#FF00FF", "#000000", "#FFFFFF"],
+          "typography": ["Pixelated", "Stencil", "Handwritten"],
+          "influences": ["Punk", "Cyberpunk"],
+          "relatedMovements": ["Grunge", "New Wave"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["Aggressive", "Glitchy", "Rebellious"],
+          "tagline": "Fight the system with pixels and attitude",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FF00",
+            "accentColor": "#FF00FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FF00", "#FF00FF", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #003300 100%)",
+              "fontPrimary": "'Pixelated', sans-serif",
+              "fontSecondary": "'Stencil', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#00FF00",
+                "border": "1px solid #FF00FF",
+                "color": "#000000"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "digital_revolution",
+      "title": "Digital Revolution (1990-2010)",
+      "description": "Design approaches born from the transition to digital technology and early internet culture",
+      "themes": [
+        {
+          "id": "skeuomorphic",
+          "name": "Skeuomorphic Design",
+          "displayName": "Skeuomorphism",
+          "historicalContext": "Dominant UI style (2000-2010) where digital interfaces mimicked physical objects. Pioneered by Apple under Steve Jobs.",
+          "keyCharacteristics": ["Realistic textures", "3D effects", "Analog metaphors"],
+          "corePrinciples": ["Intuitive familiarity", "Tactile realism", "Visual affordances"],
+          "colorPalette": ["#D2B48C", "#C0C0C0", "#A9A9A9", "#F5F5F5"],
+          "typography": ["Myriad Pro", "Helvetica Neue", "Lucida Grande"],
+          "influences": ["Industrial Design", "Realism"],
+          "relatedMovements": ["Web 2.0", "Material Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Realistic", "Textured", "Familiar"],
+          "tagline": "Digital interfaces dressed in physical clothing",
+          "frontCard": {
+            "backgroundColor": "#F5F5F5",
+            "textColor": "#333333",
+            "accentColor": "#D2B48C"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#F5F5F5", "#D2B48C", "#C0C0C0", "#A9A9A9"],
+              "backgroundGradient": "linear-gradient(to bottom, #F5F5F5 0%, #E5E5E5 100%)",
+              "fontPrimary": "'Helvetica Neue', sans-serif",
+              "fontSecondary": "'Lucida Grande', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(to bottom, #F0F0F0, #D0D0D0)",
+                "boxShadow": "inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 3px rgba(0,0,0,0.3)",
+                "border": "1px solid #B0B0B0"
+              }
+            }
+          }
+        },
+        {
+          "id": "web_1.0",
+          "name": "Web 1.0 Aesthetic",
+          "displayName": "Web 1.0",
+          "historicalContext": "Early internet design (1991-1999) characterized by basic HTML and limited styling.",
+          "keyCharacteristics": ["Blue hyperlinks", "Tables for layout", "Animated GIFs"],
+          "corePrinciples": ["Function over form", "Hypertext structure", "Low bandwidth"],
+          "colorPalette": ["#0000FF", "#FFFFFF", "#000000", "#C0C0C0"],
+          "typography": ["Times New Roman", "Courier New", "Arial"],
+          "influences": ["Print Design", "Technical Documentation"],
+          "relatedMovements": ["Brutalist Web", "Web 2.0"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Nostalgic", "Minimal", "Functional"],
+          "tagline": "The digital frontier in its purest form",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#0000FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#0000FF", "#000000", "#C0C0C0"],
+              "backgroundGradient": "linear-gradient(to bottom, #FFFFFF 0%, #F0F0F0 100%)",
+              "fontPrimary": "'Times New Roman', serif",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#0000FF",
+                "border": "1px solid #000080",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "flash_era",
+          "name": "Flash Era Design",
+          "displayName": "Flash Era",
+          "historicalContext": "Dominant web aesthetic (1996-2010) powered by Adobe Flash. Enabled animations and interactivity.",
+          "keyCharacteristics": ["Animated intros", "Pixel fonts", "Loader graphics"],
+          "corePrinciples": ["Motion as experience", "Experimental navigation", "Rich media"],
+          "colorPalette": ["#00FFFF", "#FF00FF", "#FFFF00", "#000000"],
+          "typography": ["Pixel", "OCR-A", "Bank Gothic"],
+          "influences": ["Cyberpunk", "MTV Graphics"],
+          "relatedMovements": ["Web 2.0", "Y2K Aesthetic"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Animated", "Energetic", "Experimental"],
+          "tagline": "Where the web learned to move",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF00FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FFFF", "#FF00FF", "#FFFF00"],
+              "backgroundGradient": "linear-gradient(45deg, #000000 0%, #330066 100%)",
+              "fontPrimary": "'Pixel', monospace",
+              "fontSecondary": "'OCR-A', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00FFFF, #FF00FF)",
+                "border": "1px solid #FFFF00",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "y2k_aesthetic",
+          "name": "Y2K Aesthetic",
+          "displayName": "Y2K",
+          "historicalContext": "Millennium-era design (1997-2003) reflecting digital optimism and Y2K anxiety.",
+          "keyCharacteristics": ["Chrome textures", "Bubble shapes", "Glossy effects"],
+          "corePrinciples": ["Technological optimism", "Futuristic minimalism", "Digital sheen"],
+          "colorPalette": ["#C0C0C0", "#00FFFF", "#FF00FF", "#000000"],
+          "typography": ["Eurostile", "Microgramma", "Bank Gothic"],
+          "influences": ["Space Age", "Cyberpunk"],
+          "relatedMovements": ["Web 2.0", "Flash Era"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Futuristic", "Glossy", "Optimistic"],
+          "tagline": "Design for the new millennium",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#FF00FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FFFF", "#FF00FF", "#C0C0C0"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #1A0033 100%)",
+              "fontPrimary": "'Microgramma', sans-serif",
+              "fontSecondary": "'Eurostile', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #00FFFF, #FF00FF)",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "web_2.0",
+          "name": "Web 2.0 Design",
+          "displayName": "Web 2.0",
+          "historicalContext": "Mid-2000s aesthetic (2004-2010) emphasizing user-generated content and social features.",
+          "keyCharacteristics": ["Gradients", "Reflections", "Rounded corners"],
+          "corePrinciples": ["User participation", "Rich interfaces", "Social connectivity"],
+          "colorPalette": ["#3A7BD5", "#00D2FF", "#FFFFFF", "#F5F5F5"],
+          "typography": ["Helvetica Neue", "Myriad Pro", "Lucida Grande"],
+          "influences": ["Skeuomorphism", "Corporate Minimalism"],
+          "relatedMovements": ["Flat Design", "Material Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Friendly", "Shiny", "Interactive"],
+          "tagline": "The web becomes social",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#333333",
+            "accentColor": "#3A7BD5"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#3A7BD5", "#00D2FF", "#F5F5F5"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F0F7FF 100%)",
+              "fontPrimary": "'Helvetica Neue', sans-serif",
+              "fontSecondary": "'Myriad Pro', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(to right, #3A7BD5, #00D2FF)",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "pixel_art",
+          "name": "Pixel Art",
+          "displayName": "Pixel Art",
+          "historicalContext": "Digital art style (1980s-present) rooted in early computer and video game graphics.",
+          "keyCharacteristics": ["Low resolution", "Limited palettes", "Visible pixels"],
+          "corePrinciples": ["Constraints as creativity", "Nostalgic minimalism", "Digital craft"],
+          "colorPalette": ["#FF0000", "#00FF00", "#0000FF", "#FFFFFF"],
+          "typography": ["Press Start 2P", "Courier New", "Pixel"],
+          "influences": ["8-bit Games", "ASCII Art"],
+          "relatedMovements": ["Retro Computing", "Indie Game Aesthetic"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Nostalgic", "Playful", "Minimal"],
+          "tagline": "Digital art at its most fundamental",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FF00",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF0000", "#00FF00", "#0000FF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #111111 100%)",
+              "fontPrimary": "'Press Start 2P', sans-serif",
+              "fontSecondary": "'Pixel', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "1px solid #00FF00",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "grunge_web",
+          "name": "Grunge Web Design",
+          "displayName": "Grunge Web",
+          "historicalContext": "1990s-2000s web aesthetic influenced by grunge music and zine culture.",
+          "keyCharacteristics": ["Distressed textures", "Hand-drawn elements", "Dark color schemes"],
+          "corePrinciples": ["DIY ethos", "Anti-corporate", "Authentic imperfection"],
+          "colorPalette": ["#000000", "#8B4513", "#708090", "#FFFFFF"],
+          "typography": ["Grunge", "Handwritten", "Courier New"],
+          "influences": ["Punk Design", "Zine Culture"],
+          "relatedMovements": ["Flash Era", "Web 1.0"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Raw", "Authentic", "Rebellious"],
+          "tagline": "The web gets dirty",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FFFFFF",
+            "accentColor": "#8B4513"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#8B4513", "#708090", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #222222 100%)",
+              "fontPrimary": "'Grunge', sans-serif",
+              "fontSecondary": "'Handwritten', cursive"
+            },
+            "components": {
+              "button": {
+                "background": "#8B4513",
+                "border": "1px solid #708090",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "cyberpunk_ui",
+          "name": "Cyberpunk UI",
+          "displayName": "Cyberpunk UI",
+          "historicalContext": "1990s digital aesthetic inspired by William Gibson's novels and early cyberculture.",
+          "keyCharacteristics": ["Glowing text", "Data overlays", "Low-fi futurism"],
+          "corePrinciples": ["High-tech, low-life", "Information density", "Neon dystopia"],
+          "colorPalette": ["#00FF00", "#FF00FF", "#000000", "#003300"],
+          "typography": ["OCR-A", "Courier New", "Digital"],
+          "influences": ["Punk", "Tech Noir"],
+          "relatedMovements": ["Y2K", "Glitch Art"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["Gritty", "Futuristic", "Noir"],
+          "tagline": "The street finds its own uses for technology",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FF00",
+            "accentColor": "#FF00FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FF00", "#FF00FF", "#003300"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #003300 100%)",
+              "fontPrimary": "'OCR-A', monospace",
+              "fontSecondary": "'Digital', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#00FF00",
+                "border": "1px solid #FF00FF",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "glitch_art",
+          "name": "Glitch Art",
+          "displayName": "Glitch Art",
+          "historicalContext": "Emerging in the 2000s as artists intentionally corrupted digital files for aesthetic effect.",
+          "keyCharacteristics": ["Data corruption", "Pixel sorting", "Color channel shifts"],
+          "corePrinciples": ["Embracing errors", "Digital decay", "Anti-perfection"],
+          "colorPalette": ["#FF0000", "#00FFFF", "#000000", "#FFFFFF"],
+          "typography": ["Glitch", "Distorted", "Broken"],
+          "influences": ["Dada", "Cyberpunk"],
+          "relatedMovements": ["Digital Punk", "Post-Internet Art"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Disrupted", "Unstable", "Experimental"],
+          "tagline": "Finding beauty in digital malfunction",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FF0000",
+            "accentColor": "#00FFFF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FF0000", "#00FFFF", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330000 100%)",
+              "fontPrimary": "'Glitch', sans-serif",
+              "fontSecondary": "'Distorted', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF0000",
+                "border": "1px solid #00FFFF",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "vaporwave",
+          "name": "Vaporwave",
+          "displayName": "Vaporwave",
+          "historicalContext": "Early 2010s internet microgenre blending 1990s nostalgia with surreal capitalism critique.",
+          "keyCharacteristics": ["Aesthetic overload", "Japanese text", "Mallsoft ambiance"],
+          "corePrinciples": ["Consumerist nostalgia", "Digital surrealism", "Haunted software"],
+          "colorPalette": ["#FF006E", "#8338EC", "#3A86FF", "#06FFA5"],
+          "typography": ["Arial", "Times New Roman", "MS Sans Serif"],
+          "influences": ["Seapunk", "Post-Internet Art"],
+          "relatedMovements": ["Synthwave", "Web 2.0"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["Dreamlike", "Nostalgic", "Surreal"],
+          "tagline": "A eulogy for the digital childhood we never had",
+          "frontCard": {
+            "backgroundColor": "linear-gradient(135deg, #FF006E, #8338EC, #3A86FF)",
+            "textColor": "#FFFFFF",
+            "accentColor": "#06FFA5"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FF006E", "#8338EC", "#3A86FF", "#06FFA5"],
+              "backgroundGradient": "linear-gradient(135deg, #1A0033, #330066, #000033)",
+              "fontPrimary": "'MS Sans Serif', sans-serif",
+              "fontSecondary": "'Arial', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "linear-gradient(45deg, #FF006E, #8338EC)",
+                "border": "2px solid #06FFA5",
+                "textTransform": "uppercase"
+              }
+            }
+          }
+        },
+        {
+          "id": "seapunk",
+          "name": "Seapunk",
+          "displayName": "Seapunk",
+          "historicalContext": "2011-2013 internet subculture merging oceanic themes with digital aesthetics.",
+          "keyCharacteristics": ["Aquatic colors", "Dolphin motifs", "Early web nostalgia"],
+          "corePrinciples": ["Surreal aquatic", "Internet folklore", "DIY digital"],
+          "colorPalette": ["#00FFFF", "#008080", "#000000", "#FFFFFF"],
+          "typography": ["Comic Sans", "Arial", "Impact"],
+          "influences": ["Vaporwave", "Web 1.0"],
+          "relatedMovements": ["Tumblr Aesthetic", "Digital Punk"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["Playful", "Surreal", "Nostalgic"],
+          "tagline": "The internet's subconscious surfaces",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#00FFFF",
+            "accentColor": "#008080"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#00FFFF", "#008080", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #003333 100%)",
+              "fontPrimary": "'Comic Sans', sans-serif",
+              "fontSecondary": "'Impact', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#00FFFF",
+                "border": "1px solid #008080",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "tumblr_aesthetic",
+          "name": "Tumblr Aesthetic",
+          "displayName": "Tumblr",
+          "historicalContext": "2007-2014 microculture on Tumblr blending photography, GIFs, and text posts.",
+          "keyCharacteristics": ["Moody filters", "GIF-heavy", "Diary-like"],
+          "corePrinciples": ["Personal curation", "Visual blogging", "Fandom culture"],
+          "colorPalette": ["#000000", "#FFFFFF", "#FF69B4", "#8A2BE2"],
+          "typography": ["Helvetica", "Georgia", "Courier New"],
+          "influences": ["Grunge", "Web 2.0"],
+          "relatedMovements": ["Vaporwave", "Seapunk"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Personal", "Eclectic", "Emotional"],
+          "tagline": "The internet's digital scrapbook",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FF69B4"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FFFFFF", "#FF69B4", "#8A2BE2"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #330033 100%)",
+              "fontPrimary": "'Helvetica', sans-serif",
+              "fontSecondary": "'Georgia', serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF69B4",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "emoji_design",
+          "name": "Emoji Design",
+          "displayName": "Emoji",
+          "historicalContext": "Originating in Japan (1999), became global visual language by late 2000s.",
+          "keyCharacteristics": ["Pictographic", "Colorful", "Expressive"],
+          "corePrinciples": ["Visual shorthand", "Cross-cultural", "Emotional immediacy"],
+          "colorPalette": ["#FFD700", "#FF4500", "#1E90FF", "#FFFFFF"],
+          "typography": ["Emoji", "Noto Color Emoji", "Segoe UI Emoji"],
+          "influences": ["Kaomoji", "Manga"],
+          "relatedMovements": ["Web 2.0", "Mobile UI"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Playful", "Expressive", "Universal"],
+          "tagline": "The first global visual language",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF4500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#FF4500", "#1E90FF", "#FFD700"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFFACD 100%)",
+              "fontPrimary": "'Noto Color Emoji', sans-serif",
+              "fontSecondary": "'Segoe UI Emoji', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF4500",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "flash_games",
+          "name": "Flash Games Aesthetic",
+          "displayName": "Flash Games",
+          "historicalContext": "2000-2010 browser-based games using Adobe Flash, defining early internet gaming culture.",
+          "keyCharacteristics": ["Simple vector art", "Looping music", "Click interactions"],
+          "corePrinciples": ["Browser-based", "Casual gaming", "DIY development"],
+          "colorPalette": ["#FF9900", "#0099FF", "#FFFFFF", "#000000"],
+          "typography": ["Comic Sans", "Impact", "Arial"],
+          "influences": ["Pixel Art", "Web 2.0"],
+          "relatedMovements": ["Indie Game", "Web 1.0"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Playful", "Simple", "Nostalgic"],
+          "tagline": "Where the internet learned to play",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF9900"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#FF9900", "#0099FF", "#000000"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFEEEE 100%)",
+              "fontPrimary": "'Comic Sans', sans-serif",
+              "fontSecondary": "'Impact', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#FF9900",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "early_social_media",
+          "name": "Early Social Media UI",
+          "displayName": "Early Social Media",
+          "historicalContext": "2003-2008 platforms like MySpace and Friendster that pioneered social networking.",
+          "keyCharacteristics": ["Profile customization", "Embedded media", "Web 2.0 widgets"],
+          "corePrinciples": ["Digital identity", "Networked profiles", "User-generated content"],
+          "colorPalette": ["#3B5998", "#FFFFFF", "#000000", "#CCCCCC"],
+          "typography": ["Lucida Grande", "Arial", "Verdana"],
+          "influences": ["Web 2.0", "Blogging"],
+          "relatedMovements": ["Tumblr", "Web 2.0"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Customizable", "Connected", "Emergent"],
+          "tagline": "The web becomes personal",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#3B5998"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#3B5998", "#000000", "#CCCCCC"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F7F7F7 100%)",
+              "fontPrimary": "'Lucida Grande', sans-serif",
+              "fontSecondary": "'Verdana', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#3B5998",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "brutalist_web",
+          "name": "Brutalist Web Design",
+          "displayName": "Brutalist Web",
+          "historicalContext": "Mid-2010s reaction against polished corporate web design, emphasizing raw HTML.",
+          "keyCharacteristics": ["Minimal styling", "Default fonts", "Unconventional layouts"],
+          "corePrinciples": ["Honest markup", "Anti-trend", "Content-first"],
+          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#CCCCCC"],
+          "typography": ["Times New Roman", "Courier New", "Arial"],
+          "influences": ["Brutalism", "Web 1.0"],
+          "relatedMovements": ["Anti-Design", "Skeuomorphism"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Raw", "Unpolished", "Direct"],
+          "tagline": "The web stripped bare",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#000000", "#FF0000", "#CCCCCC"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #EEEEEE 100%)",
+              "fontPrimary": "'Times New Roman', serif",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#000000",
+                "border": "1px solid #FF0000",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "mobile_first",
+          "name": "Mobile-First UI",
+          "displayName": "Mobile-First",
+          "historicalContext": "Emerging post-2007 with iPhone, prioritizing touch interfaces and responsive design.",
+          "keyCharacteristics": ["Touch targets", "Flat icons", "Vertical scrolling"],
+          "corePrinciples": ["Content hierarchy", "Thumb zones", "Gesture-based"],
+          "colorPalette": ["#007AFF", "#FFFFFF", "#000000", "#F2F2F2"],
+          "typography": ["San Francisco", "Roboto", "Segoe UI"],
+          "influences": ["Skeuomorphism", "Flat Design"],
+          "relatedMovements": ["Material Design", "iOS Human Interface"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Clean", "Focused", "Tactile"],
+          "tagline": "Design for the device in your pocket",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#007AFF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#007AFF", "#000000", "#F2F2F2"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F7F7F7 100%)",
+              "fontPrimary": "'San Francisco', sans-serif",
+              "fontSecondary": "'Roboto', sans-serif"
+            },
+            "components": {
+              "button": {
+                "background": "#007AFF",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "indie_web",
+          "name": "Indie Web Design",
+          "displayName": "Indie Web",
+          "historicalContext": "2010s movement promoting personal websites over corporate social platforms.",
+          "keyCharacteristics": ["Personal domains", "Webmentions", "Microformats"],
+          "corePrinciples": ["Digital sovereignty", "Decentralization", "Own your data"],
+          "colorPalette": ["#000000", "#FFFFFF", "#FF5500", "#663399"],
+          "typography": ["System UI", "Georgia", "Courier New"],
+          "influences": ["Web 1.0", "Blogging"],
+          "relatedMovements": ["Brutalist Web", "Fediverse"],
+          "authenticityLevel": "authentic",
+          "vibes": ["Personal", "Independent", "Retro-futuristic"],
+          "tagline": "Reclaim your corner of the internet",
+          "frontCard": {
+            "backgroundColor": "#FFFFFF",
+            "textColor": "#000000",
+            "accentColor": "#FF5500"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FFFFFF", "#FF5500", "#000000", "#663399"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #FFF5F0 100%)",
+              "fontPrimary": "'Georgia', serif",
+              "fontSecondary": "'Courier New', monospace"
+            },
+            "components": {
+              "button": {
+                "background": "#FF5500",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "contemporary-ui-2010-present",
+      "title": "Contemporary UI Design (2010-Present)",
+      "description": "Post-2010 interface paradigms defined by mobile-first approaches, design systems, and evolving digital aesthetics.",
+      "themes": [
+        {
+          "id": "material-design",
+          "name": "Material Design",
+          "displayName": "Material",
+          "historicalContext": "Launched by Google in 2014 as 'Quantum Paper', combining tactile realism with digital flexibility.",
+          "keyCharacteristics": [
+            "Dynamic elevation shadows",
+            "Ink-inspired ripple interactions",
+            "Meaningful motion choreography",
+            "Adaptive grid systems"
+          ],
+          "corePrinciples": [
+            "Material as metaphor",
+            "Bold, graphic, intentional",
+            "Motion provides meaning"
+          ],
+          "colorPalette": ["#4285F4", "#EA4335", "#FBBC04", "#34A853", "#F8F9FA"],
+          "colorFamily": "Primary-accent system",
+          "typography": ["Roboto", "Google Sans", "Product Sans"],
+          "influences": ["Swiss Design", "Bauhaus", "Paper Engineering"],
+          "relatedMovements": ["Flat Design 2.0", "Adaptive Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["systematic", "tactile", "adaptive"],
+          "tagline": "The physics of pixels",
+          "frontCard": {
+            "backgroundColor": "#4285F4",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FBBC04"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4285F4", "#EA4335"],
+              "backgroundGradient": "radial-gradient(circle at 15% 50%, #F8F9FA 0%, #E8EAED 100%)",
+              "fontPrimary": "Roboto",
+              "fontSecondary": "Google Sans"
+            },
+            "components": {
+              "button": {
+                "background": "#4285F4",
+                "border": "none",
+                "color": "white"
+              }
+            }
+          }
+        },
+        {
+          "id": "flat-design",
+          "name": "Flat Design",
+          "displayName": "Flat",
+          "historicalContext": "Popularized by Microsoft's Metro UI (2010) and iOS 7 (2013), rejecting skeuomorphic textures.",
+          "keyCharacteristics": [
+            "No gradients or shadows",
+            "Simple geometric shapes",
+            "Bright color blocks",
+            "Minimalist typography"
+          ],
+          "corePrinciples": [
+            "Content over chrome",
+            "Digital-native aesthetics",
+            "Reduction to essentials"
+          ],
+          "colorPalette": ["#0078D7", "#FFB900", "#E81123", "#00CC6A", "#FFFFFF"],
+          "colorFamily": "Vibrant solids",
+          "typography": ["Segoe UI", "San Francisco", "Helvetica Neue"],
+          "influences": ["Swiss Style", "De Stijl", "Modernist Typography"],
+          "relatedMovements": ["Material Design", "Minimalist UI"],
+          "authenticityLevel": "authentic",
+          "vibes": ["clean", "efficient", "modern"],
+          "tagline": "Digital purity",
+          "frontCard": {
+            "backgroundColor": "#0078D7",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FFB900"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#0078D7", "#E81123"],
+              "backgroundGradient": "linear-gradient(90deg, #FFFFFF 0%, #F3F3F3 100%)",
+              "fontPrimary": "Segoe UI",
+              "fontSecondary": "Helvetica Neue"
+            },
+            "components": {
+              "button": {
+                "background": "#E81123",
+                "border": "none",
+                "color": "white"
+              }
+            }
+          }
+        },
+        {
+          "id": "neumorphism",
+          "name": "Neumorphism",
+          "displayName": "Soft UI",
+          "historicalContext": "Emerging in 2019 from Dribbble trends, combining skeuomorphic depth with flat design minimalism.",
+          "keyCharacteristics": [
+            "Subtle extruded shapes",
+            "Low-contrast palettes",
+            "Ambient light modeling",
+            "Rounded corners"
+          ],
+          "corePrinciples": [
+            "UI as soft clay",
+            "Depth through light",
+            "Minimal color differentiation"
+          ],
+          "colorPalette": ["#E0E5EC", "#C2CBD9", "#A3B1C6", "#4A5568"],
+          "colorFamily": "Monochromatic",
+          "typography": ["SF Pro Rounded", "Circular STD", "Inter"],
+          "influences": ["Skeuomorphism", "Industrial Design", "Flat Design"],
+          "relatedMovements": ["Glassmorphism", "Claymorphism"],
+          "authenticityLevel": "experimental",
+          "vibes": ["tactile", "ambient", "futuristic"],
+          "tagline": "Pixels with volume",
+          "frontCard": {
+            "backgroundColor": "#E0E5EC",
+            "textColor": "#4A5568",
+            "accentColor": "#A3B1C6"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#E0E5EC", "#A3B1C6"],
+              "backgroundGradient": "linear-gradient(145deg, #E0E5EC 0%, #C2CBD9 100%)",
+              "fontPrimary": "SF Pro Rounded",
+              "fontSecondary": "Inter"
+            },
+            "components": {
+              "button": {
+                "background": "#A3B1C6",
+                "border": "none",
+                "color": "#4A5568"
+              }
+            }
+          }
+        },
+        {
+          "id": "glassmorphism",
+          "name": "Glassmorphism",
+          "displayName": "Glass",
+          "historicalContext": "Revived by macOS Big Sur (2020) using advanced GPU blur effects, evolving from Windows Vista's Aero.",
+          "keyCharacteristics": [
+            "Frosted glass transparency",
+            "Vibrancy blending",
+            "Thin light borders",
+            "Multi-plane depth"
+          ],
+          "corePrinciples": [
+            "Background informs foreground",
+            "Layered dimensionality",
+            "Fluid context adaptation"
+          ],
+          "colorPalette": ["rgba(255,255,255,0.3)", "rgba(0,122,255,0.6)", "rgba(255,45,85,0.5)", "#FFFFFF"],
+          "colorFamily": "Translucent",
+          "typography": ["SF Pro Display", "Segoe UI Variable", "Manrope"],
+          "influences": ["Acrylic Material", "Frosted Glass", "Material Design"],
+          "relatedMovements": ["Neumorphism", "Liquid Design"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["ethereal", "fluid", "high-tech"],
+          "tagline": "UI as layered light",
+          "frontCard": {
+            "backgroundColor": "rgba(0,122,255,0.6)",
+            "textColor": "#FFFFFF",
+            "accentColor": "rgba(255,255,255,0.5)"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["rgba(0,122,255,0.6)", "rgba(255,45,85,0.5)"],
+              "backgroundGradient": "linear-gradient(120deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.05) 100%)",
+              "fontPrimary": "SF Pro Display",
+              "fontSecondary": "Manrope"
+            },
+            "components": {
+              "button": {
+                "background": "rgba(255,255,255,0.2)",
+                "border": "1px solid rgba(255,255,255,0.3)",
+                "color": "white"
+              }
+            }
+          }
+        },
+        {
+          "id": "brutalist-web",
+          "name": "Brutalist Web",
+          "displayName": "Web Brutalism",
+          "historicalContext": "Emerging circa 2015 as reaction to corporate design systems, championed by independent developers.",
+          "keyCharacteristics": [
+            "Raw HTML default styling",
+            "Monospaced typography",
+            "High contrast colors",
+            "No smoothing or anti-aliasing"
+          ],
+          "corePrinciples": [
+            "Honesty in digital materials",
+            "Rejection of decorative styling",
+            "Content as primary focus"
+          ],
+          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#0000FF"],
+          "colorFamily": "High contrast",
+          "typography": ["Courier New", "Times New Roman", "Arial"],
+          "influences": ["Brutalist Architecture", "Early Web Design", "Punk Aesthetics"],
+          "relatedMovements": ["Anti-Design", "HTML Energy"],
+          "authenticityLevel": "custom",
+          "vibes": ["raw", "unfiltered", "confrontational"],
+          "tagline": "The web unmasked",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(0deg, #FFFFFF 0%, #EEEEEE 100%)",
+              "fontPrimary": "Courier New",
+              "fontSecondary": "Arial"
+            },
+            "components": {
+              "button": {
+                "background": "#FFFFFF",
+                "border": "2px solid #000000",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "dark-mode-aesthetics",
+          "name": "Dark Mode Aesthetics",
+          "displayName": "Dark UI",
+          "historicalContext": "Systematized by iOS 13 (2019) and Android 10 (2019), evolving from developer IDE preferences.",
+          "keyCharacteristics": [
+            "True black or deep gray backgrounds",
+            "Vibrant accent colors",
+            "Reduced luminance",
+            "Depth through elevation"
+          ],
+          "corePrinciples": [
+            "Reduce eye strain",
+            "Extend battery life",
+            "Maintain contrast ratios"
+          ],
+          "colorPalette": ["#000000", "#1C1C1E", "#FF9F0A", "#0A84FF", "#32D74B"],
+          "colorFamily": "Low-light",
+          "typography": ["SF Pro Display", "Google Sans", "Segoe UI"],
+          "influences": ["Cinematic Interfaces", "Developer Tools", "OLED Technology"],
+          "relatedMovements": ["High Contrast Mode", "Midnight Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["cinematic", "immersive", "focused"],
+          "tagline": "Interfaces for the night",
+          "frontCard": {
+            "backgroundColor": "#1C1C1E",
+            "textColor": "#FFFFFF",
+            "accentColor": "#0A84FF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1C1C1E", "#000000"],
+              "backgroundGradient": "linear-gradient(180deg, #000000 0%, #1C1C1E 100%)",
+              "fontPrimary": "SF Pro Display",
+              "fontSecondary": "Google Sans"
+            },
+            "components": {
+              "button": {
+                "background": "#0A84FF",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "card-based-architecture",
+          "name": "Card-Based Architecture",
+          "displayName": "Card UI",
+          "historicalContext": "Popularized by Pinterest (2011) and Twitter (2012), adapting print editorial layouts to digital.",
+          "keyCharacteristics": [
+            "Self-contained content units",
+            "Consistent aspect ratios",
+            "Visual hierarchy through scale",
+            "Grid-based organization"
+          ],
+          "corePrinciples": [
+            "Content chunking",
+            "Modular recombination",
+            "Scan-optimized layouts"
+          ],
+          "colorPalette": ["#E60023", "#1DA1F2", "#FFFFFF", "#F5F5F5", "#333333"],
+          "colorFamily": "Neutral with accents",
+          "typography": ["Helvetica Neue", "Segoe UI", "Proxima Nova"],
+          "influences": ["Print Editorial", "Masonry Layouts", "Atomic Design"],
+          "relatedMovements": ["Modular Design", "Systematic Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["organized", "bite-sized", "modular"],
+          "tagline": "Content as building blocks",
+          "frontCard": {
+            "backgroundColor": "#E60023",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FFFFFF"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#E60023", "#1DA1F2"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F5F5F5 100%)",
+              "fontPrimary": "Helvetica Neue",
+              "fontSecondary": "Proxima Nova"
+            },
+            "components": {
+              "button": {
+                "background": "#1DA1F2",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "gradients-2.0",
+          "name": "Gradients 2.0",
+          "displayName": "Gradient Revival",
+          "historicalContext": "Reintroduced by Instagram's 2016 rebrand, evolving from 2000s Web 2.0 gradients with CSS3 capabilities.",
+          "keyCharacteristics": [
+            "Vibrant color transitions",
+            "Duotone and tritone blends",
+            "Radial vs. linear experimentation",
+            "Overlay texturing"
+          ],
+          "corePrinciples": [
+            "Color as emotional driver",
+            "Depth through blending",
+            "Brand recognition through hue"
+          ],
+          "colorPalette": ["#FEDA77", "#F58529", "#DD2A7B", "#8134AF", "#515BD4"],
+          "colorFamily": "Chromatic blends",
+          "typography": ["Instagram Sans", "SF Pro Display", "Circular STD"],
+          "influences": ["80s Synthwave", "Psychedelic Art", "CSS3 Filters"],
+          "relatedMovements": ["Color-First Design", "Liquid Design"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["vibrant", "energetic", "immersive"],
+          "tagline": "Color in motion",
+          "frontCard": {
+            "backgroundColor": "#DD2A7B",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FEDA77"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#DD2A7B", "#515BD4"],
+              "backgroundGradient": "linear-gradient(45deg, #FEDA77 0%, #DD2A7B 50%, #515BD4 100%)",
+              "fontPrimary": "Instagram Sans",
+              "fontSecondary": "SF Pro Display"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "2px solid #FFFFFF",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },   
+        {
+          "id": "neobrutalism",
+          "name": "Neobrutalism",
+          "displayName": "Neobrutalist UI",
+          "historicalContext": "Emerging in 2019 as a Dribbble trend, reviving Brutalist principles with modern constraints.",
+          "keyCharacteristics": [
+            "Unapologetic borders/shadows",
+            "Raw typography",
+            "Limited color palettes",
+            "Exposed structural elements"
+          ],
+          "corePrinciples": [
+            "Honesty in digital materials",
+            "Rejection of decorative layers",
+            "Function dictates form"
+          ],
+          "colorPalette": ["#000000", "#FFFFFF", "#FF0000", "#FFFF00", "#0000FF"],
+          "colorFamily": "High contrast",
+          "typography": ["Courier New", "Impact", "Times New Roman"],
+          "influences": ["Brutalist Architecture", "Punk Zines", "Early Web Design"],
+          "relatedMovements": ["Brutalist Web", "Anti-Design"],
+          "authenticityLevel": "custom",
+          "vibes": ["raw", "confrontational", "unfiltered"],
+          "tagline": "Digital brutalism reborn",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FF0000"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(0deg, #FFFFFF 0%, #EEEEEE 100%)",
+              "fontPrimary": "Courier New",
+              "fontSecondary": "Impact"
+            },
+            "components": {
+              "button": {
+                "background": "#FFFFFF",
+                "border": "3px solid #000000",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "claymorphism",
+          "name": "Claymorphism",
+          "displayName": "Clay UI",
+          "historicalContext": "Popularized by Figma community in 2021 as a 3D evolution of Neumorphism.",
+          "keyCharacteristics": [
+            "Soft inflated shapes",
+            "Inner shadow depth",
+            "Pastel color palettes",
+            "Organic blobbing effects"
+          ],
+          "corePrinciples": [
+            "UI as malleable material",
+            "Depth through concave/convex",
+            "Playful tactility"
+          ],
+          "colorPalette": ["#FF9E9E", "#A0E7E5", "#B5EAEA", "#FFD3B6", "#D4A5A5"],
+          "colorFamily": "Soft pastels",
+          "typography": ["Comic Neue", "SF Pro Rounded", "Nunito"],
+          "influences": ["Play-Doh Aesthetics", "Neumorphism", "Toy Design"],
+          "relatedMovements": ["Neumorphism", "Organic Modernism"],
+          "authenticityLevel": "experimental",
+          "vibes": ["playful", "tactile", "whimsical"],
+          "tagline": "UI you want to squish",
+          "frontCard": {
+            "backgroundColor": "#A0E7E5",
+            "textColor": "#5E5E5E",
+            "accentColor": "#FF9E9E"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#A0E7E5", "#FF9E9E"],
+              "backgroundGradient": "linear-gradient(145deg, #F9F9F9 0%, #E8F4F4 100%)",
+              "fontPrimary": "SF Pro Rounded",
+              "fontSecondary": "Nunito"
+            },
+            "components": {
+              "button": {
+                "background": "#FF9E9E",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "scrollytelling",
+          "name": "Scrollytelling",
+          "displayName": "Scroll UI",
+          "historicalContext": "Pioneered by NYT's 'Snow Fall' (2012), evolving into commercial frameworks like ScrollMagic.",
+          "keyCharacteristics": [
+            "Scroll-triggered animations",
+            "Parallax layering",
+            "Narrative-driven pacing",
+            "Viewport-aware transitions"
+          ],
+          "corePrinciples": [
+            "Story dictates interaction",
+            "Seamless media integration",
+            "Guided discovery"
+          ],
+          "colorPalette": ["#1A1A1A", "#FFFFFF", "#999999", "#333333", "#CCCCCC"],
+          "colorFamily": "Monochrome",
+          "typography": ["Georgia", "Chronicle Display", "Merriweather"],
+          "influences": ["Cinematic Storytelling", "Comic Book Layouts", "Documentary Film"],
+          "relatedMovements": ["Motion Language", "Immersive 3D UI"],
+          "authenticityLevel": "authentic",
+          "vibes": ["cinematic", "immersive", "narrative"],
+          "tagline": "Stories in motion",
+          "frontCard": {
+            "backgroundColor": "#1A1A1A",
+            "textColor": "#FFFFFF",
+            "accentColor": "#999999"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1A1A1A", "#FFFFFF"],
+              "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 100%)",
+              "fontPrimary": "Georgia",
+              "fontSecondary": "Merriweather"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "1px solid #FFFFFF",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "biometric-authentication-ui",
+          "name": "Biometric Authentication UI",
+          "displayName": "Bio-UI",
+          "historicalContext": "Standardized by Apple Face ID (2017) and Android BiometricPrompt API.",
+          "keyCharacteristics": [
+            "Liveness detection cues",
+            "Positioning guidance",
+            "Fallback patterns",
+            "Privacy-first indicators"
+          ],
+          "corePrinciples": [
+            "Frictionless security",
+            "Explain without words",
+            "Graceful degradation"
+          ],
+          "colorPalette": ["#000000", "#FFFFFF", "#34C759", "#FF3B30", "#007AFF"],
+          "colorFamily": "High contrast",
+          "typography": ["SF Pro Display", "Roboto", "Segoe UI"],
+          "influences": ["Security UIs", "Accessibility Design", "Minimalist Design"],
+          "relatedMovements": ["Inclusive Design", "Microinteractions"],
+          "authenticityLevel": "authentic",
+          "vibes": ["secure", "instant", "invisible"],
+          "tagline": "You are the password",
+          "frontCard": {
+            "backgroundColor": "#000000",
+            "textColor": "#FFFFFF",
+            "accentColor": "#34C759"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#000000", "#34C759"],
+              "backgroundGradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F7 100%)",
+              "fontPrimary": "SF Pro Display",
+              "fontSecondary": "Roboto"
+            },
+            "components": {
+              "button": {
+                "background": "#34C759",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "emotional-ai-interfaces",
+          "name": "Emotional AI Interfaces",
+          "displayName": "Affective UI",
+          "historicalContext": "Pioneered by Affectiva (2016) and Microsoft's Emotion API, merging psychology with HCI.",
+          "keyCharacteristics": [
+            "Real-time mood detection",
+            "Adaptive color schemes",
+            "Empathetic microcopy",
+            "Facial expression feedback"
+          ],
+          "corePrinciples": [
+            "Design for emotional states",
+            "Prevent negative spirals",
+            "Reward positive engagement"
+          ],
+          "colorPalette": ["#FF6B6B", "#4ECDC4", "#FFE66D", "#FF9F1C", "#2EC4B6"],
+          "colorFamily": "Emotional spectrum",
+          "typography": ["Comic Sans MS", "SF Pro Rounded", "Nunito"],
+          "influences": ["Color Psychology", "Behavioral Design", "Game Design"],
+          "relatedMovements": ["Dopamine Design", "Inclusive Design"],
+          "authenticityLevel": "experimental",
+          "vibes": ["empathetic", "responsive", "humanistic"],
+          "tagline": "UI that feels back",
+          "frontCard": {
+            "backgroundColor": "#4ECDC4",
+            "textColor": "#FFFFFF",
+            "accentColor": "#FF6B6B"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#4ECDC4", "#FF6B6B"],
+              "backgroundGradient": "linear-gradient(135deg, #FFFFFF 0%, #F7F7F7 100%)",
+              "fontPrimary": "SF Pro Rounded",
+              "fontSecondary": "Nunito"
+            },
+            "components": {
+              "button": {
+                "background": "#FF6B6B",
+                "border": "none",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        },
+        {
+          "id": "retro-skeuomorphism",
+          "name": "Retro-Skeuomorphism",
+          "displayName": "Neo-Skeuo",
+          "historicalContext": "Revived by Notion (2020) and Apple's Big Sur icons, blending nostalgia with modern aesthetics.",
+          "keyCharacteristics": [
+            "Subtle textures (paper/linen)",
+            "Reflective surfaces",
+            "Real-world lighting models",
+            "Modernized realism"
+          ],
+          "corePrinciples": [
+            "Leverage familiar affordances",
+            "Balance realism with functionality",
+            "Prioritize emotional connection"
+          ],
+          "colorPalette": ["#F5F5F5", "#E8E8E8", "#D6D6D6", "#333333", "#A3A3A3"],
+          "colorFamily": "Neutral textures",
+          "typography": ["Georgia", "Baskerville", "Palatino"],
+          "influences": ["Early iOS Design", "Print Media", "Industrial Design"],
+          "relatedMovements": ["Glassmorphism", "Material Design"],
+          "authenticityLevel": "semi-authentic",
+          "vibes": ["nostalgic", "tactile", "comforting"],
+          "tagline": "Digital comfort food",
+          "frontCard": {
+            "backgroundColor": "#F5F5F5",
+            "textColor": "#333333",
+            "accentColor": "#A3A3A3"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#F5F5F5", "#D6D6D6"],
+              "backgroundGradient": "linear-gradient(135deg, #F5F5F5 0%, #E8E8E8 100%)",
+              "fontPrimary": "Georgia",
+              "fontSecondary": "Baskerville"
+            },
+            "components": {
+              "button": {
+                "background": "#D6D6D6",
+                "border": "1px solid #A3A3A3",
+                "color": "#333333"
+              }
+            }
+          }
+        },
+        {
+          "id": "hyperpersonalization-ui",
+          "name": "Hyperpersonalization UI",
+          "displayName": "Personal UI",
+          "historicalContext": "Pioneered by Spotify (2018) and Netflix, using ML to create unique interfaces per user.",
+          "keyCharacteristics": [
+            "Algorithmically generated layouts",
+            "Dynamic color schemes",
+            "Behavior-driven content",
+            "Adaptive navigation"
+          ],
+          "corePrinciples": [
+            "Design for n=1",
+            "Leverage implicit signals",
+            "Balance surprise and familiarity"
+          ],
+          "colorPalette": ["#1DB954", "#191414", "#FFFFFF", "#B3B3B3", "#535353"],
+          "colorFamily": "Brand-adaptive",
+          "typography": ["Circular STD", "Spotify Mix", "SF Pro Display"],
+          "influences": ["Recommendation Algorithms", "Data Visualization", "Behavioral Design"],
+          "relatedMovements": ["Data-Driven UI", "AI-Assisted Design"],
+          "authenticityLevel": "authentic",
+          "vibes": ["tailored", "dynamic", "unpredictable"],
+          "tagline": "UI that knows you",
+          "frontCard": {
+            "backgroundColor": "#1DB954",
+            "textColor": "#FFFFFF",
+            "accentColor": "#191414"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#1DB954", "#191414"],
+              "backgroundGradient": "linear-gradient(135deg, #191414 0%, #000000 100%)",
+              "fontPrimary": "Circular STD",
+              "fontSecondary": "SF Pro Display"
+            },
+            "components": {
+              "button": {
+                "background": "#FFFFFF",
+                "border": "none",
+                "color": "#191414"
+              }
+            }
+          }
+        },
+        {
+          "id": "immersive-3d-ui",
+          "name": "Immersive 3D UI",
+          "displayName": "3D UI",
+          "historicalContext": "Enabled by Three.js (2010) and react-three-fiber, bringing game engine techniques to the web.",
+          "keyCharacteristics": [
+            "WebGL/WebGPU rendering",
+            "Physics-based interactions",
+            "Depth-aware navigation",
+            "Real-time lighting"
+          ],
+          "corePrinciples": [
+            "Leverage spatial memory",
+            "Design for depth cues",
+            "Prioritize performance"
+          ],
+          "colorPalette": ["#FF3E00", "#00C4CC", "#FFFFFF", "#000000", "#676778"],
+          "colorFamily": "High contrast",
+          "typography": ["SF Pro Display", "Roboto", "Segoe UI"],
+          "influences": ["Game Design", "Architectural Visualization", "VR Interfaces"],
+          "relatedMovements": ["Motion Language", "AR Overlay Patterns"],
+          "authenticityLevel": "authentic",
+          "vibes": ["dimensional", "dynamic", "immersive"],
+          "tagline": "The web in 3D",
+          "frontCard": {
+            "backgroundColor": "#FF3E00",
+            "textColor": "#FFFFFF",
+            "accentColor": "#00C4CC"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#FF3E00", "#00C4CC"],
+              "backgroundGradient": "linear-gradient(135deg, #000000 0%, #676778 100%)",
+              "fontPrimary": "SF Pro Display",
+              "fontSecondary": "Roboto"
+            },
+            "components": {
+              "button": {
+                "background": "#00C4CC",
+                "border": "none",
+                "color": "#000000"
+              }
+            }
+          }
+        },
+        {
+          "id": "holographic-interfaces",
+          "name": "Holographic Interfaces",
+          "displayName": "Holo-UI",
+          "historicalContext": "Pioneered by Looking Glass Factory (2018) and Microsoft HoloLens, blending AR with volumetric displays.",
+          "keyCharacteristics": [
+            "Volumetric interaction zones",
+            "Parallax depth cues",
+            "Light field rendering",
+            "Gesture-first navigation"
+          ],
+          "corePrinciples": [
+            "Design for 360° space",
+            "Leverage depth as information",
+            "Prioritize gaze tracking"
+          ],
+          "colorPalette": ["#00F0FF", "#FF00E6", "#00FF87", "rgba(0,0,0,0.7)"],
+          "colorFamily": "Neon depth",
+          "typography": ["SF Pro Rounded", "Segoe UI Variable", "Barlow Semi Condensed"],
+          "influences": ["Sci-Fi Cinema", "Volumetric Video", "Game Engine Tech"],
+          "relatedMovements": ["Spatial Computing", "Quantum UI"],
+          "authenticityLevel": "experimental",
+          "vibes": ["futuristic", "immersive", "dimensional"],
+          "tagline": "Pixels with volume",
+          "frontCard": {
+            "backgroundColor": "rgba(0,0,0,0.7)",
+            "textColor": "#00F0FF",
+            "accentColor": "#FF00E6"
+          },
+          "backCard": {
+            "theme": {
+              "primaryColors": ["#00F0FF", "#FF00E6"],
+              "backgroundGradient": "linear-gradient(135deg, rgba(0,0,0,0.9) 0%, rgba(0,240,255,0.2) 100%)",
+              "fontPrimary": "SF Pro Rounded",
+              "fontSecondary": "Barlow Semi Condensed"
+            },
+            "components": {
+              "button": {
+                "background": "transparent",
+                "border": "1px solid #00F0FF",
+                "color": "#00F0FF"
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }
