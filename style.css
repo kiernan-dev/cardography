@@ -170,6 +170,53 @@
     z-index: 1;
 }
 
+/* Active Theme Card Racing Border */
+.flip-card.active {
+    position: relative;
+    z-index: 2;
+}
+
+.flip-card.active::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(45deg, 
+        #00bfff 0%, 
+        #87ceeb 25%, 
+        #00bfff 50%, 
+        #1e90ff 75%, 
+        #00bfff 100%);
+    background-size: 400% 400%;
+    border-radius: 15px;
+    z-index: -1;
+    animation: racingBorder 2s linear infinite;
+    filter: blur(1px);
+}
+
+.flip-card.active .flip-card-front,
+.flip-card.active .flip-card-back {
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 
+        0 8px 32px rgba(0, 191, 255, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+@keyframes racingBorder {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 .flip-card-back {
     transform: rotateY(180deg);
 }

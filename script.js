@@ -4,6 +4,7 @@ let themeData = null;
 
 let allCardsFlipped = false;
 let allSectionsExpanded = false;
+let activeThemeCard = null; // Track the active theme card
 
 // Filter state
 let activeFilters = {
@@ -40,7 +41,21 @@ function toggleSection(sectionId) {
 
 // Flip individual card
 function flipCard(card) {
+    // Only set as active if this is a manual click (not from flip-all)
+    setActiveThemeCard(card);
     card.classList.toggle('flipped');
+}
+
+// Set active theme card
+function setActiveThemeCard(card) {
+    // Remove active class from previous card
+    if (activeThemeCard) {
+        activeThemeCard.classList.remove('active');
+    }
+    
+    // Set new active card
+    activeThemeCard = card;
+    card.classList.add('active');
 }
 
 // Toggle controls
@@ -75,6 +90,11 @@ function initializeToggles() {
         
         const allCards = document.querySelectorAll('.flip-card');
         allCards.forEach(card => {
+            // Skip active card - don't let flip-all affect it
+            if (card === activeThemeCard) {
+                return;
+            }
+            
             if (allCardsFlipped) {
                 card.classList.add('flipped');
             } else {
