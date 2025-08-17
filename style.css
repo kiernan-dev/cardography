@@ -103,6 +103,12 @@
     perspective: 1000px;
     min-height: 380px;
     height: auto;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.flip-card:hover {
+    transform: translateY(-8px) scale(1.02) rotate(-1deg);
 }
 
 .flip-card-inner {
@@ -131,6 +137,37 @@
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.flip-card:hover .flip-card-front,
+.flip-card:hover .flip-card-back {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 
+        0 8px 32px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(255, 255, 255, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.flip-card:hover .flip-card-front::before,
+.flip-card:hover .flip-card-back::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.flip-card .flip-card-front > div,
+.flip-card .flip-card-back > div {
+    position: relative;
+    z-index: 1;
 }
 
 .flip-card-back {
