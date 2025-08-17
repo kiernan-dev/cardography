@@ -101,12 +101,14 @@
 .flip-card {
     background-color: transparent;
     perspective: 1000px;
-    height: 280px;
+    min-height: 380px;
+    height: auto;
 }
 
 .flip-card-inner {
     position: relative;
     width: 100%;
+    min-height: 380px;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
@@ -143,7 +145,8 @@
 }
 
 .section-content.expanded {
-    max-height: 2000px;
+    max-height: none;
+    overflow: visible;
 }
 
 /* Toggle Switches */
@@ -295,4 +298,78 @@
     letter-spacing: 0.025em;
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);
+}
+
+/* Mobile Filter Drawer */
+.filter-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    justify-content: center;
+}
+
+.filter-toggle-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.filter-toggle-icon {
+    transition: transform 0.3s ease;
+}
+
+.filter-toggle-btn.active .filter-toggle-icon {
+    transform: rotate(180deg);
+}
+
+.filter-drawer {
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.filter-drawer.collapsed {
+    max-height: 0;
+    margin-bottom: 0;
+    border: none;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.filter-drawer.expanded {
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.filter-content {
+    transition: all 0.3s ease;
+}
+
+.filter-drawer.collapsed .filter-content {
+    padding: 0;
+}
+
+/* Show filter drawer on desktop, hide toggle */
+@media (min-width: 768px) {
+    .filter-drawer {
+        max-height: none !important;
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+        margin-bottom: 2rem !important;
+        border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    }
+    
+    .filter-drawer .filter-content {
+        padding: 1rem !important;
+    }
 }

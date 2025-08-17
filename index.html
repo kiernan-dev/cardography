@@ -47,30 +47,42 @@
                 </div>
             </div>
 
+            <!-- Filter Toggle Button (Mobile) -->
+            <div class="md:hidden mx-8 mb-4">
+                <button id="filterToggle" class="filter-toggle-btn">
+                    <span class="filter-toggle-text">Show Filters</span>
+                    <svg class="filter-toggle-icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M1.5 4.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM3 7a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 7zm2 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+            </div>
+
             <!-- Filter Pills Section -->
-            <div id="filterContainer" class="bg-white/10 rounded-lg p-4 m-8 border border-white/20">
-                <div class="flex flex-col lg:flex-row gap-4 items-start lg:items-center justify-between">
-                    <div class="flex flex-col md:flex-row gap-4 flex-1">
-                        <!-- Color Pills -->
-                        <div class="filter-section">
-                            <div class="filter-label">Colors:</div>
-                            <div id="colorPills" class="filter-pills">
-                                <!-- Color pills will be populated by JS -->
+            <div id="filterContainer" class="filter-drawer bg-white/10 rounded-lg border border-white/20 mx-8 mb-8">
+                <div class="filter-content">
+                    <div class="flex flex-col lg:flex-row gap-4 items-start lg:items-center justify-between p-4">
+                        <div class="flex flex-col md:flex-row gap-4 flex-1">
+                            <!-- Color Pills -->
+                            <div class="filter-section">
+                                <div class="filter-label">Colors:</div>
+                                <div id="colorPills" class="filter-pills">
+                                    <!-- Color pills will be populated by JS -->
+                                </div>
+                            </div>
+                            
+                            <!-- Design System Pills -->
+                            <div class="filter-section">
+                                <div class="filter-label">Design Systems:</div>
+                                <div id="designPills" class="filter-pills">
+                                    <!-- Design system pills will be populated by JS -->
+                                </div>
                             </div>
                         </div>
                         
-                        <!-- Design System Pills -->
-                        <div class="filter-section">
-                            <div class="filter-label">Design Systems:</div>
-                            <div id="designPills" class="filter-pills">
-                                <!-- Design system pills will be populated by JS -->
-                            </div>
+                        <!-- Clear Button -->
+                        <div class="flex justify-end lg:justify-start">
+                            <button id="clearFilters" class="clear-filters-btn text-sm">Clear Filters</button>
                         </div>
-                    </div>
-                    
-                    <!-- Clear Button -->
-                    <div class="flex justify-end lg:justify-start">
-                        <button id="clearFilters" class="clear-filters-btn text-sm">Clear Filters</button>
                     </div>
                 </div>
             </div>

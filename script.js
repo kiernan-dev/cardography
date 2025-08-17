@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     renderThemeSections();
     initializeToggles();
     initializeFilters();
+    initializeMobileDrawer();
     updateCardCount();
 });
 
@@ -340,4 +341,46 @@ function updateCardCount() {
     } else {
         document.getElementById('totalCardCount').textContent = totalCards;
     }
+}
+
+// Mobile drawer functionality
+function initializeMobileDrawer() {
+    const toggleBtn = document.getElementById('filterToggle');
+    const drawer = document.getElementById('filterContainer');
+    const toggleText = document.querySelector('.filter-toggle-text');
+    
+    if (!toggleBtn || !drawer) return;
+    
+    // Start with drawer collapsed on mobile
+    if (window.innerWidth < 768) {
+        drawer.classList.add('collapsed');
+    } else {
+        drawer.classList.add('expanded');
+    }
+    
+    toggleBtn.addEventListener('click', () => {
+        const isCollapsed = drawer.classList.contains('collapsed');
+        
+        if (isCollapsed) {
+            drawer.classList.remove('collapsed');
+            drawer.classList.add('expanded');
+            toggleBtn.classList.add('active');
+            toggleText.textContent = 'Hide Filters';
+        } else {
+            drawer.classList.remove('expanded');
+            drawer.classList.add('collapsed');
+            toggleBtn.classList.remove('active');
+            toggleText.textContent = 'Show Filters';
+        }
+    });
+    
+    // Handle window resize
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768) {
+            drawer.classList.remove('collapsed');
+            drawer.classList.add('expanded');
+            toggleBtn.classList.remove('active');
+            toggleText.textContent = 'Show Filters';
+        }
+    });
 }
