@@ -409,7 +409,7 @@ function createThemeCard(theme) {
                                 <button class="w-full py-3 rounded font-semibold" 
                                         style="background: ${theme.backCard.components.button.background}; 
                                                color: ${theme.backCard.components.button.color || theme.frontCard.textColor};
-                                               border: ${theme.backCard.components.button.border || 'none'};">Demo Button</button>
+                                               border: ${theme.backCard.components.button.border || 'none'};">Button Style</button>
                                 <div class="opacity-75 p-3 rounded text-sm">
                                     <p>${theme.tagline || 'Theme showcase'}</p>
                                 </div>
@@ -458,12 +458,79 @@ function renderThemeSections() {
     container.innerHTML = '';
     container.appendChild(fragment);
     
-    // Set initial arrow states efficiently
+    // Set initial arrow states and fix card heights
     requestAnimationFrame(() => {
         themeData.categories.forEach(section => {
             const arrow = document.getElementById(`${section.id}-arrow`);
             if (arrow) {
                 arrow.style.transform = sectionStates.get(section.id) ? 'rotate(180deg)' : 'rotate(0deg)';
+            }
+        });
+        
+        // Fix card heights to prevent overlap
+        fixCardHeights();
+    });
+}
+
+// Function to fix card heights based on content
+function fixCardHeights() {
+    // Process each grid container separately
+    const gridContainers = document.querySelectorAll('.grid');
+    
+    gridContainers.forEach(gridContainer => {
+        const cards = gridContainer.querySelectorAll('.flip-card');
+        const cardHeights = [];
+        
+        // First pass: calculate all card heights
+        cards.forEach(card => {
+            const inner = card.querySelector('.flip-card-inner');
+            const front = card.querySelector('.flip-card-front');
+            
+            if (inner && front) {
+                const frontContent = front.querySelector('.theme-card-content');
+                
+                if (frontContent) {
+                    // Create a temporary container with exact styling
+                    const tempDiv = document.createElement('div');
+                    tempDiv.style.position = 'absolute';
+                    tempDiv.style.visibility = 'hidden';
+                    tempDiv.style.width = front.offsetWidth + 'px';
+                    tempDiv.style.background = 'rgba(255, 255, 255, 0.1)';
+                    tempDiv.style.backdropFilter = 'blur(10px)';
+                    tempDiv.style.border = '1px solid rgba(255, 255, 255, 0.2)';
+                    tempDiv.style.borderRadius = '12px';
+                    tempDiv.style.boxSizing = 'border-box';
+                    tempDiv.innerHTML = front.innerHTML;
+                    document.body.appendChild(tempDiv);
+                    
+                    // Get the full height including padding
+                    const contentHeight = tempDiv.scrollHeight;
+                    document.body.removeChild(tempDiv);
+                    
+                    // Add extra padding to ensure no cutoff
+                    const calculatedHeight = Math.max(420, contentHeight + 20);
+                    cardHeights.push(calculatedHeight);
+                } else {
+                    cardHeights.push(420);
+                }
+            } else {
+                cardHeights.push(420);
+            }
+        });
+        
+        // Find the maximum height in this grid
+        const maxHeight = Math.max(...cardHeights);
+        
+        // Second pass: apply the maximum height to all cards in this grid
+        cards.forEach(card => {
+            const inner = card.querySelector('.flip-card-inner');
+            const front = card.querySelector('.flip-card-front');
+            const back = card.querySelector('.flip-card-back');
+            
+            if (inner && front && back) {
+                inner.style.height = maxHeight + 'px';
+                front.style.height = maxHeight + 'px';
+                back.style.height = maxHeight + 'px';
             }
         });
     });
