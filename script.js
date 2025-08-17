@@ -212,7 +212,7 @@ function renderThemeSections() {
     
     themeData.categories.forEach(section => {
         const sectionHTML = `
-            <div class="theme-section bg-white/10 backdrop-blur-md rounded-lg overflow-hidden border border-white/20">
+            <div class="theme-section frosted-card rounded-lg overflow-hidden">
                 <div class="section-header p-4 cursor-pointer" onclick="toggleSection('${section.id}')">
                     <h2 class="text-xl font-bold text-white flex items-center justify-between">
                         <span>${section.title} <span class="section-count text-yellow-300">(${section.themes.length})</span></span>

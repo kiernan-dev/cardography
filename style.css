@@ -104,7 +104,6 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
 #colorFilterSelect {
     /* Override browser defaults for consistent styling */
     -webkit-appearance: none;
@@ -114,7 +113,7 @@
     color: white;
     
     /* Custom dropdown arrow */
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
     background-position: right 0.5rem center;
     background-repeat: no-repeat;
     background-size: 1.5em 1.5em;
@@ -124,4 +123,10 @@
 #colorFilterSelect option {
     background-color: #1e1e1e; /* Dark background for options */
     color: white;
+}
+
+.frosted-card {
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px) saturate(150%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
