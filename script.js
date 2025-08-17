@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     initializeToggles();
     initializeFilters();
     initializeMobileDrawer();
+    initializeBackToTop();
     updateCardCount();
 });
 
@@ -382,5 +383,29 @@ function initializeMobileDrawer() {
             toggleBtn.classList.remove('active');
             toggleText.textContent = 'Show Filters';
         }
+    });
+}
+
+// Back to Top functionality
+function initializeBackToTop() {
+    const backToTopBtn = document.getElementById('backToTop');
+    
+    if (!backToTopBtn) return;
+    
+    // Show/hide button based on scroll position
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopBtn.classList.add('visible');
+        } else {
+            backToTopBtn.classList.remove('visible');
+        }
+    });
+    
+    // Smooth scroll to top when clicked
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     });
 }
